@@ -1,0 +1,13 @@
+<!--pages/chooseCoupon/chooseCoupon.wxml-->
+<view class="container">
+  <radio-group class="radio-group" bindchange="radioChange">
+     <radio class="radio" value="{{-1}}">
+        <text>不用优惠券</text>
+      </radio>
+    <view class="item" wx:for="{{couponList}}" wx:key="index">
+      <radio class="radio" value="{{index}}">
+        <text>{{item.title}}(抵扣{{item.money}})</text>
+      </radio>
+    </view>
+  </radio-group>
+</view>

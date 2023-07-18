@@ -1,0 +1,54 @@
+<!--pages/pay/pay.wxml-->
+<view class="container">
+  <view class="title">
+    <view class="logo">
+      <image src="{{order.item.cover}}"></image>
+    </view>
+    <view class="info">
+      <view>{{order.item.title}}</view>
+      <text>图录号:{{order.item.uid}}</text>
+    </view>
+  </view>
+  <view class="deal">
+    <text>成交金额</text>
+    <text>¥{{order.price}}</text>
+  </view>
+  <view class="others">
+    <view class="item">
+      <text>商品金额</text>
+      <text>¥{{order.price}}</text>
+    </view>
+    <view class="item" bindtap="chooseCoupon" data-auction="{{order.auction}}" >
+      <text>优惠券</text>
+      <view>{{order.coupon.text}}(¥{{order.coupon.money}})</view>
+    </view>
+    <view class="item">
+      <text>保证金(¥{{order.deposit.balance}})</text>
+      <view>
+          <switch type="checkbox" checked="{{order.deposit.checked}}" bindchange="useDeposit"/>
+      </view>
+    </view>
+  </view>
+  <view class="price">
+    <text>待付款</text>
+    <text>¥{{ payPrice }}</text>
+  </view>
+  <navigator class="address" wx:if="{{address}}" url="/pages/chooseAddress/chooseAddress">
+    <text>{{address.name}} -{{address.phone}}-{{address.detail}}</text>
+  </navigator>
+  <navigator class="address" wx:else url="/pages/chooseAddress/chooseAddress">
+    <text> + 添加收获地址</text>
+  </navigator>
+
+  <view class="pay-method">
+    <radio-group bindchange="radioChange">
+      <view class="item" wx:for="{{order.pay_method.choices}}" wx:key="idx">
+        <text>{{item.text}}</text>
+        <radio value="{{item.id}}" checked="{{item.id == order.pay_method.selected}}" ></radio>
+      </view>
+    </radio-group>
+  </view>
+  <view class="pay">
+    <button bindtap="doClickPay">立即支付</button>
+  </view>
+</view>

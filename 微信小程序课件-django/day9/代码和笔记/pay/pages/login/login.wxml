@@ -1,0 +1,4 @@
+<!--pages/login/login.wxml-->
+<text>pages/login/login.wxml</text>
+<input placeholder="请输入手机号" bindinput="inputPhone" value="{{phone}}"></input>
+<button open-type="getUserInfo" bindgetuserinfo="doSubmit" >登录</button>

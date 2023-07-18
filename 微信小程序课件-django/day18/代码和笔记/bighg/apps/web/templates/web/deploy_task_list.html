@@ -1,0 +1,64 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1 style="margin-top:0;">任务单：{{ env_object }}</h1>
+        <div style="margin: 5px 0;">
+            <a href="{% url 'deploy_task_add' env_id=env_object.id %}" class="btn btn-primary">添加</a>
+        </div>
+        <div>
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>描述</th>
+                    <th>uid</th>
+                    <th>发布类型</th>
+                    <th>状态</th>
+                    <th>发布</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for item in queryset %}
+                    <tr>
+                        <td>{{ item.id }}</td>
+                        <td>{{ item.summary }}</td>
+                        <td>{{ item.uid }}</td>
+                        <td>{{ item.get_deploy_type_display }}</td>
+                        <td>{{ item.get_status_display }}</td>
+                        <td>
+                            <a class="btn btn-sm btn-success" href="{% url 'channels_deploy' item.id %}">channels发布</a>
+                        </td>
+                        <td>
+                            <a href="javascript:void(0);"
+                               onclick="removeRow(this,'{% url 'deploy_task_del' pk=item.id %}');">删除</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block js %}
+    <script type="text/javascript">
+        function removeRow(ths, url) {
+            var result = confirm('是否确定要删除？');
+            if (result) {
+                $.ajax({
+                    url: url,
+                    type: 'GET',
+                    dataType: "JSON",
+                    success: function (arg) {
+                        if (arg.status) {
+                            $(ths).parent().parent().remove();
+                        }
+                    }
+                })
+            }
+        }
+    </script>
+{% endblock %}

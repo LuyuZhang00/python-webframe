@@ -1,0 +1,33 @@
+/* pages/bid/bid.wxss */
+
+.title{
+  padding: 20rpx 0;
+  font-size: 40rpx;
+  font-weight: 500;
+  border: 1rpx solid #ddd;
+}
+
+.price{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+}
+.price text{
+  width: 200rpx;
+  border: 1rpx solid #ddd;
+  padding: 23rpx;
+  margin-right: 10rpx;
+}
+.price button{
+  margin: 0;
+}
+
+.record{
+  padding: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}

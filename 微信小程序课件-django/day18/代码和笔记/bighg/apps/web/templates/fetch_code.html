@@ -1,0 +1,66 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .hide{
+            display: none;
+        }
+        .loading{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: black;
+            opacity: 0.4;
+        }
+        .loading-icon{
+            width: 100px;
+            height: 30px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-left: -50px;
+            margin-top: -15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>获取代码</h1>
+    <p>
+        <input id="repo" type="text" name="repo">
+        <input id="project" type="text" name="project">
+        <input type="button" value="获取" onclick="downloadRepo()">
+    </p>
+
+    <div id="loading" class="loading hide">
+        <div class="loading-icon">
+            <img src="{% static 'loading.gif' %}" alt="">
+        </div>
+    </div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        function downloadRepo() {
+            $('#loading').removeClass('hide');
+            var v1 = $('#repo').val();
+            var v2 = $('#project').val();
+            $.ajax({
+                url:'/fetch/code/',
+                type:"POST",
+                data:{repo:v1,project:v2},
+                success:function (arg) {
+                    console.log(arg);
+                     $('#loading').addClass('hide');
+                },
+                error:function () {
+                     $('#loading').addClass('hide');
+                }
+            })
+        }
+    </script>
+</body>
+</html>

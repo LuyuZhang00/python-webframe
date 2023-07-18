@@ -1,0 +1,5 @@
+<ul class="nav navbar-nav">
+    {% for row in menu_list %}
+        <li class="{{ row.class }}"><a href="{% url row.name %}">{{ row.text }}</a></li>
+    {% endfor %}
+</ul>

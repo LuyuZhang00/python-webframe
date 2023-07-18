@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block title %}成绩列表{% endblock %}
+{% block content %}
+<div class="main-content container">
+    <div class="inner-content">
+        <div class="xxzxBox">
+            <div class="tab-content bd">
+                <div role="tabpanel" class="active tab-pane">
+                    <ul class="ul_zxlist" id="column_ul">
+                        {% if not scores %}
+                            <div style="text-align:center">
+                                暂无成绩信息！
+                            </div>
+                        {% else %}
+                            {% for  score in scores %}
+                            <li style="border: 1px solid #ccc;border-radius: 10px;margin:10px;">
+                                <a href="{% url 'score' score_id=score.id %}">
+                                    <span class="start_time"><b>{{ score.created_at|date:"Y-m" }}</b><i>{{ score.created_at|date:"d" }}</i></span>
+                                    <h1 title="{{ score.title }}">
+                                         {{ score.title }}
+                                    </h1>
+                                    <p>班级：{{score.student.teacher.class_name}}</p>
+                                    <p style="padding:5px 0">老师：{{score.student.teacher.name}}</p>
+                                </a>
+                            </li>
+                            {% endfor %}
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,77 @@
+{% extends 'web/layout.html' %}
+
+{% block content %}
+    <div class="container-fluid">
+        <h2>优惠券列表</h2>
+        <div style="margin: 5px 0;">
+            <a href="{% url 'coupon_add' %}" class="btn btn-primary">添加</a>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>封面</th>
+                <th>名称</th>
+                <th>专场</th>
+                <th>金额</th>
+                <th>剩余数量</th>
+                <th>申请开始时间</th>
+                <th>申请结束</th>
+                <th>状态</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in queryset %}
+                <tr>
+                    <td>
+                        <img style="height: 60px;" src="{{ item.auction.cover }}">
+                    </td>
+                    <td>{{ item.title }}</td>
+                    <td>{{ item.auction.title }}</td>
+                    <td>{{ item.money }}</td>
+                    <td>{{ item.apply_count }}/{{ item.count }}</td>
+                    <td>{{ item.apply_start_date|date:"Y-m-d H:i" }}</td>
+                    <td>{{ item.apply_stop_date|date:"Y-m-d H:i" }}</td>
+                    <td>{{ item.get_status_display }}</td>
+                    <td>
+                        <div class="btn-group btn-group-xs" role="group" aria-label="Small button group">
+                            {% if item.status == 1 %}
+                                <a class="btn btn-default" href="{% url 'coupon_edit' pk=item.id %}">编辑</a>
+                            {% endif %}
+                            <a class="btn btn-danger" onclick="removeRow(this,'{% url 'coupon_delete' pk=item.id %}')">删除</a>
+                        </div>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+
+{% block js %}
+    <script>
+        function removeRow(ths, url) {
+            var result = confirm("确认删除？");
+            if (result) {
+                $.ajax({
+                    url: url,
+                    type: 'GET',
+                    dataType: "JSON",
+                    success: function (arg) {
+                        if (arg.status) {
+                            $(ths).parent().parent().parent().remove();
+                        } else {
+                            alert('删除失败');
+                        }
+                    }
+                })
+            }
+        }
+    </script>
+{% endblock %}
+
+
+
+
+
+

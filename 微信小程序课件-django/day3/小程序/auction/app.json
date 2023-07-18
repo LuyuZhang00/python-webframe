@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/redirect/redirect",
+    "pages/bind/bind",
+    "pages/login/login",
+    "pages/goods/goods",
+    "pages/publish/publish",
+    "pages/telphone/telphone"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFDAB9",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "李业"
+  },
+  "tabBar": {
+    "selectedColor": "#CD5C5C",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/ic_menu_choice_nor.png",
+        "selectedIconPath": "static/tabbar/ic_menu_choice_pressed.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "static/tabbar/ic_menu_me_nor.png",
+        "selectedIconPath": "static/tabbar/ic_menu_me_pressed.png"
+      }
+    ]
+  }
+}

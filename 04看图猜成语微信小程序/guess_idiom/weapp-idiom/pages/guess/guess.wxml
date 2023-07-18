@@ -1,0 +1,44 @@
+<view class="page">
+  <view class='text-center margin-xs'>
+    <text class='level'>正在挑战关卡：{{level}}</text>
+  </view>
+  <view class="showImage">
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <image class="image" src="{{image}}" />
+      </view>
+    </view>
+  </view>
+
+  <view class="showPanel">
+    <view class="showBox bg-white" bindtap='bindClear' data-pos="1">
+      <text class="showWord">{{word1}}</text>
+    </view>
+    <view class="showBox bg-white" bindtap='bindClear' data-pos="2">
+      <text class="showWord">{{word2}}</text>
+    </view>
+    <view class="showBox bg-white" bindtap='bindClear' data-pos="3">
+      <text class="showWord">{{word3}}</text>
+    </view>
+    <view class="showBox bg-white" bindtap='bindClear' data-pos="4">
+      <text class="showWord">{{word4}}</text>
+    </view>
+  </view>
+
+  <view class='chosePanel'>
+    <block wx:for="{{candiCopys}}" wx:key="index">
+      <view wx:if="{{ index % 6 == 0 }}"> </view>
+      <view class="showBox bg-chose" bindtap='bindFill' data-loc="{{index}}">
+        <text class="choseWord">{{candidates[index]}}</text>
+      </view>
+    </block>
+  </view>
+  <view class='text-center sharePanel'>
+    <button class="weui-btn mini-btn" type="primary" size="mini" open-type='share'>求助</button>
+  </view>
+  <view class="weui-msg__extra-area">
+    <view class="weui-footer">
+      <view class="weui-footer__text color-white">Copyright © 2018- 明日科技</view>
+    </view>
+  </view>
+</view>

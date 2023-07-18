@@ -1,0 +1,36 @@
+<view class="container">
+<!-- 
+  <view class="category">
+    <view class="item" wx:for="{{menuList}}" wx:key="text">
+      <image src="{{item.img}}"></image>
+      <text>{{item.text}}</text>
+    </view>
+  </view> -->
+
+  <view class="falls">
+    <view class="item" wx:for="{{newsList}}" wx:key="id">
+      <view class="pic">
+        <navigator url="/pages/newsDetail/newsDetail?newsId={{item.id}}"><image class="img" src="{{item.cover}}" mode="widthFix"></image></navigator>
+        <view class="user">
+          <view class="author">
+            <image class="avatar" src="{{item.user.avatar}}"></image>
+            <view>{{item.user.nickname}}</view>
+          </view>
+          <view class="favor">
+            <image class="icon" src="/static/images/icon/likes_smallicon_nor.png"></image>
+            <view>{{item.favor_count}}</view>
+          </view>
+        </view>
+      </view>
+
+      <view class="title">
+        <text>{{item.content}}</text>
+        <text class="tag" wx:if="{{item.topic.title}}"># {{item.topic.title}}</text>
+      </view>
+    </view>
+  </view>
+
+
+</view>
+
+<tabbar selected="{{0}}"></tabbar>

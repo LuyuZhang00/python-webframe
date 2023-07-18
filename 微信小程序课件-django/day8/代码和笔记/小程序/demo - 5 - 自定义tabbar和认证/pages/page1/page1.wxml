@@ -1,0 +1,11 @@
+
+<view class='container'>
+  <view class="item">
+    <image src="https://hbimg.huabanimg.com/762eee0f99f9fbbc458fb70b0b86d0f8090ba45e7fb75-z1bDC7_fw236" mode="widthFix" ></image>
+    <image src="https://hbimg.huabanimg.com/762eee0f99f9fbbc458fb70b0b86d0f8090ba45e7fb75-z1bDC7_fw236" mode="widthFix" ></image>
+  </view>
+  <view class="item">
+    <image src="https://hbimg.huabanimg.com/1143ded46f1808fd460de68bb81d1513d7578d88543aa-cvwFGk_fw236" mode="widthFix" ></image>
+    <image src="https://hbimg.huabanimg.com/762eee0f99f9fbbc458fb70b0b86d0f8090ba45e7fb75-z1bDC7_fw236" mode="widthFix" ></image>
+  </view>
+</view>

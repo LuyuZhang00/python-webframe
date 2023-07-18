@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/auction/auction",
+    "pages/home/home",
+    "pages/message/message",
+    "pages/auctionDetail/auctionDetail",
+    "pages/deposit/deposit",
+    "pages/auctionItemDetail/auctionItemDetail",
+    "pages/login/login",
+    "pages/publish/publish",
+    "pages/topic/topic",
+    "pages/publishSuccess/publishSuccess",
+    "pages/newsDetail/newsDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarTitleText": "大保健",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "custom": true,
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "color": "#666",
+    "selectedColor": "#b4282d",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tabbar/ic_menu_choice_nor.png",
+        "selectedIconPath": "static/images/tabbar/ic_menu_choice_pressed.png"
+      },
+      {
+        "pagePath": "pages/auction/auction",
+        "text": "拍卖",
+        "iconPath": "static/images/tabbar/ic_menu_topic_nor.png",
+        "selectedIconPath": "static/images/tabbar/ic_menu_topic_pressed.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "static/images/tabbar/ic_menu_sort_nor.png",
+        "selectedIconPath": "static/images/tabbar/ic_menu_sort_pressed.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "static/images/tabbar/ic_menu_shopping_nor.png",
+        "selectedIconPath": "static/images/tabbar/ic_menu_shopping_pressed.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "static/images/tabbar/ic_menu_me_nor.png",
+        "selectedIconPath": "static/images/tabbar/ic_menu_me_pressed.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

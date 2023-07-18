@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>百度</li>
+    <li>谷歌</li>
+    <li>搜狗</li>
+</ul>
+
+<script src="static/jquery-3.6.0.min.js"></script>
+<script>
+    $(function () {
+        // 当页面的框架加载完成之后，自动就执行。
+        $("li").click(function () {
+            $(this).remove();
+        });
+
+    })
+
+
+</script>
+</body>
+</html>

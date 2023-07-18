@@ -1,0 +1,100 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <view class="top-view">
+    <view class="user">
+      <view class="row">
+        
+        <image class="avatar" wx:if="{{userInfo}}" src="{{userInfo.avatarUrl}}"></image>
+        <image class="avatar" wx:else src="/static/images/auction/hh.png"></image>
+        
+        <view class="name" wx:if="{{userInfo}}">
+          <view bindtap="logout">{{userInfo.nickName}}</view>
+        </view>
+        <view class="name" wx:else>
+          <navigator url="/pages/login/login">登录</navigator>
+          |
+          <navigator url="/pages/login/login">注册</navigator>
+        </view>
+
+      </view>
+      <view class="site">查看个人主页</view>
+    </view>
+
+    <view class="numbers">
+      <view class="row">
+        <text>0</text>
+        <text>关注</text>
+      </view>
+      <view class="row">
+        <text>0</text>
+        <text>粉丝</text>
+      </view>
+      <view class="row">
+        <text>0</text>
+        <text>赞与收藏</text>
+      </view>
+      <view class="row">
+        <text>0</text>
+        <text>好友动态</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="middle-view">
+    <navigator class="item" url="/pages/order/order?seleted=1">
+      <image src="/static/images/icon/transaction_order1_icon_show.png"></image>
+      <text>未支付</text>
+    </navigator>
+    <navigator class="item" url="/pages/order/order?seleted=2">
+      <image src="/static/images/icon/transaction_order2_icon_show.png"></image>
+      <text>待收货</text>
+    </navigator>
+    <navigator class="item" url="/pages/order/order?seleted=3">
+      <image src="/static/images/icon/transaction_order3_icon_show.png"></image>
+      <text>已完成</text>
+    </navigator>
+    <navigator class="item" url="/pages/order/order?seleted=4">
+      <image src="/static/images/icon/transaction_order5_icon_show.png"></image>
+      <text>逾期未支付</text>
+    </navigator>
+  </view>
+  <view class="function-view">
+    <view class="row">
+      <view class="left">我的钱包</view>
+      <view class="right">
+        <text>¥20</text>
+        <image class="go-icon" src='/static/images/icon/to_icon_show_small.png'></image>
+      </view>
+    </view>
+    <navigator class="row" url="/pages/myCoupon/myCoupon">
+      <view class="left">我的优惠券</view>
+      <view class="right">
+        <text>暂无课用</text>
+        <image class="go-icon" src='/static/images/icon/to_icon_show_small.png'></image>
+      </view>
+    </navigator>
+    <navigator class="row" url="/pages/coupon/coupon">
+      <view class="left">领劵中心</view>
+      <view class="right">
+        <text>你的福利都在这里</text>
+        <image class="go-icon" src='/static/images/icon/to_icon_show_small.png'></image>
+      </view>
+    </navigator>
+  </view>
+  <view class="contact-view">
+    <button open-type="contact">
+      <image src="/static/images/icon/wechat_contact_icon_show.png"></image>
+    </button>
+    <button bindtap="onClickCall">
+      <image src="/static/images/icon/phone_contact_icon_show.png"></image>
+    </button>
+  </view>
+</view>
+
+<!-- 
+  <button bindtap="onClickLogin">登录</button>
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfoFunction">获取信息</button>
+ -->
+
+ <tabbar selected="{{4}}"></tabbar>

@@ -1,0 +1,115 @@
+<view class="container">
+  <view class="top-view">
+    <view class="info">
+      <image class="avatar" src="{{news.user.avatar}}"></image>
+      <view class="author">
+        <text>{{news.user.nickname}}</text>
+        <text class="date">发布于 {{news.create_date}}</text>
+      </view>
+    </view>
+    <view class="follow">
+      <view class="btn" bindtap="doFollow" data-uid="{{news.user.id}}" wx:if="{{news.user.follow}}">已 关 注</view>
+      <view class="btn" bindtap="doFollow" data-uid="{{news.user.id}}" wx:else>关 注</view>
+    </view>
+  </view>
+  <view class="slide-vew">
+    <swiper autoplay="{{true}}" indicator-dots="true">
+      <swiper-item wx:for="{{news.image_list}}" wx:for-item="item" wx:key="id">
+        <image src="{{item.cos_path}}"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <view class="message-view">
+    <view class="detail">{{news.content}}</view>
+    <view class="topic">
+      <view wx:if="{{news.address}}">位置：{{news.address}}</view>
+      <view wx:if="{{news.topic}}"># {{news.topic.title}}</view>
+    </view>
+
+    <view class="viewer">
+      <view class="left">
+        <view class="count">
+          <text>浏览</text>
+          <text>{{news.viewer.count}}</text>
+        </view>
+        <image class="avatar" src="{{item.avatar}}" wx:for="{{news.viewer.result}}" wx:key="id"></image>
+      </view>
+      <image class="go-icon" src='/static/images/icon/to_icon_show_small.png'></image>
+    </view>
+  </view>
+
+  <view class="comment">
+    <view>全部评论 - {{news.comment.count}} </view>
+    <view class="tree">
+      <view class="item" wx:for="{{news.comment.result}}" wx:key="id" wx:for-index="rootIndex">
+        <image class="big-avatar" src="{{item.avatar}}"></image>
+        <view class="body">
+          <view class="user">
+            <view class="name">
+              <text>{{item.nickname}}</text>
+              <text>{{item.create_date}}</text>
+            </view>
+            <view class="func">
+              <text data-news="{{news.id}}" data-root="{{item.id}}" data-reply="{{item.id}}" data-depth="{{item.depth + 1}}" data-nickname="{{item.nickname}}" bindtap="onClickShowCommentModal" data-rootindex="{{rootIndex}}">回复</text>
+              <text data-cid="{{item.id}}" data-rootindex="{{rootIndex}}" wx:if="{{item.favor}}" class="red" bindtap="doCommentFavor">赞</text>
+              <text data-cid="{{item.id}}" data-rootindex="{{rootIndex}}" wx:else bindtap="doCommentFavor">赞</text>
+            </view>
+          </view>
+          <view class="content">
+            {{item.content}}
+          </view>
+          <view class="reply" wx:if="{{item.child}}">
+            <view class="row" wx:for="{{item.child}}" wx:key="id" wx:for-item="row" wx:for-index="childIndex">
+              <view class="reply-menu">
+                <view class="reply-user">
+                  <image class="small-avatar" src="{{row.avatar}}"></image>
+                  <view class="reply-name">
+                    <text>{{row.nickname}}</text>
+                    <text>{{row.create_date}}</text>
+                  </view>
+                </view>
+                <view class="reply-func">
+                  <text data-news="{{news.id}}" data-root="{{item.id}}" data-reply="{{row.id}}" data-depth="{{row.depth + 1}}" data-nickname="{{row.nickname}}" bindtap="onClickShowCommentModal" data-rootindex="{{rootIndex}}">回复</text>
+                  <text data-cid="{{row.id}}" data-rootindex="{{rootIndex}}" data-childindex="{{childIndex}}" wx:if="{{row.favor}}" class="red" bindtap="doCommentFavor">赞</text>
+                  <text data-cid="{{row.id}}" data-rootindex="{{rootIndex}}" data-childindex="{{childIndex}}" wx:else bindtap="doCommentFavor">赞</text>
+                </view>
+              </view>
+              <view class="reply-content">
+              <view wx:if="{{row.depth >2 }}">@{{row.reply_nickname}}</view>
+              {{row.content}}
+              </view>
+            </view>
+            <view class="more-comment" bindtap="getMoreComment" data-rootid="{{item.id}}" data-rootindex="{{rootIndex}}">更多评论</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="buttom-view">
+  <view class="comment-area" wx:if="{{isShowCommentModal}}">
+    <view class="top">
+      <image class="big-avatar" src="{{news.user.avatar}}"></image>
+      <text>评论</text>
+      <view class="reply" wx:if="{{reply.reply}}">回复 {{reply.nickname}}
+        <icon type="clear" size="15" bindtap="onClickClearReply"></icon>
+      </view>
+    </view>
+    <textarea fixed="true" placeholder="评论内容..." bindinput="inputComment"></textarea>
+    <view class="btn">
+      <view class="publish" bindtap="onClickPostComment">发布</view>
+    </view>
+    <view class="hide">
+      <icon type="cancel" size="30" bindtap="onClickCancelCommentModal"></icon>
+    </view>
+  </view>
+  <view class="text-input" wx:else>
+    <image class="big-avatar" src="/static/images/auction/hh.png"></image>
+    <input placeholder="说点什么..." bindtap="onClickShowCommentModal" data-news="{{news.id}}" data-depth="{{1}}"></input>
+    <image bindtap="doNewsFavor" data-nid="{{news.id}}" class="favor" wx:if="{{news.favor}}" src="/static/images/icon/likes_smallicon_click.png" ></image>
+    <image bindtap="doNewsFavor" data-nid="{{news.id}}" class="favor" wx:else src="/static/images/icon/likes_smallicon_nor.png" ></image>
+
+  </view>
+</view>

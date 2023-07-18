@@ -1,0 +1,73 @@
+/* pages/pay/pay.wxss */
+.container{
+  padding:0 40rpx;
+}
+.title{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ddd;
+  padding: 40rpx 0;
+}
+
+.title .logo{
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.title .logo image{
+  width: 100%;
+  height: 100%;
+}
+
+.title .info{
+  padding-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title .info view{
+  font-size: 38rpx;
+  font-weight: 500;
+}
+
+.title .info text{
+  font-size: 28rpx;
+}
+
+.deal,.others .item,.price{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.deal,.price{
+  padding: 30rpx 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.others{
+  padding: 10rpx 0;
+  border-bottom: 1px solid #ddd;
+  color: #8c8c8c;
+}
+.others .item{
+  padding: 15rpx 0;
+}
+
+.address{
+  padding: 50rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.pay-method{
+  padding: 20rpx 0;
+}
+.pay-method .item{
+  padding: 20rpx 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

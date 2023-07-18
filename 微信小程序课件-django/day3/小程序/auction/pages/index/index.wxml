@@ -1,0 +1,75 @@
+<!--pages/index/index.wxml-->
+
+<view bindtap="clickMe" data-nid="123" data-name="SD" >点我跳转</view>
+
+<navigator url="/pages/redirect/redirect?id=666">跳转到新页面</navigator>
+
+<view>示例一</view>
+<view class="menu-1">
+  <image src="/static/hg.jpg"></image>
+  <image src="/static/hg.jpg"></image>
+  <image src="/static/hg.jpg"></image>
+  <image src="/static/hg.jpg"></image>
+</view>
+
+<view>示例二</view>
+
+<view class="menu-2">
+  <view class="item">
+    <image src="/static/hg.jpg"></image>
+    <text>精品</text>
+  </view>
+   <view class="item">
+    <image src="/static/hg.jpg"></image>
+    <text>精品</text>
+  </view>
+   <view class="item">
+    <image src="/static/hg.jpg"></image>
+    <text>精品</text>
+  </view>
+   <view class="item">
+    <image src="/static/hg.jpg"></image>
+    <text>精品</text>
+  </view>
+</view>
+
+<view>示例三</view>
+<view class="auction">
+  <view class="item">
+    <view class="title">第一场 拍卖龚名扬吃的东西</view>
+    <view class="tips">
+      <view class="status">2020-01-01</view>
+      <view class="count">111次围观</view>
+    </view>
+      
+    <view class="big">
+      <image src="/static/hg.jpg"></image>
+    </view>
+    <view class="small">
+      <image src="/static/hg.jpg"></image>
+      <image src="/static/hg.jpg"></image>
+      <image src="/static/hg.jpg"></image>
+      <image src="/static/hg.jpg"></image>
+    </view>
+  </view>
+
+  <view class="item">
+    <view class="title">第一场 拍卖龚名扬吃的东西</view>
+    <view class="tips">
+      <view class="status">2020-01-01</view>
+      <view class="count">111次围观</view>
+    </view>
+      
+    <view class="big">
+      <image src="/static/hg.jpg"></image>
+    </view>
+    <view class="small">
+      <image src="/static/hg.jpg"></image>
+      <image src="/static/hg.jpg"></image>
+      <image src="/static/hg.jpg"></image>
+      <image src="/static/hg.jpg"></image>
+    </view>
+  </view>
+</view>
+
+

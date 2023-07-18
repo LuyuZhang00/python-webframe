@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}比赛首页{% endblock %}
+{% block content %}
+    <div class="main-content container">
+        <div class="inner-content">
+            <div class="xxdj-report border zycs_text">
+                <div class="course-report">
+                    <h1>考试成绩</h1>
+                    <div class="wid775 div-course">
+                        <h2 class="test-mb40">
+                            <span id="username">{{ request.session.username }}</span>
+                            同学：你好！
+                        </h2>
+                        <ul class="ul-report" style="padding-left:0">
+                            <li class="list-group-item">考试名称：{{ score.title }}</li>
+                            <li class="list-group-item">发布时间：{{ score.created_at }}</li>
+                            <li class="list-group-item">考试分数：
+                                <span style="color:blue;font-weight:bold">{{ score.score }}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

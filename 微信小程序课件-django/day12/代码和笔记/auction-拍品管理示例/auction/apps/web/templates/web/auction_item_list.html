@@ -1,0 +1,129 @@
+{% extends 'web/layout.html' %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="panel panel-default">
+            <div class="panel-heading clearfix">专场信息</div>
+            <div class="panel-body">
+
+                <div class="form-horizontal">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">专场</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">{{ auction_object.title }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label"> </label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">预展开始</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">{{ auction_object.preview_start_time|date:"Y-m-d H:i" }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">预展结束</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">{{ auction_object.preview_end_time|date:"Y-m-d H:i" }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">拍卖开始</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">{{ auction_object.auction_start_time|date:"Y-m-d H:i" }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">拍卖结束</label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">{{ auction_object.auction_end_time|date:"Y-m-d H:i" }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading clearfix">拍品
+                <a href="{% url 'auction_item_add' auction_id=auction_object.id %}"
+                   class="btn btn-success btn-xs" style="float: right;">
+                    <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> 添加
+                </a>
+            </div>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>封面</th>
+                    <th>名称</th>
+                    <th>图录号</th>
+                    <th>起拍价</th>
+                    <th>加价幅度</th>
+                    <th>参考价格</th>
+                    <th>状态</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for item in item_list %}
+                    <tr>
+                        <td>
+                            <a href="{% url 'auction_item_edit' auction_id=auction_object.id item_id=item.id %}">
+                                <img style="height: 60px;" src="{{ item.cover }}">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{% url 'auction_item_edit' auction_id=auction_object.id item_id=item.id %}">{{ item.title }}</a>
+                        </td>
+                        <td>{{ item.uid }}</td>
+                        <td>{{ item.start_price }}</td>
+                        <td>{{ item.unit }}</td>
+                        <td>{{ item.reserve_price }} - {{ item.highest_price }}</td>
+                        <td>{{ item.get_status_display }}</td>
+                        <td>
+                            <a class="btn btn-danger btn-xs"
+                               onclick="removeRow(this,'{% url 'auction_item_delete' item_id=item.id %}')">删除</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block js %}
+    <script>
+        function removeRow(ths, url) {
+            var result = confirm("确认删除？");
+            if (result) {
+                $.ajax({
+                    url: url,
+                    type: 'GET',
+                    dataType: "JSON",
+                    success: function (arg) {
+                        if (arg.status) {
+                            $(ths).parent().parent().remove();
+                        } else {
+                            alert('删除失败');
+                        }
+                    }
+                })
+            }
+        }
+    </script>
+{% endblock %}

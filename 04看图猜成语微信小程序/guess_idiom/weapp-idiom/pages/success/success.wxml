@@ -1,0 +1,22 @@
+<view class="page">
+  <view class="weui-msg">
+    <view class="weui-msg__icon-area">
+      <icon type="success" size="93"></icon>
+    </view>
+    <view class="weui-msg__text-area">
+      <view class="weui-msg__title color-white">大吉大利</view>
+      <view class="weui-msg__desc color-white">您已通过所有关卡，敬请期待</view>
+    </view>
+    <view class="weui-msg__opr-area">
+      <view class="weui-btn-area">
+        <button class="weui-btn" type="warn" open-type='share'>告诉朋友</button>
+        <button class="weui-btn" type="default" bindtap='bindReback'>返回主页</button>
+      </view>
+    </view>
+  </view>
+  <view class="weui-msg__extra-area">
+    <view class="weui-footer">
+      <view class="weui-footer__text color-white">Copyright © 2018- 明日科技</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/plugins/bootstrap-3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="static/plugins/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css">
+</head>
+<body>
+<div class="container">
+    <form class="form-horizontal" style="margin-top: 20px">
+        <div class="row clearfix">
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">姓名</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" placeholder="姓名">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">年龄</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" placeholder="年龄">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row clearfix">
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">薪资</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" placeholder="薪资">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">部门</label>
+                    <div class="col-sm-10">
+                        <select class="form-control">
+                            <option>IT部门</option>
+                            <option>销售部门</option>
+                            <option>运营部</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row clearfix">
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">入职日期</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="dt" class="form-control" placeholder="入职日期">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row clearfix">
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary">提 交</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+</div>
+
+
+<script src="static/js/jquery-3.6.0.min.js"></script>
+<script src="static/plugins/bootstrap-3.4.1/js/bootstrap.js"></script>
+<script src="static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script src="static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+
+<script>
+    $(function () {
+
+        $('#dt').datepicker({
+            format: 'yyyy-mm-dd',
+            startDate: '0',
+            language: "zh-CN",
+            autoclose: true
+        });
+
+    })
+</script>
+</body>
+</html>

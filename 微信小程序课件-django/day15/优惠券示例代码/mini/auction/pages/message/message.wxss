@@ -1,0 +1,66 @@
+/* pages/message/message.wxss */
+
+.menu-view{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 18rpx solid #f5f5f5;
+}
+.menu-view .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30rpx;
+  padding: 60rpx;
+}
+.menu-view .item image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 10rpx;
+}
+
+.msg-list-vew{
+  padding:40rpx;
+}
+.msg-list-vew .item{
+  display: flex;
+  flex-direction: row;
+  padding: 15rpx 0;
+}
+
+.msg-list-vew .item .avatar{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.msg-list-vew .item .msg{
+  padding-bottom: 20rpx;
+  padding-left: 20rpx;
+  border-bottom: 1px solid #ddd;
+  font-size: 30rpx;
+  width: 570rpx;
+}
+
+.msg-list-vew .item .msg .row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.msg-list-vew .item .title{
+  font-weight: 500;
+}
+
+.msg-list-vew .item .date{
+  color:#8c8c8c;
+  font-size: 28rpx;
+}
+.msg-list-vew .item .summary{
+  color:#8c8c8c;
+  margin: 10rpx 0;
+  font-size: 28rpx;
+
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}

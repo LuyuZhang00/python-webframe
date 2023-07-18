@@ -1,0 +1,159 @@
+{% extends 'layout.html' %}
+{% load staticfiles %}
+{% block css %}
+    <style>
+        .log {
+            min-height: 300px;
+            border-radius: 0;
+        }
+
+        .log .item {
+            margin: 5px 0;
+        }
+
+        .log .item:before {
+            content: ">>>";
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="btn-group" role="group" style="float: right;">
+            <a href="{% url 'deploy_task_list' env_id=task_object.env_id %}" class="btn btn-primary">
+                <i class="fa fa-reply" aria-hidden="true"></i> 返回</a>
+            <button id="deploy" type="button" class="btn btn-success">发布</button>
+            <button id="retryDeploy" type="button" class="btn btn-success">重新发布</button>
+            <!--
+            {% if task_object.status == 1 %}
+                <button id="deploy" type="button" class="btn btn-success">发布</button>
+            {% endif %}
+            {% if task_object.status == 4 %}
+                <button id="retryDeploy" type="button" class="btn btn-success">重新发布</button>
+            {% endif %}
+            -->
+        </div>
+        <h1 style="margin-top:0">Channels发布</h1>
+        <div>
+            <table class="table table-bordered">
+                <tbody>
+                <tr>
+                    <td>项目名称: {{ task_object.env.project.title }}</td>
+                    <td>环境：{{ task_object.env.get_env_display }}（{{ task_object.get_status_display }}）</td>
+                </tr>
+                <tr>
+                    <td>
+                        仓库地址：{{ task_object.env.project.repo }}
+                    </td>
+                    <td>
+                        上线版本：{{ task_object.uid }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        线上项目地址：{{ task_object.env.path }}
+                    </td>
+                    <td>
+                        线上上传代码地址：/data/codes/{{ task_object.env.project.title }}/{{ task_object.uid }}
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        目标服务器：
+                        <ul>
+                            {% for item in  deploy_server_list %}
+                                <li>{{ item.server.hostname }}</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="myDiagramDiv" style="width:100%; height:350px; background-color: #DAE4E4;"></div>
+        <pre id="log" class="log">
+        </pre>
+    </div>
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'web/go-no-logo.js' %}"></script>
+    <script>
+        myDiagram = null;
+        ws = null;
+        $(function () {
+            initGoJS();
+            initWebSocket();
+            bindDeployEvent();
+            bindRetryDeployEvent();
+        });
+
+        function initGoJS() {
+            var $ = go.GraphObject.make;
+            myDiagram = $(go.Diagram, "myDiagramDiv", {
+                layout: $(go.TreeLayout, {
+                    angle: 0,
+                    nodeSpacing: 50,
+                    layerSpacing: 70
+                })
+            }); // 创建图表，用于在页面上画图
+
+            myDiagram.nodeTemplate = $(go.Node, "Auto",
+                $(go.Shape, {
+                        figure: "RoundedRectangle",
+                        fill: 'lightgray',
+                        stroke: 'lightgray'
+                    }, new go.Binding("figure", "figure"),
+                    new go.Binding("fill", "color"),
+                    new go.Binding("stroke", "color")),
+                $(go.TextBlock, {margin: 8}, new go.Binding("text", "text"))
+            );
+
+            myDiagram.linkTemplate = $(go.Link,
+                {routing: go.Link.Orthogonal},
+                $(go.Shape),
+                $(go.Shape, {toArrow: "OpenTriangle"})
+            );
+        }
+
+        function initWebSocket() {
+            ws = new WebSocket('ws://127.0.0.1:8000/deploy/{{ task_id }}/');
+            ws.onmessage = function (event) {
+                let info = JSON.parse(event.data);
+
+                if (info.code === 'init') {
+                    // 初始化图表节点信息
+
+                    myDiagram.model = new go.TreeModel(info.data);
+                } else if (info.code === 'log') {
+                    // 实时输出日志
+
+                    $('#log').append($('<div class="item">').html(info.data));
+                } else if (info.code === 'update') {
+                    // 更新节点
+
+                    let node = myDiagram.model.findNodeDataForKey(info.data.key);
+                    myDiagram.model.setDataProperty(node, "color", info.data.color);
+
+                } else if (info.code === 'error') {
+                    alert(info.data);
+                }
+            };
+            ws.onclose = function (event) {
+            };
+        }
+
+        function bindDeployEvent() {
+            $('#deploy').click(function () {
+                ws.send(JSON.stringify({type: 'deploy'}));
+            });
+        }
+
+        function bindRetryDeployEvent() {
+            $('#retryDeploy').click(function () {
+                ws.send(JSON.stringify({type: 'retry_deploy'}));
+            });
+        }
+
+    </script>
+{% endblock %}

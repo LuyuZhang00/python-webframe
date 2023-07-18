@@ -1,0 +1,42 @@
+<!--pages/auction/auction.wxml-->
+<view class="container">
+
+  <view class="auction-item" wx:for="{{auctionList}}" wx:for-item="row" wx:key="index">
+    <navigator url="/pages/auctionDetail/auctionDetail?auctionId={{row.id}}">
+      <view class="title">{{row.title}}</view>
+      <view class="memo">
+        <view class="status {{row.status.class}}">
+          <text>{{row.status.text}}</text>
+        </view>
+        <view class="look-num">{{row.look_count}}次围观</view>
+      </view>
+      <view class="cover-view">
+        <view class="view-stop" wx:if="{{row.status == 'stop' }}">
+          <view class='money-title-view'>
+            <view class='left-line-view'></view>
+            <text class='money-title-text' decode='true'>&ensp;成交额&ensp;</text>
+            <view class='right-line-view left-line-view'></view>
+          </view>
+          <view class='money-num-view'>¥ {{row.total_price}}</view>
+        </view>
+        <image class="cover-img" src="{{row.cover}}"></image>
+      </view>
+      <view class="list-view">
+        <view>
+          <image wx:for="{{row.items}}" wx:key="index" class="pic" src="{{item}}"></image>
+        </view>
+        <view class="number">
+          <view class="txt">{{row.goods_count}}拍品</view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+
+
+  <!-- <view class="load-more" wx:if="{{loading}}">
+    <view class="loading-img"></view>
+    <view>正在加载</view>
+  </view> -->
+</view>
+
+<tabbar selected="{{1}}"></tabbar>

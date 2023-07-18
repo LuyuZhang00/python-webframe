@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .menus {
+            width: 200px;
+            height: 800px;
+            border: 1px solid red;
+        }
+
+        .menus .header {
+            background-color: gold;
+            padding: 10px 5px;
+            border-bottom: 1px dotted #dddddd;
+
+            cursor: pointer;
+        }
+
+        .menus .content a {
+            display: block;
+            padding: 5px 5px;
+            border-bottom: 1px dotted #dddddd;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="menus">
+    <div class="item">
+        <div class="header" onclick="clickMe(this);">上海</div>
+        <div class="content">
+            <a>宝山区</a>
+            <a>青浦区</a>
+            <a>浦东新区</a>
+            <a>普陀区</a>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="header" onclick="clickMe(this);">北京</div>
+        <div class="content hide">
+            <a>海淀区</a>
+            <a>朝阳区</a>
+            <a>大兴区</a>
+            <a>昌平区</a>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="header" onclick="clickMe(this);">上海2</div>
+        <div class="content hide">
+            <a>宝山区</a>
+            <a>青浦区</a>
+            <a>浦东新区</a>
+            <a>普陀区</a>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="header" onclick="clickMe(this);">北京2</div>
+        <div class="content hide">
+            <a>海淀区</a>
+            <a>朝阳区</a>
+            <a>大兴区</a>
+            <a>昌平区</a>
+        </div>
+    </div>
+</div>
+
+<script src="static/jquery-3.6.0.min.js"></script>
+<script>
+    function clickMe(self) {
+        // 让自己下面的功能展示出来
+        $(self).next().removeClass("hide");
+
+        // 找父亲，父亲的所有兄弟，再去每个兄弟的子孙中寻找 class=content，添加hide样式
+        $(self).parent().siblings().find(".content").addClass("hide");
+    }
+</script>
+</body>
+</html>

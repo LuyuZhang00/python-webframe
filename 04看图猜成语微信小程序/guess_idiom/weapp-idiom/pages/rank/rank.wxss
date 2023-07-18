@@ -1,0 +1,25 @@
+.rank-items {
+  background-color: #fff;
+  margin: 2px 0;
+}
+
+.rank-items .rank-num {
+  margin-right: 10px;
+  width: 24px;
+  border-radius: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.rank-items .gender {
+  height: 14px;
+  width: 14px;
+}
+
+.bg-top {
+  background-color: #f77;
+}
+
+.bg-bottom {
+  background-color: #aaa;
+}

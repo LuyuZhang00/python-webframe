@@ -1,0 +1,209 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": false,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.0",
+	"appid": "wx55cca0b94f723dc7",
+	"projectname": "auction",
+	"cloudfunctionTemplateRoot": "",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": 0,
+					"name": "详情页分享/拍卖进展通知模板（跳转拍品详情）",
+					"pathName": "pages/auctionItemDetail/auctionItemDetail",
+					"query": "share=share&product_id=16&auction_id=13",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "拍卖开始通知模板（跳转专场列表）",
+					"pathName": "pages/auction/auction",
+					"query": "share=share",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "拍卖成功通知模板（跳转待付款页）",
+					"pathName": "pages/myOrder/myOrder",
+					"query": "form=form&order_type=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "图录二维码",
+					"pathName": "pages/auctionItemDetail/auctionItemDetail",
+					"query": "scene=16,13",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "文章详情分享",
+					"pathName": "pages/contentDetail/contentDetail",
+					"query": "share=share",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "分享话题列表",
+					"pathName": "pages/topicList/topicList",
+					"query": "share=share&tag_type=city_id&tag_id=131&content_id=1840&topicTitle=北京市",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "测试",
+					"pathName": "pages/contentDetailOne/contentDetailOne",
+					"query": "share=share&content_id=694&article_type=",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "pages/auctionDetail/auctionDetail",
+					"pathName": "pages/auctionDetail/auctionDetail",
+					"query": "auctionId=2",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/auctionDetail/auctionDetail",
+					"pathName": "pages/auctionDetail/auctionDetail",
+					"query": "autionId=3",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/deposit/deposit",
+					"pathName": "pages/deposit/deposit",
+					"query": "auctionId=1&itemId=3",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/auctionItemDetail/auctionItemDetail",
+					"pathName": "pages/auctionItemDetail/auctionItemDetail",
+					"query": "auctionId=1&itemId=3",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/home",
+					"pathName": "pages/home/home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/message/message",
+					"pathName": "pages/message/message",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/publish/publish",
+					"pathName": "pages/publish/publish",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/publishSuccess/publishSuccess",
+					"pathName": "pages/publishSuccess/publishSuccess",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 17,
+					"name": "pages/newsDetail/newsDetail",
+					"pathName": "pages/newsDetail/newsDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/auction/auction",
+					"pathName": "pages/auction/auction",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 19,
+					"name": "pages/deposit/deposit",
+					"pathName": "pages/deposit/deposit",
+					"query": "itemId=4",
+					"scene": null
+				},
+				{
+					"id": 20,
+					"name": "pages/bid/bid",
+					"pathName": "pages/bid/bid",
+					"query": "itemId=3",
+					"scene": null
+				}
+			]
+		}
+	}
+}

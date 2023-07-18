@@ -1,0 +1,14 @@
+/**index.wxss**/
+
+page {
+  background-color: #eee;
+}
+
+image {
+  display: flex;
+  width: 640rpx;
+  height: 480rpx;
+  margin: 10px auto;
+  background-color: #fff;
+  border: 1px #333 solid;
+}

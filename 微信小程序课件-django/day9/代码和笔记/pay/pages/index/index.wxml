@@ -1,0 +1,9 @@
+<!--index.wxml-->
+ <radio-group bindchange="changeGoods">
+    <view class='row' wx:for="{{goodsList}}" wx:key="index">
+      <text>{{item.title}} - {{item.price}}</text>
+      <radio class="radio" value="{{item.id}}"></radio>
+    </view>
+</radio-group>
+
+<button bindtap="doPayment">购买</button>

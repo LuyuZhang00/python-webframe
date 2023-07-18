@@ -1,0 +1,16 @@
+<!--pages/bid/bid.wxml-->
+<view>
+  <view class='title'>我要出价</view>
+  <view class="price">
+    <text>{{result.price}}</text>
+    <button bindtap="doCompete">加价</button>
+  </view>
+  <button bindtap="doSubmit">出价</button>
+</view>
+<view>
+  <view  class='title' style="margin-top: 20rpx;">出价记录</view>
+  <view class="record" wx:for="{{result.bid_list}}" wx:key="index">
+    <text>{{item.username}}</text>
+    <text>{{item.price}}【{{item.status_text}}】</text>
+  </view>
+</view>

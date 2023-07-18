@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/plugins/bootstrap-3.4.1/css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+    <h1>用户列表</h1>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>姓名</th>
+            <th>密码</th>
+            <th>手机号</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for item in data_list %}
+        <tr>
+            <td>{{ item.id }}</td>
+            <td>{{ item.username }}</td>
+            <td>{{ item.password }}</td>
+            <td>{{ item.mobile }}</td>
+        </tr>
+        {% endfor %}
+
+        </tbody>
+
+    </table>
+</div>
+
+
+<script src="/static/js/jquery-3.6.0.min.js"></script>
+<script src="/static/plugins/bootstrap-3.4.1/js/bootstrap.js"></script>
+</body>
+</html>

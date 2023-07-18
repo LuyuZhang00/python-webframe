@@ -1,0 +1,38 @@
+/* pages/myCoupon/myCoupon.wxss */
+page{
+background-color:#F5F5F5;
+}
+
+.header{
+  padding: 40rpx 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.header .active{
+  color:#3CB371;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+  height: 300rpx;
+  margin-bottom: 20rpx;
+}
+.item .cover{
+  width: 550rpx;
+}
+.item .cover image{
+  width: 100%;
+  height: 100%;
+}
+.item .info{
+  background-color: #ddd;
+  width: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

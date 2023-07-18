@@ -1,0 +1,148 @@
+/* pages/auctionDetail/auctionDetail.wxss */
+
+
+
+.banner image{
+  width: 750rpx;
+  height: 400rpx;
+}
+
+.tips{
+  padding:20rpx 40rpx;
+  border-bottom: 18rpx solid #f5f5f5;
+}
+
+.tips .top{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.tips .top .title{
+  font-size: 42rpx;
+  font-weight: 500;
+  margin-bottom: 10rpx;
+}
+
+.tips .top .status{
+  padding: 0 12rpx;
+  border-radius: 12rpx;
+  color: #fff;
+  font-size: 28rpx;
+}
+.tips .top  .status.auction{
+  background-color: #d71e61;
+}
+
+.tips .top  .status.preview{
+  background-color: #00c8b6;
+}
+
+.tips .top  .status.stop{
+  background-color: #ccc;
+}
+
+.tips .top .time{
+  margin-left: 10rpx;
+  font-size: 28rpx;
+}
+
+
+.tips .top .share{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24rpx;
+}
+
+.tips .top .share image{
+  height: 40rpx;
+  width: 40rpx;
+  margin-bottom: 5rpx;
+}
+
+.tips .others{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+  margin-top: 10rpx;
+  color: #8c8c8c;
+  font-size: 28rpx;
+}
+
+
+
+.auction-list .title{
+  margin: 0 40rpx;
+  padding: 30rpx 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.auction-list .item{
+  padding: 30rpx 40rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 18rpx solid #f5f5f5;
+}
+
+.auction-list .left-image{
+  width: 300rpx;
+  overflow: hidden;
+  border: 1rpx solid #ddd;
+  border-radius: 8rpx;
+}
+
+.auction-list .left-image image{
+  width: 300rpx;
+  height: 300rpx;
+}
+
+.auction-list .left-image .range{
+  margin: 15rpx;
+}
+
+.auction-list .left-image .range .money{
+  font-size: 40rpx;
+  font-weight: 500;
+}
+
+
+.auction-list .desc{
+  width: 320rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.auction-list .desc .top{
+  font-size: 40rpx;
+  font-weight: 500;
+}
+
+
+.auction-list .desc .bottom{
+  height: 100rpx;
+  background-color: #00c8b6;
+  border-radius: 12rpx;
+  color: white;
+  font-weight: 500;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer{
+  background-color: #f5f5f5;
+  height: 80rpx;
+  padding-bottom: 18rpx;
+  font-size: 28rpx;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cccccc;
+}

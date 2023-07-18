@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul id="city">
+        <!-- <li>北京</li> -->
+    </ul>
+
+    <script type="text/javascript">
+
+        // 发送网络请求，获取数据
+        var cityList = ["北京","上海","深圳"];
+        for(var idx in cityList){
+            var text = cityList[idx];
+
+            // 创建 <li></li>
+            var tag = document.createElement("li");
+            // 在li标签中写入内容
+            tag.innerText = text;
+
+            // 添加到id=city那个标签的里面。DOM
+            var parentTag = document.getElementById("city");
+            parentTag.appendChild(tag);
+        }
+    </script>
+</body>
+</html>

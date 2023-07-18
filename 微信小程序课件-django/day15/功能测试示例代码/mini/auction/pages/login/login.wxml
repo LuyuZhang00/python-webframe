@@ -1,0 +1,22 @@
+<!--pages/login/login.wxml-->
+
+<view class="logo">
+  <image src='/static/images/icon/logo_icon_show.png'></image>
+  <text>茶生活交流交易社区</text>
+</view>
+
+<view class="form">
+  <view class="row-group">
+    <text>手机</text>
+    <input placeholder="请填写手机号码" placeholder-class='txt' maxlength='11' bindinput="bindPhoneInput" value="{{phone}}" />
+  </view>
+   <view class="row-group">
+    <text>验证码</text>
+    <input placeholder="请填写验证码" placeholder-class='txt' maxlength='4' bindinput="bindCodeInput" value="{{code}}" />
+    <view class="code" bindtap="onClickCheckCode">获取验证码</view>
+  </view>
+  <view>
+    <button class="submit" open-type="getUserInfo" bindgetuserinfo="onClickSubmit">登录 | 注册</button>
+  </view>
+</view>
+

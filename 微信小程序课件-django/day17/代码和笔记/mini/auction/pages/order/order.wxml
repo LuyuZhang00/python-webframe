@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="header">
+    <view class="{{ seleted == index? 'active' : '' }}" wx:for="{{orderDict}}" wx:key="index" bindtap="changeStatus" data-id="{{index}}">{{item.text}}</view>
+  </view>
+  <view class="content">
+    <view class="item" wx:for="{{orderDict[seleted].child}}" wx:key="idx" bindtap="toPay" data-item="{{item}}">
+      <view class="cover">
+        <image src="{{item.cover}}"></image>
+      </view>
+      <view class="info">
+        <view class="big">
+          <text>{{item.title}}</text>
+        </view>
+        <view class="small">
+          <view>成交额：{{item.price}}</view>
+          <view>成交时间：{{item.create_date}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

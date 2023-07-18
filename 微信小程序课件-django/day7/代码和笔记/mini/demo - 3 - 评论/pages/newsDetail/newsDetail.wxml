@@ -1,0 +1,80 @@
+<!--pages/newsDetail/newsDetail.wxml-->
+<view class="container">
+  <view style="border:1rpx solid red;">
+    <image class="avatar" src="{{news.user.avatar}}"></image>
+    {{news.user.nickname}}
+
+    <view>关注</view>
+  </view>
+
+  <swiper autoplay="{{true}}" indicator-dots="{{true}}" >
+      <swiper-item wx:for="{{news.images}}" wx:key="index">
+        <image src="{{item.cos_path}}"></image>
+      </swiper-item>
+  </swiper>
+
+  <view>{{news.content}}</view>
+
+  <view>浏览数量：{{news.viewer_count}}</view>
+  <view style="border:1rpx solid red; padding:20rpx;">
+    <image class="avatar" wx:for="{{news.viewer.result}}" src="{{item.avatar}}" ></image>
+  </view>
+
+
+  <view>全部评论 - {{news.comment_count}}</view>
+
+  <view>
+    <view class="parent" wx:for="{{news.comment}}" wx:key="index" wx:for-index="idx">
+      <view>
+      <text>{{item.content}}</text> 
+      <text bindtap="onClickShowCommentModal" 
+        data-nid="{{news.id}}" 
+        data-cid="{{item.id}}" 
+        data-nickname="{{item.user__nickname}}" 
+        data-depth="{{item.depth + 1}}" 
+        data-rid="{{item.id}}" 
+        data-rootindex="{{idx}}" >回复</text>
+
+      </view>
+      <view class="child" wx:if="{{item.child}}" >
+        <view wx:for="{{item.child}}" wx:for-item="node">
+          <view>
+            <text>{{node.content}}</text>
+            <text bindtap="onClickShowCommentModal" 
+            data-nid="{{news.id}}" 
+            data-cid="{{node.id}}"  
+            data-nickname="{{node.user__nickname}}" 
+            data-depth="{{node.depth + 1}}" 
+            data-rid="{{item.id}}" 
+            data-rootindex="{{idx}}"
+             >回复</text>
+          </view>
+        </view>
+        <view bindtap="getMore" data-root="{{item.id}}" data-idx="{{idx}}" >查看更多</view>
+      </view>
+    </view>
+  </view>
+
+</view>
+<view class="buttom-view">
+  <view class="comment-area" wx:if="{{isShowCommentModal}}">
+    <view class="top">
+      <image class="big-avatar" src="{{news.user.avatar}}"></image>
+      <text>评论</text>
+      <view class="reply" wx:if="{{reply.cid}}">回复 {{reply.nickname}}
+        <icon type="clear" size="15" bindtap="onClickClearReply"></icon>
+      </view>
+    </view>
+    <textarea fixed="true" placeholder="评论内容..." bindinput="inputComment"></textarea>
+    <view class="btn">
+      <view class="publish" bindtap="onClickPostComment">发布</view>
+    </view>
+    <view class="hide">
+      <icon type="cancel" size="30" bindtap="onClickCancelCommentModal"></icon>
+    </view>
+  </view>
+  <view class="text-input" wx:else>
+    <image class="big-avatar" src="xxx"></image>
+    <input placeholder="说点什么..." bindtap="onClickShowCommentModal" data-nid="{{news.id}}" data-depth="{{1}}"></input>
+  </view>
+</view>

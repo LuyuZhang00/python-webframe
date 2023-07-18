@@ -1,0 +1,4 @@
+
+
+
+<view bindtap="getTopic" >{{topicText}}</view>

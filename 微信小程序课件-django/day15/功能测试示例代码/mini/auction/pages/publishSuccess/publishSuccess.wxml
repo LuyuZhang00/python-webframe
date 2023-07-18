@@ -1,0 +1,11 @@
+<!--pages/publishSuccess/publishSuccess.wxml-->
+<view class="container">
+    <view class="title"> 
+      <icon type="success"></icon> 
+      <text>发布成功</text>
+      </view>
+    <view class="choose">
+      <navigator class="btn" open-type="navigateBack">继续发布</navigator>
+      <navigator class="btn" url="/pages/index/index" open-type="switchTab">查看动态</navigator>
+    </view>
+</view>

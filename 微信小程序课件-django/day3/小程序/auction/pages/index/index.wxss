@@ -1,0 +1,73 @@
+/* pages/index/index.wxss */
+.c1{
+  color: red;
+}
+
+.menu-1 image,.menu-2 image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}
+
+
+.menu-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.menu-2{
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.menu-2 .item{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+
+
+.auction .item{
+
+}
+
+.auction .item .title{
+  font-size: 50rpx;
+  font-weight: 600;
+}
+
+.auction .item .tips{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30rpx;
+  color: #8c8c8c;
+}
+.auction .item .big{
+  height: 400rpx;
+  overflow: hidden;
+}
+
+.auction .item .big image{
+  width: 100%;
+  height: 100%;
+}
+
+.auction .item .small{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.auction .item .small image{
+  height: 100rpx;
+  width: 100rpx;
+  padding-right: 20rpx;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" placeholder="请输入内容" id="txtUser"/>
+<input type="button" value="点击添加" onclick="addCityInfo()">
+<ul id="city">
+
+</ul>
+
+<script type="text/javascript">
+    function addCityInfo() {
+        // 1.找到输入标签
+        var txtTag = document.getElementById("txtUser");
+
+        // 2.获取input框中用户输入的内容
+        var newString = txtTag.value;
+
+        // 判断用户输入是否为空，只有不为空才能继续。
+        if (newString.length > 0) {
+            // 3.创建标签 <li></li> 中间的文本信息就是用户输入的内容
+            var newTag = document.createElement("li");
+            newTag.innerText = newString;
+
+            // 4.标签添加到ul中
+            var parentTag = document.getElementById("city");
+            parentTag.appendChild(newTag);
+
+            // 3.将input框内容清空
+            txtTag.value = "";
+        }else{
+            alert("输入不能为空");
+        }
+
+    }
+
+</script>
+</body>
+</html>

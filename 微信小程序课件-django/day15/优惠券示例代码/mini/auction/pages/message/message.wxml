@@ -1,0 +1,39 @@
+<!--pages/message/message.wxml-->
+<view class="menu-view">
+  <view class="item">
+    <image src="/static/images/icon/like_collect_icon_show.png"></image>
+    <text>赞和收藏</text>
+  </view>
+  <view class="item">
+    <image src="/static/images/icon/visituser_icon_show.png"></image>
+    <text>最近来访</text>
+  </view>
+  <view class="item">
+    <image src="/static/images/icon/comment_mention_icon_show.png"></image>
+    <text>评论和@</text>
+  </view>
+</view>
+<view class="msg-list-vew">
+  <view class="item">
+    <image class="avatar" src="/static/images/icon/comment_mention_icon_show.png"></image>
+    <view class="msg">
+      <view class="row">
+        <view class="title">系统消息</view>
+        <view class="date">2020-01-01</view>
+      </view>
+      <view class="summary">你阿斯顿发送到发送到发送到发斯蒂芬你阿斯顿发送到发送到发送到发斯蒂芬</view>
+    </view>
+
+  </view>
+  <view class="item">
+    <image class="avatar" src="/static/images/icon/comment_mention_icon_show.png"></image>
+    <view class="msg">
+      <view class="row">
+        <view class="title">系统消息</view>
+        <view class="date">2020-01-01</view>
+      </view>
+      <view class="summary">你阿斯顿发送到发送到发送到发斯蒂芬</view>
+    </view>
+  </view>
+</view>
+<tabbar selected="{{3}}"></tabbar>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>姓名</th>
+        <th>年龄</th>
+    </tr>
+    </thead>
+    <tbody id="body">
+
+    </tbody>
+</table>
+
+<script type="text/javascript">
+
+    // 网络请求获取，写入到页面上。
+    var dataList = [
+        {id: 1, name: "郭智1", age: 19},
+        {id: 2, name: "郭智2", age: 19},
+        {id: 3, name: "郭智3", age: 19},
+        {id: 4, name: "郭智4", age: 19},
+        {id: 5, name: "郭智5", age: 19},
+    ];
+    for (var idx in dataList) {
+        var info = dataList[idx];
+
+        var tr = document.createElement("tr");
+        for (var key in info) {
+            var text = info[key];
+            var td = document.createElement('td');
+            td.innerText = text;
+            tr.appendChild(td);
+        }
+
+        var bodyTag = document.getElementById("body");
+        bodyTag.appendChild(tr);
+    }
+
+</script>
+</body>
+</html>

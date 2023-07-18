@@ -1,0 +1,70 @@
+<view class="container">
+  <view class="banner">
+    <image src="/static/images/auction/hh.png"></image>
+  </view>
+  <view class="tips">
+    <view class="top">
+      <view>
+        <view class="title">汉唐紫金壶专场</view>
+        <view>
+          <text class="status">预展中</text>
+          <text class="time">距离开始 34时 42分 33秒</text>
+        </view>
+      </view>
+      <view class="share">
+        <image src="/static/images/icon/share.png"></image>
+        <text>分享</text>
+      </view>
+    </view>
+    <view class="others">
+      <view>拍品：16件</view>
+      <view>出价：0次</view>
+      <view>围观：992次</view>
+    </view>
+  </view>
+  <view class="auction-list">
+    <view class="title">本期拍品</view>
+   
+     <view class="item">
+      <view class="left-image">
+        <image src="/static/images/auction/lg.png"></image>
+        <view class="range">
+          <view class="txt-group">
+            <label class="zh">加价幅度</label>
+            <label class="en"> | BIDS</label>
+          </view>
+          <view>
+          <label class="money">100</label> 元/次
+          </view>
+        </view>
+      </view>
+      <view class="desc">
+        <view class="top">紧固（汉唐款）</view>
+        <view class="center">
+          <view>
+            <view class="txt-group">
+              <label class="zh">起拍价</label>
+              <label class="en"> | RMB</label>
+            </view>
+            <view class="start">¥0</view>
+          </view>
+          <view>
+            <view class="txt-group">
+              <label class="zh">市场参考价</label>
+              <label class="en"> | PRICE</label>
+            </view>
+            <view class="price">¥1800 ~ ¥3000</view>
+          </view>
+        </view>
+        <view class="bottom" bindtap="payDeposit">
+          <label>缴纳保证金</label>
+        </view>
+      </view>
+    </view>
+
+
+    <view class="footer">
+      <label>- 已经到底了 - </label>
+    </view>
+  </view>
+</view>

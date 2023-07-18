@@ -1,0 +1,15 @@
+/* pages/page1/page1.wxss */
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.container .item{
+  width: 50%;
+  overflow: hidden;
+}
+
+.container .item image{
+  width: 100%;
+}

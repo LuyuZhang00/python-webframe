@@ -1,0 +1,46 @@
+/* pages/myCoupon/myCoupon.wxss */
+page{
+background-color:#F5F5F5;
+}
+
+.header{
+  padding: 40rpx 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.header .active{
+  color:#3CB371;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 40rpx;
+  height: 200rpx;
+  border-bottom: 1px dotted rgb(175, 174, 174);
+}
+.item .cover{
+  width: 200rpx;
+  height: 200rpx;
+}
+.item .cover image{
+  width: 100%;
+  height: 100%;
+}
+.item .info{
+  padding: 0 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item .info .big{
+  font-size: 35rpx;
+  font-weight: 500;
+}
+.item .info .small{
+  font-size: 28rpx;
+}

@@ -1,0 +1,13 @@
+/* pages/topic/topic.wxss */
+.container{
+  padding: 0 40rpx;
+}
+.row{
+  font-size: 35rpx;
+  padding: 40rpx;
+  border-bottom: 1rpx solid #ddd;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

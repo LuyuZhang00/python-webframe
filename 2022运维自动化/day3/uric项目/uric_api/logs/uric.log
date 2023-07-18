@@ -1,0 +1,318 @@
+INFO 2022-06-12 08:24:09,271 autoreload:637 Watching for file changes with StatReloader
+WARNING 2022-06-12 08:24:33,836 logs:21 请求路径: /home/test 耗时0.8511490821838379秒
+INFO 2022-06-12 08:24:33,838 basehttp:161 "GET /home/test HTTP/1.1" 200 5162
+INFO 2022-06-12 08:49:48,560 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 08:49:51,486 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:50:08,862 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 08:50:13,110 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:50:57,775 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/home/views.py changed, reloading.
+INFO 2022-06-12 08:50:59,392 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:51:12,564 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/home/views.py changed, reloading.
+INFO 2022-06-12 08:51:14,596 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:51:19,323 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/home/views.py changed, reloading.
+INFO 2022-06-12 08:51:21,834 autoreload:637 Watching for file changes with StatReloader
+ERROR 2022-06-12 08:51:46,821 exceptions:26 [<home.views.TestView object at 0x10b626510>] mysql连接失败
+ERROR 2022-06-12 08:51:46,892 log:230 Insufficient Storage: /home/test
+ERROR 2022-06-12 08:51:46,894 basehttp:161 "GET /home/test HTTP/1.1" 507 5200
+INFO 2022-06-12 08:51:46,979 basehttp:161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:46,990 basehttp:161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:46,996 basehttp:161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,000 basehttp:161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,001 basehttp:161 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,003 basehttp:161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,120 basehttp:161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,125 basehttp:161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,131 basehttp:161 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,288 basehttp:161 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,290 basehttp:161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2022-06-12 08:53:58,443 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 08:54:02,223 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:54:29,067 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 08:54:30,474 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:55:04,103 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/__init__.py changed, reloading.
+INFO 2022-06-12 08:55:06,596 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:55:34,992 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 08:55:36,798 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:13:16,911 autoreload:637 Watching for file changes with StatReloader
+ERROR 2022-06-12 09:13:22,644 exception:101 Invalid HTTP_HOST header: 'api.uric.cn:8000'. You may need to add 'api.uric.cn' to ALLOWED_HOSTS.
+WARNING 2022-06-12 09:13:23,612 log:230 Bad Request: /
+WARNING 2022-06-12 09:13:23,633 basehttp:161 "GET / HTTP/1.1" 400 63604
+ERROR 2022-06-12 09:13:24,366 exception:101 Invalid HTTP_HOST header: 'api.uric.cn:8000'. You may need to add 'api.uric.cn' to ALLOWED_HOSTS.
+WARNING 2022-06-12 09:13:24,605 log:230 Bad Request: /favicon.ico
+WARNING 2022-06-12 09:13:24,614 basehttp:161 "GET /favicon.ico HTTP/1.1" 400 63659
+INFO 2022-06-12 09:14:00,906 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:14:06,272 autoreload:637 Watching for file changes with StatReloader
+WARNING 2022-06-12 09:14:08,766 log:230 Not Found: /
+WARNING 2022-06-12 09:14:08,767 basehttp:161 "GET / HTTP/1.1" 404 2168
+WARNING 2022-06-12 09:14:09,163 log:230 Not Found: /favicon.ico
+WARNING 2022-06-12 09:14:09,191 basehttp:161 "GET /favicon.ico HTTP/1.1" 404 2219
+ERROR 2022-06-12 09:14:24,954 exceptions:26 [<home.views.TestView object at 0x10d95b250>] mysql连接失败
+ERROR 2022-06-12 09:14:25,103 log:230 Insufficient Storage: /home/test
+ERROR 2022-06-12 09:14:25,105 basehttp:161 "GET /home/test HTTP/1.1" 507 5200
+INFO 2022-06-12 09:14:25,141 basehttp:161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2022-06-12 09:14:25,157 basehttp:161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2022-06-12 09:14:25,160 basehttp:161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2022-06-12 09:14:25,162 basehttp:161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2022-06-12 09:14:25,163 basehttp:161 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2022-06-12 09:14:25,232 basehttp:161 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2022-06-12 09:14:25,234 basehttp:161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2022-06-12 09:14:25,238 basehttp:161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2022-06-12 09:14:25,242 basehttp:161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2022-06-12 09:14:25,273 basehttp:161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2022-06-12 09:14:25,355 basehttp:161 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2022-06-12 09:14:37,703 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/home/views.py changed, reloading.
+INFO 2022-06-12 09:14:41,686 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:14:43,110 basehttp:161 "GET /home/test HTTP/1.1" 200 5162
+INFO 2022-06-12 09:21:38,072 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/urls.py changed, reloading.
+INFO 2022-06-12 09:21:41,428 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:21:58,985 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/urls.py changed, reloading.
+INFO 2022-06-12 09:22:01,524 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:22:52,494 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/urls.py changed, reloading.
+INFO 2022-06-12 09:22:56,259 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:22:59,371 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-12 09:23:01,834 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:23:08,460 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-12 09:23:11,580 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:23:16,592 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-12 09:23:18,012 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:25:16,353 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:25:19,574 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:27:14,669 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-12 09:27:16,239 autoreload:637 Watching for file changes with StatReloader
+ERROR 2022-06-12 09:27:43,881 exception:101 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2022-06-12 09:27:44,052 log:230 Bad Request: /host/list
+WARNING 2022-06-12 09:27:44,056 basehttp:161 "GET /host/list HTTP/1.1" 400 64232
+INFO 2022-06-12 09:28:08,472 basehttp:161 "GET /host/list HTTP/1.1" 200 59
+INFO 2022-06-12 09:28:39,467 basehttp:161 "GET /host/list HTTP/1.1" 200 59
+INFO 2022-06-12 09:31:00,204 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:31:01,867 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:31:25,797 basehttp:161 "GET /host/list HTTP/1.1" 200 59
+INFO 2022-06-12 09:35:23,669 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:35:27,791 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:36:06,451 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:36:08,508 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:36:11,911 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:36:15,823 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:36:25,362 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:36:27,593 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:36:50,392 basehttp:161 "GET /host/list HTTP/1.1" 200 59
+INFO 2022-06-12 09:37:26,743 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:37:28,768 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:40:54,786 basehttp:161 "GET /host/list HTTP/1.1" 200 59
+INFO 2022-06-12 09:41:37,566 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:41:39,235 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:41:55,586 basehttp:161 "GET /host/list HTTP/1.1" 200 59
+INFO 2022-06-12 09:46:55,960 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:46:57,844 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:50:47,149 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 163
+INFO 2022-06-12 09:51:15,855 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 163
+INFO 2022-06-12 09:51:56,928 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 163
+INFO 2022-06-12 09:54:38,895 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:54:42,772 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:54:58,643 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:55:00,050 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:55:18,007 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:55:48,342 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 0
+INFO 2022-06-12 09:56:22,054 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:56:23,193 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:56:44,319 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 0
+INFO 2022-06-12 09:57:16,222 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:57:20,494 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:58:04,493 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 0
+WARNING 2022-06-12 09:58:04,510 log:230 Method Not Allowed: /host/list
+WARNING 2022-06-12 09:58:04,512 basehttp:161 "DELETE /host/list HTTP/1.1" 405 43
+INFO 2022-06-12 09:58:35,451 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:58:55,395 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 0
+WARNING 2022-06-12 09:58:55,438 log:230 Method Not Allowed: /host/list
+WARNING 2022-06-12 09:58:55,440 basehttp:161 "DELETE /host/list HTTP/1.1" 405 43
+INFO 2022-06-12 10:00:08,348 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 10:00:09,289 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 10:00:15,467 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 10:00:19,220 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 10:01:43,832 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 10:01:47,175 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 10:02:11,586 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 0
+WARNING 2022-06-12 10:02:11,619 log:230 Method Not Allowed: /host/list
+WARNING 2022-06-12 10:02:11,620 basehttp:161 "DELETE /host/list HTTP/1.1" 405 43
+INFO 2022-06-12 10:03:33,638 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 10:03:36,739 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 10:03:52,455 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 10:03:54,372 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 10:03:56,767 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 10:03:57,649 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 10:04:32,015 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 0
+INFO 2022-06-12 10:04:32,032 basehttp:161 "DELETE /host/list HTTP/1.1" 200 9
+INFO 2022-06-19 01:50:04,401 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:12:11,059 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 02:12:12,469 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:13:06,351 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/urls.py changed, reloading.
+INFO 2022-06-19 02:13:08,121 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:14:43,670 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-19 02:14:45,880 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:18:54,123 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-19 02:18:55,258 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:19:36,674 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-19 02:19:39,460 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:20:44,269 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-19 02:20:47,365 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:24:49,922 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 02:24:53,351 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:31:57,906 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-19 02:32:00,314 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 04:51:05,137 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 04:51:06,057 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 04:51:50,444 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 04:51:51,198 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 04:53:00,413 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 04:53:01,312 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 05:24:51,012 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/home/views.py changed, reloading.
+INFO 2022-06-19 05:24:52,648 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 05:25:30,809 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/authentication.py changed, reloading.
+INFO 2022-06-19 05:25:31,975 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 05:46:21,852 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 05:46:22,787 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 05:50:13,945 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py changed, reloading.
+INFO 2022-06-19 05:50:15,031 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:12:14,007 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:12:19,905 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:13:33,255 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:13:36,877 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:24:05,315 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:24:10,194 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:25:11,830 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:25:16,236 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:25:55,691 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:25:56,808 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:26:31,329 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:26:33,530 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:28:25,603 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:28:30,137 autoreload:637 Watching for file changes with StatReloader
+ERROR 2022-06-19 09:28:37,921 exception:101 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2022-06-19 09:28:38,049 log:230 Bad Request: /host/list/
+WARNING 2022-06-19 09:28:38,050 basehttp:161 "GET /host/list/ HTTP/1.1" 400 64646
+WARNING 2022-06-19 09:29:09,011 log:230 Not Found: /host/list/
+WARNING 2022-06-19 09:29:09,011 basehttp:161 "GET /host/list/ HTTP/1.1" 404 2478
+WARNING 2022-06-19 09:29:14,910 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:29:14,912 basehttp:161 "GET /host/list HTTP/1.1" 401 58
+INFO 2022-06-19 09:29:59,453 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:30:00,649 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:30:04,705 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:30:09,153 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:30:59,504 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework_jwt/authentication.py changed, reloading.
+INFO 2022-06-19 09:31:02,027 autoreload:637 Watching for file changes with StatReloader
+WARNING 2022-06-19 09:31:14,551 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:31:14,552 basehttp:161 "GET /host/list HTTP/1.1" 401 58
+INFO 2022-06-19 09:32:19,734 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:32:24,126 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:32:32,745 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:33:16,483 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:33:19,563 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:33:23,196 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:33:27,093 autoreload:637 Watching for file changes with StatReloader
+ERROR 2022-06-19 09:33:28,620 log:230 Internal Server Error: /host/list
+Traceback (most recent call last):
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+AttributeError: 'IsAuthenticated' object has no attribute 'authenticate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+rest_framework.request.WrappedAttributeError: 'IsAuthenticated' object has no attribute 'authenticate'
+ERROR 2022-06-19 09:33:28,661 basehttp:161 "GET /host/list HTTP/1.1" 500 125352
+INFO 2022-06-19 09:34:02,318 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:34:07,745 autoreload:637 Watching for file changes with StatReloader
+WARNING 2022-06-19 09:34:12,604 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:34:12,608 basehttp:161 "GET /host/list HTTP/1.1" 401 58
+INFO 2022-06-19 09:35:57,891 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:36:00,445 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:36:19,948 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:36:22,512 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:37:14,660 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:37:18,103 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:37:24,720 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:37:27,634 autoreload:637 Watching for file changes with StatReloader
+WARNING 2022-06-19 09:37:32,880 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:37:32,881 basehttp:161 "GET /host/list HTTP/1.1" 401 58
+WARNING 2022-06-19 09:37:49,676 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:37:49,686 basehttp:161 "GET /host/list HTTP/1.1" 401 35
+WARNING 2022-06-19 09:40:52,667 log:230 Not Found: /users
+WARNING 2022-06-19 09:40:52,684 basehttp:161 "GET /users HTTP/1.1" 404 2412
+INFO 2022-06-19 09:42:13,410 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/urls.py changed, reloading.
+INFO 2022-06-19 09:42:16,783 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:42:20,781 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/urls.py changed, reloading.
+INFO 2022-06-19 09:42:23,318 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:44:03,544 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/urls.py changed, reloading.
+INFO 2022-06-19 09:44:07,439 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:44:16,706 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/urls.py changed, reloading.
+INFO 2022-06-19 09:44:22,617 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:47:18,749 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:47:20,011 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:47:26,305 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:47:28,009 autoreload:637 Watching for file changes with StatReloader
+ERROR 2022-06-19 09:47:33,836 log:230 Internal Server Error: /users/login
+Traceback (most recent call last):
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/middleware/common.py", line 95, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to api.uric.cn:8000/users/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2022-06-19 09:47:33,838 basehttp:161 "POST /users/login HTTP/1.1" 500 65232
+INFO 2022-06-19 09:47:45,943 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-19 09:48:55,566 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:48:55,567 basehttp:161 "GET /host/list HTTP/1.1" 401 35
+INFO 2022-06-19 09:49:11,320 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:49:23,514 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:49:25,359 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:49:27,314 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:49:28,943 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:49:44,327 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:49:45,747 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:50:28,393 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:52:27,940 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:52:38,740 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:52:42,926 autoreload:637 Watching for file changes with StatReloader
+WARNING 2022-06-19 09:54:29,615 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:54:29,618 basehttp:161 "GET /host/list HTTP/1.1" 401 35
+INFO 2022-06-19 10:01:08,725 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-19 10:01:10,544 autoreload:637 Watching for file changes with StatReloader

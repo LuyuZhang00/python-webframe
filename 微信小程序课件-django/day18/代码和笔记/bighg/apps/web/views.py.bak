@@ -1,0 +1,29 @@
+import os
+import shutil
+from django.shortcuts import render
+from utils.repository import GitRepository
+from utils.ssh import SSHProxy
+from django.conf import settings
+
+def fetch_code(request):
+    if request.method == 'POST':
+        # 获取地址
+        # 1. 下载代码
+        repo = request.POST.get('repo')
+        project_name = request.POST.get('project')
+        local_path = os.path.join(settings.HG_CODE_BASE_PATH,project_name)
+        git = GitRepository(local_path, repo)
+
+        # 2. 压缩文件
+        abs_file_path = shutil.make_archive(
+            base_name=os.path.join(settings.HG_ZIPFILE_BASE_PATH,project_name),  # 压缩包文件路劲
+            format='zip',  # “zip”, “tar”
+            root_dir=local_path  # 被压缩的文件目录
+        )
+        print(abs_file_path)
+
+        # 3. 上传到指定服务器
+        with SSHProxy('10.211.55.25', 22, 'root', '/Users/wupeiqi/.ssh/id_rsa') as proxy:
+            proxy.upload(abs_file_path, '/data/x1.zip')
+
+    return render(request,'fetch_code.html')

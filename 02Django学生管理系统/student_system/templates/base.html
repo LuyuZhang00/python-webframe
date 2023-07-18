@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>{% block title %}{% endblock %}</title>
+      {% load static %}
+      <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+      <script src="{% static 'js/jquery.min.js' %}"></script>
+      <!--bootstrap核心js-->
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  </head>
+  <body>
+  <div class="main-container">
+    <div class="top-container" >
+        <div class="newIndex-header container" style="background-image: url('/static/images/logo.png');background-size:40%">
+            <!--nav_menu-->
+        <ul id="nav_menu" class="nav_menu clearfix">
+            <li class="nLi no">
+                <h3>
+                    <a  href="/">首页</a>
+                </h3>
+            </li>
+            <li class="nLi">
+                <h3>
+                    <a  href="/about">关于我们</a>
+                </h3>
+            </li>
+            <li class="nLi">
+                <h3>
+                    <a  href="/contact">联系我们</a>
+                </h3>
+            </li>
+            <li class="nLi login" >
+                <h3 style="min-width: 100px;">
+                    <a href="javascript:void(0);">
+                        {% if request.session.uid %}{{ request.session.username }}{% else %}登 录{% endif %}
+                    </a>
+                </h3>
+                <ul class="sub" style="overflow: hidden; display: none;">
+                  {% if request.session.uid %}
+                      <li><a href="/logout">注销</a></li>
+                      <li id="resetPassword"><a href="/change_pwd">修改密码</a></li>
+                  {% else %}
+                      <li><a id="signInNormal" href="/login">密码登录</a></li>
+                  {% endif %}
+                </ul>
+            </li>
+        </ul>
+        <!--end nav_menu -->
+        </div>
+    </div>
+    {% block content %} {% endblock %}
+    <div class="footer">
+    <div class="footer-nav">
+        <a href="/index">首页</a>|
+        <a href="http://www.mingrisoft.com">明日学院官网</a>|
+        <a href="https://mall.jd.com/index-1000117165.html">明日科技京东自营店</a>|
+        <a href="https://shop573124214.taobao.com">明日科技官方淘宝店铺</a>
+    </div>
+    <div id="j_footer" class="copy">吉林省明日科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>吉ICP备10002740号-2 &nbsp;增值电信业务经营许可证 吉B2-20150068
+    </div>
+  </div>
+  </div>
+  <script type="text/javascript">
+    $(function(){
+        $(".login").mouseover(function(){
+                $(".sub").show();
+            }).mouseout(function(){
+                $(".sub").hide();
+            })
+        })
+</script>
+  </body>
+</html>

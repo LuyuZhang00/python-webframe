@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .menus{
+            width: 200px;
+            border: 1px solid red;
+        }
+        .menus .header{
+            background-color: gold;
+            padding: 20px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menus">
+        <div class="header" onclick="myFunc()">大标题</div>
+        <div class="item">内容</div>
+    </div>
+
+    <script type="text/javascript">
+        function myFunc() {
+            //alert("你好呀");
+            confirm("是否要继续？")
+        }
+    </script>
+</body>
+</html>

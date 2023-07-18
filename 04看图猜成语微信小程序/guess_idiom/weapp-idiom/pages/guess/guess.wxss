@@ -1,0 +1,60 @@
+/**index.wxss**/
+
+.level {
+  color: #ffffff;
+  padding: 4px 30px;
+  font-size: 16px;
+  background-color: #8b458f;
+}
+
+.image {
+  display: flex;
+  width: 480rpx;
+  height: 320rpx;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px #eee solid;
+}
+
+.showPanel {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.showBox {
+  display: inline-table;
+  text-align: center;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 5px;
+  margin: 4px;
+}
+
+.showWord {
+  margin: 1rpx;
+  font-size: 20px;
+  line-height: 90rpx;
+  font-weight: bold;
+  color: #e65f71;
+}
+
+.chosePanel {
+  margin-top: 20rpx;
+  text-align: center;
+}
+
+.choseWord {
+  margin: 1rpx;
+  font-size: 20px;
+  line-height: 90rpx;
+  color: #322576;
+  font-weight: bold;
+}
+
+.bg-chose {
+  background-color: #c7a4b4;
+}
+
+.sharePanel {
+  margin-top: 30rpx;
+}

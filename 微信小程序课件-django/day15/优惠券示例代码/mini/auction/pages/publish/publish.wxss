@@ -1,0 +1,86 @@
+/* pages/publish/publish.wxss */
+
+.container{
+  padding: 40rpx;
+  padding-bottom: 140rpx;
+}
+
+.chose-image{
+  width: 100rpx;
+  padding: 10rpx 0;
+  border: 1rpx solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #8c8c8c;
+  font-size: 28rpx;
+}
+
+.chose-image image{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.image-list{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+  flex-wrap: wrap;
+}
+.image-list .item{
+  position:relative;
+  padding: 15rpx;
+}
+.image-list .item image{
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.image-list .item .rm{
+  position: absolute;
+  right: -10rpx;
+  top: -10rpx; 
+}
+
+.text{
+  margin: 30rpx 0;
+}
+
+
+
+.function-view{
+  font-size: 28rpx;
+}
+
+.function-view .row{
+  padding: 30rpx 0;
+  border-bottom: 1px solid #efefef;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.function-view .row .right{
+  color: #8c8c8c;
+}
+.function-view .row .go-icon{
+  margin: 0 20rpx;
+  width: 16rpx;
+  height: 16rpx;
+}
+
+
+.publish-btn{
+  position: fixed;
+  background-color: #4cc5b6; 
+  color:#fff;
+  width: 100%;
+  bottom: 0;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

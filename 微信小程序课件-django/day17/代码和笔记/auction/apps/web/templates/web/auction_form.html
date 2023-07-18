@@ -1,0 +1,79 @@
+{% extends 'web/layout.html' %}
+{% load staticfiles %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'web/datetimepicker/bootstrap-datetimepicker.min.css' %}">
+    <style>
+        input[type='file'] {
+            min-height: 34px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <form method="post" novalidate enctype="multipart/form-data" autocomplete="off">
+            {% csrf_token %}
+            <div class="panel panel-default">
+                <div class="panel-heading clearfix">拍卖专场
+                    <input type="submit" class="btn btn-success btn-xs" value="保 存" style="float: right;">
+                </div>
+                <div class="panel-body">
+                    <div class="form-horizontal clearfix">
+                        {% for field in form %}
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="{{ field.id_for_label }}"
+                                           class="col-sm-3 control-label">{{ field.label }}</label>
+                                    <div class="col-sm-9">
+                                        {{ field }}
+                                        <span style="color: red;">{{ field.errors.0 }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'web/datetimepicker/bootstrap-datetimepicker.min.js' %}"></script>
+    <script src="{% static 'web/datetimepicker/bootstrap-datetimepicker.zh-CN.js' %}"></script>
+    <script>
+        Date.prototype.Format = function (fmt) { //author: meizz
+            var o = {
+                "M+": this.getMonth() + 1, //月份
+                "d+": this.getDate(), //日
+                "h+": this.getHours(), //小时
+                "m+": this.getMinutes(), //分
+                "s+": this.getSeconds(), //秒
+                "q+": Math.floor((this.getMonth() + 3) / 3), //季度
+                "S": this.getMilliseconds() //毫秒
+            };
+            if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+            for (var k in o)
+                if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+            return fmt;
+        };
+
+        $(function () {
+            initDatepicker();
+        });
+
+        function initDatepicker() {
+            $('#id_preview_start_time,#id_preview_end_time,#id_auction_start_time,#id_auction_end_time').datetimepicker({
+                language: "zh-CN",
+                minView: "hour", // month
+                sideBySide: true,
+                format: 'yyyy-mm-dd hh:ii',
+                bootcssVer: 3,
+                startDate: new Date(),
+                autoclose: true
+            })
+        }
+    </script>
+
+{% endblock %}

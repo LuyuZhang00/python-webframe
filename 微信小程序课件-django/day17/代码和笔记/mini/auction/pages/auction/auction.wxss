@@ -1,0 +1,147 @@
+/* pages/auction/auction.wxss */
+
+.auction-item{
+  margin-top: 40rpx;
+  width: 710rpx;
+  padding-right: 20rpx;
+  padding-left: 20rpx;
+  
+  padding-bottom: 36rpx;
+  line-height: 1;
+  border-bottom: 18rpx solid #f5f5f5;
+}
+
+.title{
+  line-height: 44rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.memo{
+  margin-top: 12rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.memo .status{
+  padding: 0 12rpx;
+  height: 36rpx;
+  border-radius: 18rpx;
+  color: #fff;
+  font-size: 20rpx;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+}
+
+.memo .status.auction{
+  background-color: #d71e61;
+}
+
+.memo .status.preview{
+  background-color: #00c8b6;
+}
+
+.memo .status.stop{
+  background-color: #ccc;
+}
+
+
+.memo .look-num{
+  margin-left: auto;
+  font-size: 24rpx;
+  color: #8c8c8c;
+  font-weight: 400;
+}
+
+.cover-view{
+  margin-top: 20rpx;
+  position: relative;
+}
+
+.cover-view .view-stop{
+  border-radius: 6rpx;
+  overflow: hidden;
+  position: absolute;
+  width: 710rpx;
+  height: 397rpx;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-view .view-stop .money-title-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-view .view-stop .left-line-view {
+  width: 90rpx;
+  height: 2rpx;
+  background-color: #fff;
+}
+
+.cover-view .view-stop .money-title-text {
+  font-size: 28rpx;
+  line-height: 28rpx;
+  color: #fff;
+  font-weight: bold;
+}
+
+.cover-view .view-stop .money-num-view {
+
+  margin-top: 20rpx;
+  font-size: 40rpx;
+  line-height: 40rpx;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
+.cover-view .cover-img{
+  width: 710rpx;
+  height: 397rpx;
+}
+
+
+.list-view{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-view .pic{
+  width: 126rpx;
+  height: 126rpx;
+  overflow: hidden;
+  border-radius: 6rpx;
+  margin-right: 6rpx;
+}
+.list-view .number{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 126rpx;
+  width: 50rpx;
+  border-top-left-radius: 6rpx;
+  border-bottom-left-radius: 6rpx;
+  background-color: #000;
+}
+
+.list-view .number .txt{
+  color: #fff;
+  width: 22rpx;
+  font-size: 22rpx;
+  font-weight: 400;
+  text-align: center
+}

@@ -1,0 +1,49 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.min.css' %}">
+</head>
+<body>
+
+<div style="width: 500px;margin: 50px auto;">
+    <form class="form-horizontal" method="post" novalidate>
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">用户名：</label>
+            <div class="col-sm-10">
+                {{ form.name }}
+                {{ form.errors.name.0 }}
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="password" class="col-sm-2 control-label">密码：</label>
+            <div class="col-sm-10">
+                {{ form.password }}
+                {{ form.errors.password.0 }}
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                    <label>
+                       {{ form.rmb }} 一周免登录
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary">登录</button>
+            </div>
+        </div>
+    </form>
+    <div>
+        <p>用户名：周杰伦  密码：123</p>
+        <p>用户名：吴彦祖  密码：123</p>
+    </div>
+</div>
+</body>
+</html>

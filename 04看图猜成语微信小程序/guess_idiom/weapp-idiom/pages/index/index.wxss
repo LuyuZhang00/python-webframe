@@ -1,0 +1,26 @@
+/**index.wxss**/
+
+.logo {
+  width: 100%;
+  height: 600rpx;
+  background-color: #c7a4b4;
+  border: 6px #eeeeee solid;
+  border-radius: 30px;
+}
+
+.userinfo-level {
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  display: block;
+  color: #fff;
+}

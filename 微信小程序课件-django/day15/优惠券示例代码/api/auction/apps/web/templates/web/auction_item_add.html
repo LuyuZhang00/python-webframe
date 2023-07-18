@@ -1,0 +1,350 @@
+{% extends 'web/layout.html' %}
+{% load staticfiles %}
+{% block css %}
+    <style>
+        input[type='file'] {
+            min-height: 34px;
+        }
+
+        .file-view {
+            height: 80px;
+            width: 80px;
+            padding: 2px;
+            border: 1px dotted #dddddd;
+            position: relative;
+        }
+
+        .file-view .view-file {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            z-index: 1001
+        }
+
+        .file-view .view-img {
+            height: 100%;
+            width: 100%;
+            border: 0;
+            overflow: hidden;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .field-error {
+            color: red;
+            position: absolute;
+            font-size: 12px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+
+        <div class="panel panel-default">
+            <div class="panel-heading clearfix">{{ auction_object.title }} - 创建拍品
+                <a class="btn btn-primary btn-xs" style="float: right;" id="btnSave">
+                    <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span> 保 存
+                </a>
+            </div>
+            <div class="panel-body">
+                <div class="form-horizontal clearfix">
+                    <form id="itemForm" >
+                        {% for field in form %}
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="{{ field.id_for_label }}"
+                                           class="col-sm-3 control-label">{{ field.label }}</label>
+                                    <div class="col-sm-9" style="position: relative;">
+                                        {{ field }}
+                                        <span class="field-error">{{ field.errors.0 }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </form>
+
+                </div>
+                <hr/>
+                <div class="clearfix">
+                    <div class="col-sm-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">拍品规格</div>
+                            <div class="panel-body">
+                                <div class="form-inline">
+                                    <div class="form-group" style="position: relative;">
+                                        <input type="text" class="form-control input-sm" placeholder="项" id="key">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control input-sm" placeholder="值" id="value">
+                                    </div>
+                                    <a class="btn btn-success btn-sm" id="btnAddSpecification">
+                                        <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> 添 加
+                                    </a>
+                                </div>
+                            </div>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>项</th>
+                                    <th>对应值</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody id="areaSpecification">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">拍品详细图片</div>
+                            <div class="panel-body">
+
+                                <a class="btn btn-success btn-sm" id="btnAddImage">
+                                    <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> 添 加
+                                </a>
+                                <div id="imageTemplate" style="display: none;">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="file-view">
+                                                    <input class="view-file" type="file" name="img">
+                                                    <img class="view-img"
+                                                         src="{% static 'web/images/default-image.png' %}">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <input type="checkbox">
+                                                <input type="text" name="show" hidden>
+                                            </td>
+                                            <td>
+                                                <a class="btn btn-danger btn-xs delete">删除</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                            </div>
+                            <form id="imageForm">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>图片</th>
+                                        <th>是否轮播</th>
+                                        <th>操作</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="areaImage">
+
+
+                                    </tbody>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="loading" class="loading hide">
+        <div class="loading-icon">
+            <img src="{% static 'web/images/loading.gif' %}" alt="">
+        </div>
+    </div>
+{% endblock %}
+
+{% block js %}
+    <script>
+        SUB_HANDLE_COUNT = 0;
+
+        $(function () {
+            bindChangeImageFile();
+
+            bindAddSpecification();
+            bindDeleteSpecification();
+
+            bindAddDetailImage();
+            bindDeleteDetailImage();
+            bindImageCheckBox();
+            bindSave();
+        });
+
+        /**
+         * 图片预览
+         */
+        function bindChangeImageFile() {
+            $('#areaImage').on('change', '.view-file', function () {
+                var fileObject = $(this)[0].files[0];
+                var blob = window.URL.createObjectURL(fileObject);
+                $(this).next().attr('src', blob);
+                $(this).next().load(function () {
+                    window.URL.revokeObjectURL(blob);
+                })
+            })
+        }
+
+        /**
+         * 添加规格
+         */
+        function bindAddSpecification() {
+            $('#btnAddSpecification').click(function () {
+                var info = {
+                    "key": $('#key'),
+                    "value": $('#value')
+                };
+                var tr = $('<tr>');
+                for (var k in info) {
+                    info[k].parent().removeClass('has-error');
+                    var value = info[k].val();
+                    if (value.trim().length < 1) {
+                        info[k].parent().addClass('has-error');
+                        return
+                    }
+                    tr.append($('<td>').text(value).attr('name', k));
+                }
+                tr.append($("<td>").html('<a class="btn btn-danger btn-xs delete">删除</a>'));
+                $("#areaSpecification").append(tr);
+
+                for (var item in info) {
+                    info[item].val('');
+                }
+
+            })
+        }
+
+        /**
+         * 删除规格
+         */
+        function bindDeleteSpecification() {
+            $('#areaSpecification').on('click', '.delete', function () {
+                $(this).parent().parent().remove();
+            })
+        }
+
+        /**
+         * 添加图片详细
+         */
+        function bindAddDetailImage() {
+            $('#btnAddImage').click(function () {
+                $('#imageTemplate tr').clone().appendTo("#areaImage");
+            });
+        }
+
+        /**
+         * 删除图片详细
+         */
+        function bindDeleteDetailImage() {
+            $('#areaImage').on('click', '.delete', function () {
+                $(this).parent().parent().remove();
+            })
+        }
+
+        /**
+         * 保存
+         */
+        function bindSave() {
+            $('#btnSave').click(function () {
+                $('.field-error').text("");
+
+                // 加载层
+                $('#loading').removeClass('hide');
+                SUB_HANDLE_COUNT = 0;
+                var itemFormData = new FormData($('#itemForm')[0]);
+                $.ajax({
+                    type: 'POST',
+                    url: '{% url "auction_item_add" auction_id=auction_object.id %}',
+                    data: itemFormData,
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    dataType: 'JSON',
+                    success: function (res) {
+                        if (!res.status) {
+                            $('#loading').addClass('hide');
+                            $.each(res.errors, function (key, text) {
+                                $('#itemForm').find('[name="' + key + '"]').next().text(text);
+                            });
+                            return
+                        }
+                        // 创建规格
+                        createSpecification(res.data.detail_url, res.data.list_url);
+                        // 创建图片
+                        createImage(res.data.image_url, res.data.list_url);
+                    }
+                })
+            });
+        }
+
+        /**
+         * 创建规则
+         */
+        function createSpecification(url, listUrl) {
+            var dataList = [];
+            $('#areaSpecification').children().each(function () {
+                var info = {};
+                $(this).children().each(function () {
+                    var name = $(this).attr('name');
+                    if (name) {
+                        info[name] = $(this).text();
+                    }
+                });
+                dataList.push(info);
+            });
+            $.ajax({
+                url: url,
+                type: "POST",
+                data: JSON.stringify(dataList),
+                dataType: "JSON",
+                success: function (res) {
+                    ending(res, listUrl);
+                }
+            })
+        }
+
+        /**
+         * 创建图片详细
+         */
+        function createImage(url, listUrl) {
+            var imageForm = new FormData($('#imageForm')[0]);
+            console.log(imageForm);
+            $.ajax({
+                url: url,
+                type: "POST",
+                data: imageForm,
+                cache: false,
+                contentType: false,
+                processData: false,
+                dataType: "JSON",
+                success: function (res) {
+                    ending(res, listUrl);
+                }
+            })
+        }
+
+
+        /**
+         * 绑定修改checkbox
+         */
+        function bindImageCheckBox() {
+            $("#imageForm").on('click', ':checkbox', function () {
+                if ($(this).prop('checked')) {
+                    $(this).next().val('1');
+                } else {
+                    $(this).next().val('');
+                }
+            });
+        }
+
+        function ending(res, listUrl) {
+            SUB_HANDLE_COUNT += 1;
+            if (SUB_HANDLE_COUNT === 2) {
+                location.href = listUrl;
+            }
+        }
+    </script>
+{% endblock %}

@@ -1,0 +1,59 @@
+<!--pages/deposit/deposit.wxml-->
+<view class="container">
+  <view class="goods">
+    <view class="img">
+      <image src="/static/images/auction/lg.png"></image>
+    </view>
+    <view class="detail">
+      <view class="title">鼓子（汉唐款）</view>
+      <view>起拍价 ¥10</view>
+      <view>市场参考价 ¥1800 - ¥2000</view>
+    </view>
+  </view>
+  <view class="deposit">
+    <view>该拍品需要交纳保证金
+      <label class="money">¥100</label>
+    </view>
+    <view>竞拍成功时，保证可以用于抵扣货款。</view>
+    <view>竞拍结束且没拍到竞品时，保证金讲由系统操作原路推到您交纳保金的账户，实际到账时间以各大银行为准。</view>
+  </view>
+  <view class="way">
+    <radio-group>
+
+      <view class="row">
+        <view class="caption">
+          <image class='logo-image' src='/static/images/icon/wechatlogo_icon_show.png'></image>
+          <view>
+            微信支付
+            <label class="recommend">（推荐）</label>
+            <view class="tips">未拍到原路返还</view>
+          </view>
+        </view>
+        <view>
+          <radio></radio>
+        </view>
+      </view>
+
+      <view class="row">
+        <view class="caption">
+          <image class='logo-image' src='/static/images/icon/balancepay_icon_show.png'></image>
+          <view>
+            余额支付
+            <view class="tips">可用余额 ¥0</view>
+          </view>
+        </view>
+        <view>
+          <radio></radio>
+        </view>
+      </view>
+    </radio-group>
+  </view>
+</view>
+
+<view class="pay-now">
+  <view class='bottom-bg-money'>¥100</view>
+  <button class='pay-btn' bindtap='onClickPayNow'>立即支付</button>
+</view>
+
+
+<!-- <cover-view class='toast-view' >支付确认中...</cover-view> -->

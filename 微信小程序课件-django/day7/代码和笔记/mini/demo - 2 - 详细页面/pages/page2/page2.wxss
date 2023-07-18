@@ -1,0 +1,17 @@
+/* pages/page2/page2.wxss */
+
+.container
+{
+    -moz-column-count:2; /* Firefox */
+    -webkit-column-count:2; /* Safari and Chrome */
+    column-count:2;
+
+    -moz-column-gap:20rpx; /* Firefox */
+    -webkit-column-gap:20rpx; /* Safari and Chrome */
+    column-gap:20rpx;
+}
+
+.container .item{
+  break-inside: avoid-column;
+  -webkit-column-break-inside: avoid; /* Safari and Chrome */
+}

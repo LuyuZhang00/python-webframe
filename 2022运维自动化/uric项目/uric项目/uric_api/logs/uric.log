@@ -1,0 +1,2140 @@
+INFO 2022-06-12 08:24:09,271 autoreload:637 Watching for file changes with StatReloader
+WARNING 2022-06-12 08:24:33,836 logs:21 请求路径: /home/test 耗时0.8511490821838379秒
+INFO 2022-06-12 08:24:33,838 basehttp:161 "GET /home/test HTTP/1.1" 200 5162
+INFO 2022-06-12 08:49:48,560 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 08:49:51,486 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:50:08,862 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 08:50:13,110 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:50:57,775 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/home/views.py changed, reloading.
+INFO 2022-06-12 08:50:59,392 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:51:12,564 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/home/views.py changed, reloading.
+INFO 2022-06-12 08:51:14,596 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:51:19,323 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/home/views.py changed, reloading.
+INFO 2022-06-12 08:51:21,834 autoreload:637 Watching for file changes with StatReloader
+ERROR 2022-06-12 08:51:46,821 exceptions:26 [<home.views.TestView object at 0x10b626510>] mysql连接失败
+ERROR 2022-06-12 08:51:46,892 log:230 Insufficient Storage: /home/test
+ERROR 2022-06-12 08:51:46,894 basehttp:161 "GET /home/test HTTP/1.1" 507 5200
+INFO 2022-06-12 08:51:46,979 basehttp:161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:46,990 basehttp:161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:46,996 basehttp:161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,000 basehttp:161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,001 basehttp:161 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,003 basehttp:161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,120 basehttp:161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,125 basehttp:161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,131 basehttp:161 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,288 basehttp:161 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2022-06-12 08:51:47,290 basehttp:161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2022-06-12 08:53:58,443 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 08:54:02,223 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:54:29,067 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 08:54:30,474 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:55:04,103 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/__init__.py changed, reloading.
+INFO 2022-06-12 08:55:06,596 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 08:55:34,992 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 08:55:36,798 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:13:16,911 autoreload:637 Watching for file changes with StatReloader
+ERROR 2022-06-12 09:13:22,644 exception:101 Invalid HTTP_HOST header: 'api.uric.cn:8000'. You may need to add 'api.uric.cn' to ALLOWED_HOSTS.
+WARNING 2022-06-12 09:13:23,612 log:230 Bad Request: /
+WARNING 2022-06-12 09:13:23,633 basehttp:161 "GET / HTTP/1.1" 400 63604
+ERROR 2022-06-12 09:13:24,366 exception:101 Invalid HTTP_HOST header: 'api.uric.cn:8000'. You may need to add 'api.uric.cn' to ALLOWED_HOSTS.
+WARNING 2022-06-12 09:13:24,605 log:230 Bad Request: /favicon.ico
+WARNING 2022-06-12 09:13:24,614 basehttp:161 "GET /favicon.ico HTTP/1.1" 400 63659
+INFO 2022-06-12 09:14:00,906 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:14:06,272 autoreload:637 Watching for file changes with StatReloader
+WARNING 2022-06-12 09:14:08,766 log:230 Not Found: /
+WARNING 2022-06-12 09:14:08,767 basehttp:161 "GET / HTTP/1.1" 404 2168
+WARNING 2022-06-12 09:14:09,163 log:230 Not Found: /favicon.ico
+WARNING 2022-06-12 09:14:09,191 basehttp:161 "GET /favicon.ico HTTP/1.1" 404 2219
+ERROR 2022-06-12 09:14:24,954 exceptions:26 [<home.views.TestView object at 0x10d95b250>] mysql连接失败
+ERROR 2022-06-12 09:14:25,103 log:230 Insufficient Storage: /home/test
+ERROR 2022-06-12 09:14:25,105 basehttp:161 "GET /home/test HTTP/1.1" 507 5200
+INFO 2022-06-12 09:14:25,141 basehttp:161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2022-06-12 09:14:25,157 basehttp:161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2022-06-12 09:14:25,160 basehttp:161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2022-06-12 09:14:25,162 basehttp:161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2022-06-12 09:14:25,163 basehttp:161 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2022-06-12 09:14:25,232 basehttp:161 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2022-06-12 09:14:25,234 basehttp:161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2022-06-12 09:14:25,238 basehttp:161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2022-06-12 09:14:25,242 basehttp:161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2022-06-12 09:14:25,273 basehttp:161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2022-06-12 09:14:25,355 basehttp:161 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2022-06-12 09:14:37,703 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/home/views.py changed, reloading.
+INFO 2022-06-12 09:14:41,686 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:14:43,110 basehttp:161 "GET /home/test HTTP/1.1" 200 5162
+INFO 2022-06-12 09:21:38,072 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/urls.py changed, reloading.
+INFO 2022-06-12 09:21:41,428 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:21:58,985 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/urls.py changed, reloading.
+INFO 2022-06-12 09:22:01,524 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:22:52,494 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/urls.py changed, reloading.
+INFO 2022-06-12 09:22:56,259 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:22:59,371 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-12 09:23:01,834 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:23:08,460 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-12 09:23:11,580 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:23:16,592 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-12 09:23:18,012 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:25:16,353 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:25:19,574 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:27:14,669 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-12 09:27:16,239 autoreload:637 Watching for file changes with StatReloader
+ERROR 2022-06-12 09:27:43,881 exception:101 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2022-06-12 09:27:44,052 log:230 Bad Request: /host/list
+WARNING 2022-06-12 09:27:44,056 basehttp:161 "GET /host/list HTTP/1.1" 400 64232
+INFO 2022-06-12 09:28:08,472 basehttp:161 "GET /host/list HTTP/1.1" 200 59
+INFO 2022-06-12 09:28:39,467 basehttp:161 "GET /host/list HTTP/1.1" 200 59
+INFO 2022-06-12 09:31:00,204 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:31:01,867 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:31:25,797 basehttp:161 "GET /host/list HTTP/1.1" 200 59
+INFO 2022-06-12 09:35:23,669 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:35:27,791 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:36:06,451 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:36:08,508 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:36:11,911 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:36:15,823 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:36:25,362 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:36:27,593 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:36:50,392 basehttp:161 "GET /host/list HTTP/1.1" 200 59
+INFO 2022-06-12 09:37:26,743 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 09:37:28,768 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:40:54,786 basehttp:161 "GET /host/list HTTP/1.1" 200 59
+INFO 2022-06-12 09:41:37,566 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:41:39,235 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:41:55,586 basehttp:161 "GET /host/list HTTP/1.1" 200 59
+INFO 2022-06-12 09:46:55,960 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:46:57,844 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:50:47,149 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 163
+INFO 2022-06-12 09:51:15,855 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 163
+INFO 2022-06-12 09:51:56,928 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 163
+INFO 2022-06-12 09:54:38,895 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:54:42,772 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:54:58,643 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:55:00,050 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:55:18,007 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:55:48,342 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 0
+INFO 2022-06-12 09:56:22,054 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:56:23,193 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:56:44,319 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 0
+INFO 2022-06-12 09:57:16,222 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 09:57:20,494 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:58:04,493 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 0
+WARNING 2022-06-12 09:58:04,510 log:230 Method Not Allowed: /host/list
+WARNING 2022-06-12 09:58:04,512 basehttp:161 "DELETE /host/list HTTP/1.1" 405 43
+INFO 2022-06-12 09:58:35,451 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 09:58:55,395 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 0
+WARNING 2022-06-12 09:58:55,438 log:230 Method Not Allowed: /host/list
+WARNING 2022-06-12 09:58:55,440 basehttp:161 "DELETE /host/list HTTP/1.1" 405 43
+INFO 2022-06-12 10:00:08,348 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 10:00:09,289 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 10:00:15,467 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 10:00:19,220 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 10:01:43,832 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-12 10:01:47,175 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 10:02:11,586 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 0
+WARNING 2022-06-12 10:02:11,619 log:230 Method Not Allowed: /host/list
+WARNING 2022-06-12 10:02:11,620 basehttp:161 "DELETE /host/list HTTP/1.1" 405 43
+INFO 2022-06-12 10:03:33,638 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 10:03:36,739 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 10:03:52,455 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 10:03:54,372 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 10:03:56,767 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-12 10:03:57,649 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-12 10:04:32,015 basehttp:161 "OPTIONS /host/list HTTP/1.1" 200 0
+INFO 2022-06-12 10:04:32,032 basehttp:161 "DELETE /host/list HTTP/1.1" 200 9
+INFO 2022-06-19 01:50:04,401 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:12:11,059 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 02:12:12,469 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:13:06,351 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/urls.py changed, reloading.
+INFO 2022-06-19 02:13:08,121 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:14:43,670 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-19 02:14:45,880 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:18:54,123 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-19 02:18:55,258 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:19:36,674 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-19 02:19:39,460 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:20:44,269 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-19 02:20:47,365 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:24:49,922 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 02:24:53,351 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 02:31:57,906 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-19 02:32:00,314 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 04:51:05,137 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 04:51:06,057 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 04:51:50,444 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 04:51:51,198 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 04:53:00,413 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 04:53:01,312 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 05:24:51,012 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/home/views.py changed, reloading.
+INFO 2022-06-19 05:24:52,648 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 05:25:30,809 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/authentication.py changed, reloading.
+INFO 2022-06-19 05:25:31,975 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 05:46:21,852 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 05:46:22,787 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 05:50:13,945 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py changed, reloading.
+INFO 2022-06-19 05:50:15,031 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:12:14,007 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:12:19,905 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:13:33,255 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:13:36,877 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:24:05,315 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:24:10,194 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:25:11,830 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:25:16,236 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:25:55,691 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:25:56,808 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:26:31,329 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:26:33,530 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:28:25,603 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:28:30,137 autoreload:637 Watching for file changes with StatReloader
+ERROR 2022-06-19 09:28:37,921 exception:101 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2022-06-19 09:28:38,049 log:230 Bad Request: /host/list/
+WARNING 2022-06-19 09:28:38,050 basehttp:161 "GET /host/list/ HTTP/1.1" 400 64646
+WARNING 2022-06-19 09:29:09,011 log:230 Not Found: /host/list/
+WARNING 2022-06-19 09:29:09,011 basehttp:161 "GET /host/list/ HTTP/1.1" 404 2478
+WARNING 2022-06-19 09:29:14,910 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:29:14,912 basehttp:161 "GET /host/list HTTP/1.1" 401 58
+INFO 2022-06-19 09:29:59,453 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:30:00,649 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:30:04,705 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:30:09,153 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:30:59,504 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework_jwt/authentication.py changed, reloading.
+INFO 2022-06-19 09:31:02,027 autoreload:637 Watching for file changes with StatReloader
+WARNING 2022-06-19 09:31:14,551 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:31:14,552 basehttp:161 "GET /host/list HTTP/1.1" 401 58
+INFO 2022-06-19 09:32:19,734 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:32:24,126 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:32:32,745 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:33:16,483 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:33:19,563 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:33:23,196 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:33:27,093 autoreload:637 Watching for file changes with StatReloader
+ERROR 2022-06-19 09:33:28,620 log:230 Internal Server Error: /host/list
+Traceback (most recent call last):
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+AttributeError: 'IsAuthenticated' object has no attribute 'authenticate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+rest_framework.request.WrappedAttributeError: 'IsAuthenticated' object has no attribute 'authenticate'
+ERROR 2022-06-19 09:33:28,661 basehttp:161 "GET /host/list HTTP/1.1" 500 125352
+INFO 2022-06-19 09:34:02,318 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:34:07,745 autoreload:637 Watching for file changes with StatReloader
+WARNING 2022-06-19 09:34:12,604 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:34:12,608 basehttp:161 "GET /host/list HTTP/1.1" 401 58
+INFO 2022-06-19 09:35:57,891 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:36:00,445 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:36:19,948 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:36:22,512 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:37:14,660 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:37:18,103 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:37:24,720 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-19 09:37:27,634 autoreload:637 Watching for file changes with StatReloader
+WARNING 2022-06-19 09:37:32,880 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:37:32,881 basehttp:161 "GET /host/list HTTP/1.1" 401 58
+WARNING 2022-06-19 09:37:49,676 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:37:49,686 basehttp:161 "GET /host/list HTTP/1.1" 401 35
+WARNING 2022-06-19 09:40:52,667 log:230 Not Found: /users
+WARNING 2022-06-19 09:40:52,684 basehttp:161 "GET /users HTTP/1.1" 404 2412
+INFO 2022-06-19 09:42:13,410 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/urls.py changed, reloading.
+INFO 2022-06-19 09:42:16,783 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:42:20,781 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/urls.py changed, reloading.
+INFO 2022-06-19 09:42:23,318 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:44:03,544 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/urls.py changed, reloading.
+INFO 2022-06-19 09:44:07,439 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:44:16,706 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/urls.py changed, reloading.
+INFO 2022-06-19 09:44:22,617 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:47:18,749 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:47:20,011 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-19 09:47:26,305 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:47:28,009 autoreload:637 Watching for file changes with StatReloader
+ERROR 2022-06-19 09:47:33,836 log:230 Internal Server Error: /users/login
+Traceback (most recent call last):
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/yuanhao/Desktop/uric项目/uric_api/env/lib/python3.7/site-packages/django/middleware/common.py", line 95, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to api.uric.cn:8000/users/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2022-06-19 09:47:33,838 basehttp:161 "POST /users/login HTTP/1.1" 500 65232
+INFO 2022-06-19 09:47:45,943 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-19 09:48:55,566 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:48:55,567 basehttp:161 "GET /host/list HTTP/1.1" 401 35
+INFO 2022-06-19 09:49:11,320 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:49:23,514 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:49:25,359 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:49:27,314 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:49:28,943 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:49:44,327 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:49:45,747 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:50:28,393 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:52:27,940 basehttp:161 "GET /host/list HTTP/1.1" 200 516
+INFO 2022-06-19 09:52:38,740 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-19 09:52:42,926 autoreload:637 Watching for file changes with StatReloader
+WARNING 2022-06-19 09:54:29,615 log:230 Unauthorized: /host/list
+WARNING 2022-06-19 09:54:29,618 basehttp:161 "GET /host/list HTTP/1.1" 401 35
+INFO 2022-06-19 10:01:08,725 autoreload:251 /Users/yuanhao/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-19 10:01:10,544 autoreload:637 Watching for file changes with StatReloader
+INFO 2022-06-25 02:11:13,159 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-25 02:11:35,311 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-25 02:12:39,883 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-25 02:12:40,133 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-25 02:12:50,215 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-25 02:13:12,587 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-25 02:15:00,115 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-25 02:15:00,387 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-25 03:26:59,369 log:224 Not Found: /login/
+WARNING 2022-06-25 03:26:59,370 basehttp:161 "POST /login/ HTTP/1.1" 404 2301
+INFO 2022-06-25 03:28:03,306 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 03:40:44,538 basehttp:161 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2022-06-25 03:40:44,608 log:224 Bad Request: /users/login/
+WARNING 2022-06-25 03:40:44,608 basehttp:161 "POST /users/login/ HTTP/1.1" 400 68
+WARNING 2022-06-25 03:41:44,526 log:224 Bad Request: /users/login/
+WARNING 2022-06-25 03:41:44,527 basehttp:161 "POST /users/login/ HTTP/1.1" 400 68
+INFO 2022-06-25 03:42:21,591 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-25 03:45:36,762 log:224 Bad Request: /users/login/
+WARNING 2022-06-25 03:45:36,763 basehttp:161 "POST /users/login/ HTTP/1.1" 400 68
+INFO 2022-06-25 03:52:37,332 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-25 03:52:42,263 log:224 Bad Request: /users/login/
+WARNING 2022-06-25 03:52:42,263 basehttp:161 "POST /users/login/ HTTP/1.1" 400 68
+WARNING 2022-06-25 03:52:57,119 log:224 Bad Request: /users/login/
+WARNING 2022-06-25 03:52:57,121 basehttp:161 "POST /users/login/ HTTP/1.1" 400 68
+WARNING 2022-06-25 03:53:23,605 log:224 Bad Request: /users/login/
+WARNING 2022-06-25 03:53:23,606 basehttp:161 "POST /users/login/ HTTP/1.1" 400 89
+INFO 2022-06-25 03:54:12,686 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 03:55:42,707 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 04:01:29,812 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 04:02:10,835 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 04:02:52,272 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 04:35:02,177 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-25 04:38:18,695 log:224 Bad Request: /users/login/
+WARNING 2022-06-25 04:38:18,696 basehttp:161 "POST /users/login/ HTTP/1.1" 400 68
+INFO 2022-06-25 04:38:23,062 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 04:38:57,369 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 04:43:40,049 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 07:11:53,588 basehttp:161 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-06-25 07:11:53,664 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 07:15:16,346 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 07:19:01,676 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 07:23:05,277 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 07:25:58,339 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 07:36:45,964 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-25 07:36:46,350 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-25 07:36:47,469 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-25 07:36:47,719 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-25 07:37:03,420 basehttp:161 "GET /host HTTP/1.1" 301 0
+INFO 2022-06-25 07:37:03,433 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-25 07:37:33,951 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-25 07:37:34,315 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-25 07:45:27,045 basehttp:161 "GET /host HTTP/1.1" 301 0
+INFO 2022-06-25 07:45:27,057 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-25 07:46:22,646 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-25 07:46:23,085 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-25 07:46:26,062 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-25 07:46:26,077 log:224 Unauthorized: /host/
+WARNING 2022-06-25 07:46:26,078 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+WARNING 2022-06-25 07:49:39,558 log:224 Unauthorized: /host/
+WARNING 2022-06-25 07:49:39,559 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+WARNING 2022-06-25 07:50:00,315 log:224 Unauthorized: /host/
+WARNING 2022-06-25 07:50:00,315 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+WARNING 2022-06-25 07:50:10,974 log:224 Unauthorized: /host/
+WARNING 2022-06-25 07:50:10,976 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+WARNING 2022-06-25 07:52:13,936 log:224 Unauthorized: /host/
+WARNING 2022-06-25 07:52:13,936 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-25 07:54:47,069 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-25 07:54:47,110 basehttp:161 "OPTIONS /host/ HTTP/1.1" 200 0
+WARNING 2022-06-25 07:54:47,116 log:224 Unauthorized: /host/
+WARNING 2022-06-25 07:54:47,116 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+WARNING 2022-06-25 07:55:52,605 log:224 Unauthorized: /host/
+WARNING 2022-06-25 07:55:52,606 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-25 07:56:06,209 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-25 07:56:10,279 log:224 Unauthorized: /host/
+WARNING 2022-06-25 07:56:10,280 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-25 07:58:08,888 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-25 07:58:08,895 log:224 Unauthorized: /host/
+WARNING 2022-06-25 07:58:08,895 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-25 07:58:44,765 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-25 07:58:44,769 log:224 Unauthorized: /host/
+WARNING 2022-06-25 07:58:44,770 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-25 08:00:09,544 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-25 08:00:09,931 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-25 08:00:33,116 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 08:01:08,669 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-25 08:01:08,684 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:01:08,685 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-25 08:01:32,554 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 08:02:17,007 basehttp:161 "GET /host HTTP/1.1" 301 0
+INFO 2022-06-25 08:02:17,019 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-25 08:02:27,560 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-25 08:02:27,566 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:02:27,567 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-25 08:02:38,000 basehttp:161 "GET /host HTTP/1.1" 301 0
+INFO 2022-06-25 08:02:38,012 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-25 08:03:11,159 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-25 08:03:15,220 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:03:15,221 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-25 08:03:35,057 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+WARNING 2022-06-25 08:03:43,583 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:03:43,584 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+INFO 2022-06-25 08:04:01,677 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 08:04:06,645 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+WARNING 2022-06-25 08:21:04,598 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:21:04,600 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-25 08:21:28,831 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-25 08:21:28,867 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:21:28,867 basehttp:161 "GET /host/ HTTP/1.1" 401 5028
+INFO 2022-06-25 08:21:28,887 basehttp:161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2022-06-25 08:21:28,888 basehttp:161 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2022-06-25 08:21:28,889 basehttp:161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2022-06-25 08:21:28,889 basehttp:161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2022-06-25 08:21:28,890 basehttp:161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2022-06-25 08:21:28,892 basehttp:161 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2022-06-25 08:21:28,892 basehttp:161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2022-06-25 08:21:28,892 basehttp:161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2022-06-25 08:21:28,893 basehttp:161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2022-06-25 08:21:28,893 basehttp:161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2022-06-25 08:21:28,898 basehttp:161 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2022-06-25 08:21:28,945 log:224 Not Found: /favicon.ico
+WARNING 2022-06-25 08:21:28,946 basehttp:161 "GET /favicon.ico HTTP/1.1" 404 2315
+INFO 2022-06-25 08:22:18,706 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-25 08:22:18,738 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:22:18,740 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+INFO 2022-06-25 08:22:57,895 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 08:24:07,067 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-25 08:25:31,680 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-25 08:25:32,044 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-25 08:25:56,024 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+WARNING 2022-06-25 08:30:28,350 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:30:28,351 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+WARNING 2022-06-25 08:31:44,284 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:31:44,285 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+WARNING 2022-06-25 08:31:53,220 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:31:53,221 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+WARNING 2022-06-25 08:32:00,518 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:32:00,520 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+WARNING 2022-06-25 08:43:08,433 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:43:08,435 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+INFO 2022-06-25 08:51:18,921 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 08:53:15,549 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 08:53:31,966 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-25 08:55:38,911 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-25 08:56:47,126 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:56:47,128 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+WARNING 2022-06-25 08:57:00,210 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:57:00,211 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+WARNING 2022-06-25 08:57:30,809 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:57:30,810 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+WARNING 2022-06-25 08:58:05,234 log:224 Unauthorized: /host/
+WARNING 2022-06-25 08:58:05,235 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+INFO 2022-06-25 08:59:09,799 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 08:59:22,688 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+WARNING 2022-06-25 09:10:58,105 log:224 Unauthorized: /host/
+WARNING 2022-06-25 09:10:58,105 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-25 10:42:11,433 basehttp:161 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-06-25 10:42:11,509 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 10:44:55,761 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+WARNING 2022-06-25 10:44:57,398 log:224 Unauthorized: /host/
+WARNING 2022-06-25 10:44:57,400 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+WARNING 2022-06-25 10:45:03,575 log:224 Unauthorized: /host/
+WARNING 2022-06-25 10:45:03,577 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+INFO 2022-06-25 10:45:16,573 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-25 10:45:21,169 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+WARNING 2022-06-25 10:45:48,293 log:224 Unauthorized: /host/
+WARNING 2022-06-25 10:45:48,294 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+INFO 2022-06-25 10:51:19,957 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 01:43:35,583 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 01:46:30,931 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 02:00:15,917 log:224 Not Found: /login
+WARNING 2022-06-26 02:00:15,918 basehttp:161 "GET /login HTTP/1.1" 404 2297
+WARNING 2022-06-26 02:00:24,931 log:224 Not Found: /login
+WARNING 2022-06-26 02:00:24,932 basehttp:161 "POST /login HTTP/1.1" 404 2298
+ERROR 2022-06-26 02:00:35,572 log:224 Internal Server Error: /users/login
+Traceback (most recent call last):
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to api.uric.cn:8000/users/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2022-06-26 02:00:35,573 basehttp:161 "POST /users/login HTTP/1.1" 500 65164
+INFO 2022-06-26 02:00:40,399 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 02:06:15,659 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-26 02:06:16,154 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 02:09:26,977 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-26 02:09:27,317 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 02:12:06,302 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/users/models.py changed, reloading.
+INFO 2022-06-26 02:12:06,700 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 02:13:16,994 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-26 02:13:45,594 log:224 Bad Request: /users/login/
+WARNING 2022-06-26 02:13:45,594 basehttp:161 "POST /users/login/ HTTP/1.1" 400 68
+WARNING 2022-06-26 02:15:28,032 log:224 Bad Request: /users/login/
+WARNING 2022-06-26 02:15:28,033 basehttp:161 "POST /users/login/ HTTP/1.1" 400 79
+INFO 2022-06-26 02:15:56,664 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/users/urls.py changed, reloading.
+INFO 2022-06-26 02:15:57,058 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 02:15:59,464 log:224 Bad Request: /users/login/
+WARNING 2022-06-26 02:15:59,465 basehttp:161 "POST /users/login/ HTTP/1.1" 400 68
+INFO 2022-06-26 02:16:03,931 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 02:21:44,134 basehttp:161 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-06-26 02:21:44,208 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 02:22:14,853 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 02:27:48,021 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 02:28:11,977 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 02:42:22,637 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 02:44:16,202 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 03:30:07,262 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 03:33:01,658 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 03:35:10,242 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 03:36:42,184 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 03:37:15,413 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-26 03:37:15,435 basehttp:161 "OPTIONS /host/ HTTP/1.1" 200 0
+INFO 2022-06-26 03:37:15,445 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 03:44:04,599 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 03:51:51,243 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 03:59:33,077 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-26 04:04:37,939 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:04:37,939 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 04:05:43,291 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 04:05:47,651 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 04:15:46,396 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 04:15:46,840 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 04:15:56,877 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 04:15:56,898 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:15:56,899 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 04:16:18,798 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 04:16:19,164 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 04:16:35,922 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 04:16:35,939 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:16:35,940 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 04:16:36,889 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 04:16:36,901 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:16:36,902 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 04:16:46,973 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 04:16:47,365 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 04:16:47,656 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 04:16:47,665 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:16:47,666 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 04:16:48,659 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 04:16:48,675 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:16:48,676 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 04:17:02,274 basehttp:161 "GET /host HTTP/1.1" 301 0
+INFO 2022-06-26 04:17:02,283 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 04:17:14,257 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 04:17:14,560 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 04:17:17,314 basehttp:161 "GET /host HTTP/1.1" 301 0
+INFO 2022-06-26 04:17:17,321 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 04:17:30,081 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 04:17:30,370 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 04:17:34,114 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 04:17:34,123 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:17:34,124 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 04:17:39,802 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 04:17:39,815 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:17:39,815 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-06-26 04:18:28,998 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:18:28,998 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+WARNING 2022-06-26 04:19:23,738 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:19:23,738 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+WARNING 2022-06-26 04:19:31,618 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:19:31,619 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 04:19:43,511 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 04:19:43,917 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 04:20:33,875 basehttp:161 "GET /host HTTP/1.1" 301 0
+INFO 2022-06-26 04:20:33,889 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 04:20:47,572 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 04:20:59,315 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 04:20:59,723 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 04:21:25,661 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:21:25,662 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 04:23:16,505 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 04:23:27,779 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 04:23:27,791 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:23:27,792 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 04:23:31,494 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 04:23:31,504 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:23:31,505 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 04:23:42,168 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 04:23:42,183 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:23:42,184 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 04:23:54,764 basehttp:161 "GET /host HTTP/1.1" 301 0
+INFO 2022-06-26 04:23:54,775 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 04:24:49,023 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-26 04:26:56,859 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-26 04:30:24,059 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-26 04:30:24,436 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 04:30:31,248 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-26 04:30:55,801 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 04:31:06,116 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-26 04:31:36,799 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-26 04:31:37,156 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 04:31:40,323 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-26 04:31:40,604 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 04:31:44,853 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-26 04:31:44,884 basehttp:161 "OPTIONS /host/ HTTP/1.1" 200 0
+WARNING 2022-06-26 04:31:44,891 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:31:44,891 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 04:32:43,421 basehttp:161 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-06-26 04:33:27,862 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-26 04:33:28,232 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 04:33:33,694 basehttp:161 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-06-26 04:33:33,783 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-26 04:33:40,724 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:33:40,726 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+WARNING 2022-06-26 04:35:27,134 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:35:27,134 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+WARNING 2022-06-26 04:35:33,637 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:35:33,638 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 04:36:46,418 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-26 04:36:47,476 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-26 04:37:03,903 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-26 04:37:48,208 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-26 04:37:48,608 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 04:37:55,565 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-26 04:37:55,597 basehttp:161 "OPTIONS /host/ HTTP/1.1" 200 0
+INFO 2022-06-26 04:37:55,611 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+WARNING 2022-06-26 04:39:36,371 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:39:36,372 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-06-26 04:39:49,822 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:39:49,823 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-06-26 04:40:19,562 log:224 Unauthorized: /host/
+WARNING 2022-06-26 04:40:19,563 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 04:40:36,225 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 04:40:41,457 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+WARNING 2022-06-26 05:18:13,474 log:224 Unauthorized: /host/
+WARNING 2022-06-26 05:18:13,476 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-06-26 05:18:17,792 log:224 Unauthorized: /host/
+WARNING 2022-06-26 05:18:17,793 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 05:18:31,047 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 05:18:34,581 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 05:18:52,265 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-26 05:18:52,666 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 05:19:07,710 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 05:33:47,026 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 05:33:47,410 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 05:33:48,064 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 05:33:48,080 log:224 Unauthorized: /host/
+WARNING 2022-06-26 05:33:48,080 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 05:33:53,657 basehttp:161 "GET /host HTTP/1.1" 301 0
+INFO 2022-06-26 05:33:53,666 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 05:34:29,378 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 05:34:29,740 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 05:36:26,095 basehttp:161 "GET /host HTTP/1.1" 301 0
+INFO 2022-06-26 05:36:26,101 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 05:36:32,692 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 05:36:33,102 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 05:36:34,011 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 05:36:34,020 log:224 Unauthorized: /host/
+WARNING 2022-06-26 05:36:34,020 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 05:36:54,634 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 05:36:54,644 log:224 Unauthorized: /host/
+WARNING 2022-06-26 05:36:54,645 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 05:40:11,382 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 05:40:11,720 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 05:43:32,433 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 05:43:32,820 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 05:44:11,040 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 05:44:11,058 log:224 Unauthorized: /host/
+WARNING 2022-06-26 05:44:11,058 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 05:44:16,829 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 05:44:16,838 log:224 Unauthorized: /host/
+WARNING 2022-06-26 05:44:16,838 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 05:44:41,542 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 05:44:57,564 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 05:45:19,292 basehttp:161 "GET /host HTTP/1.1" 301 0
+INFO 2022-06-26 05:45:19,310 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+WARNING 2022-06-26 05:48:04,223 log:224 Unauthorized: /host/
+WARNING 2022-06-26 05:48:04,223 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-06-26 05:48:10,805 log:224 Unauthorized: /host/
+WARNING 2022-06-26 05:48:10,806 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 05:48:37,621 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 05:48:41,249 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 05:51:31,244 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 05:51:38,098 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+WARNING 2022-06-26 05:56:11,879 log:224 Unauthorized: /host/
+WARNING 2022-06-26 05:56:11,881 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+WARNING 2022-06-26 05:57:29,392 log:224 Unauthorized: /host/
+WARNING 2022-06-26 05:57:29,393 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+WARNING 2022-06-26 05:57:38,280 log:224 Unauthorized: /host/
+WARNING 2022-06-26 05:57:38,281 basehttp:161 "GET /host/ HTTP/1.1" 401 67
+INFO 2022-06-26 06:01:45,328 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 06:04:10,575 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 06:05:09,784 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+WARNING 2022-06-26 06:07:34,547 log:224 Unauthorized: /host/
+WARNING 2022-06-26 06:07:34,549 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 06:07:46,042 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 06:07:53,078 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+WARNING 2022-06-26 06:14:07,737 log:224 Unauthorized: /host/
+WARNING 2022-06-26 06:14:07,740 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 06:34:08,421 basehttp:161 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-06-26 06:34:08,505 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 06:34:11,692 basehttp:161 "GET /host/ HTTP/1.1" 200 516
+INFO 2022-06-26 07:23:41,599 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-26 07:23:41,990 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 07:23:44,146 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-26 07:23:44,435 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 07:24:32,463 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 07:24:32,741 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 07:25:32,871 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 07:25:33,199 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 07:25:34,312 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 07:25:34,582 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 07:28:09,488 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/models.py changed, reloading.
+INFO 2022-06-26 07:28:09,838 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 07:28:26,360 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/models.py changed, reloading.
+INFO 2022-06-26 07:28:26,706 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:05:24,236 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/models.py changed, reloading.
+INFO 2022-06-26 08:05:24,708 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:07:07,808 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 08:07:08,161 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:12:09,670 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 08:12:10,065 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:12:17,213 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 08:12:17,493 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:13:10,577 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 08:13:10,846 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:13:39,526 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-26 08:13:39,831 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:20:20,534 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:20:23,579 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 08:20:23,589 log:224 Unauthorized: /host/
+WARNING 2022-06-26 08:20:23,589 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 08:21:13,681 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-26 08:21:14,005 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:21:18,120 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-26 08:21:18,380 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:21:36,844 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-26 08:21:37,237 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:22:18,082 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-26 08:22:18,499 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:22:50,509 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-26 08:22:50,899 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:23:33,677 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 08:23:33,687 log:224 Unauthorized: /host/
+WARNING 2022-06-26 08:23:33,687 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 08:23:42,227 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 08:24:00,897 basehttp:161 "GET /host HTTP/1.1" 301 0
+INFO 2022-06-26 08:24:00,935 basehttp:161 "GET /host/ HTTP/1.1" 200 437
+INFO 2022-06-26 08:24:34,164 basehttp:161 "DELETE /host/44 HTTP/1.1" 204 0
+INFO 2022-06-26 08:24:39,112 basehttp:161 "GET /host/ HTTP/1.1" 200 307
+INFO 2022-06-26 08:27:34,954 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:27:35,531 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:29:31,188 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:29:31,516 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:29:41,841 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:29:42,184 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:29:43,302 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:29:43,571 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:30:19,333 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:30:19,694 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:30:32,058 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:30:32,311 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:30:40,588 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:30:40,871 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:30:42,008 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:30:42,283 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 08:31:04,137 log:224 Unauthorized: /host/
+WARNING 2022-06-26 08:31:04,138 basehttp:161 "POST /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 08:31:50,217 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-06-26 08:31:50,613 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:31:58,909 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+ERROR 2022-06-26 08:32:14,162 log:224 Internal Server Error: /host/
+Traceback (most recent call last):
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Host' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/mixins.py", line 20, in create
+    headers = self.get_success_headers(serializer.data)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `HostModelSerializers`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Host` instance.
+Original exception text was: 'Host' object has no attribute 'password'.
+ERROR 2022-06-26 08:32:14,164 basehttp:161 "POST /host/ HTTP/1.1" 500 119543
+INFO 2022-06-26 08:35:52,917 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:35:53,295 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:35:55,441 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:35:55,727 autoreload:636 Watching for file changes with StatReloader
+ERROR 2022-06-26 08:35:57,453 log:224 Internal Server Error: /host/
+Traceback (most recent call last):
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Host' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/mixins.py", line 20, in create
+    headers = self.get_success_headers(serializer.data)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `HostModelSerializers`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Host` instance.
+Original exception text was: 'Host' object has no attribute 'password'.
+ERROR 2022-06-26 08:35:57,455 basehttp:161 "POST /host/ HTTP/1.1" 500 119543
+INFO 2022-06-26 08:37:14,533 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:37:14,834 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:37:30,194 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:37:30,517 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 08:37:35,152 log:224 Unauthorized: /host/
+WARNING 2022-06-26 08:37:35,153 basehttp:161 "POST /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 08:37:41,668 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 08:37:52,548 basehttp:161 "POST /host/ HTTP/1.1" 201 113
+INFO 2022-06-26 08:39:02,043 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:39:02,419 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:39:06,871 basehttp:161 "GET /host/ HTTP/1.1" 200 649
+INFO 2022-06-26 08:40:47,944 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:40:48,310 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:41:50,063 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:41:50,503 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:45:17,925 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:45:18,310 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 08:48:22,951 log:224 Unauthorized: /host/
+WARNING 2022-06-26 08:48:22,951 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 08:48:29,525 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+ERROR 2022-06-26 08:48:47,138 log:224 Internal Server Error: /host/
+Traceback (most recent call last):
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1052, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1148, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'category_name' was declared on serializer HostModelSerializers, but has not been included in the 'fields' option.
+ERROR 2022-06-26 08:48:47,140 basehttp:161 "GET /host/ HTTP/1.1" 500 137308
+INFO 2022-06-26 08:49:17,673 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 08:49:18,055 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 08:49:20,573 basehttp:161 "GET /host/ HTTP/1.1" 200 810
+INFO 2022-06-26 08:50:10,108 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 09:02:32,773 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 09:07:14,130 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-26 09:07:14,140 basehttp:161 "OPTIONS /host/ HTTP/1.1" 200 0
+WARNING 2022-06-26 09:07:14,144 log:224 Unauthorized: /host/
+WARNING 2022-06-26 09:07:14,144 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+ERROR 2022-06-26 09:07:44,290 log:224 Internal Server Error: /host
+Traceback (most recent call last):
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to api.uric.cn:8000/host/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2022-06-26 09:07:44,291 basehttp:161 "POST /host HTTP/1.1" 500 65148
+INFO 2022-06-26 09:07:47,824 basehttp:161 "GET /host HTTP/1.1" 301 0
+WARNING 2022-06-26 09:07:47,836 log:224 Unauthorized: /host/
+WARNING 2022-06-26 09:07:47,837 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-06-26 09:07:52,056 log:224 Unauthorized: /host/
+WARNING 2022-06-26 09:07:52,057 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-06-26 09:08:41,773 log:224 Unauthorized: /host/
+WARNING 2022-06-26 09:08:41,775 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 09:08:55,024 basehttp:161 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-06-26 09:08:55,105 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-26 09:08:57,976 log:224 Unauthorized: /host/
+WARNING 2022-06-26 09:08:57,977 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 09:09:56,978 basehttp:161 "GET /host/ HTTP/1.1" 200 810
+WARNING 2022-06-26 09:10:09,382 log:224 Unauthorized: /host/
+WARNING 2022-06-26 09:10:09,389 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 09:10:19,088 basehttp:161 "GET /host/ HTTP/1.1" 200 810
+INFO 2022-06-26 09:10:49,408 basehttp:161 "GET /host/ HTTP/1.1" 200 665
+INFO 2022-06-26 09:11:24,270 basehttp:161 "GET /host/ HTTP/1.1" 200 665
+INFO 2022-06-26 09:11:44,731 basehttp:161 "GET /host/ HTTP/1.1" 200 665
+INFO 2022-06-26 09:11:51,652 basehttp:161 "GET /host/ HTTP/1.1" 200 665
+INFO 2022-06-26 09:12:17,860 basehttp:161 "GET /host/ HTTP/1.1" 200 665
+INFO 2022-06-26 09:12:18,661 basehttp:161 "GET /host/ HTTP/1.1" 200 665
+INFO 2022-06-26 09:13:25,375 basehttp:161 "OPTIONS /host/45 HTTP/1.1" 200 0
+INFO 2022-06-26 09:13:25,398 basehttp:161 "DELETE /host/45 HTTP/1.1" 204 0
+INFO 2022-06-26 09:13:32,038 basehttp:161 "OPTIONS /host/48 HTTP/1.1" 200 0
+INFO 2022-06-26 09:13:32,064 basehttp:161 "DELETE /host/48 HTTP/1.1" 204 0
+WARNING 2022-06-26 09:15:35,541 log:224 Unauthorized: /host/
+WARNING 2022-06-26 09:15:35,542 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 09:16:15,706 basehttp:161 "OPTIONS /host/category HTTP/1.1" 200 0
+WARNING 2022-06-26 09:16:15,707 log:224 Unauthorized: /host/category
+WARNING 2022-06-26 09:16:15,708 basehttp:161 "GET /host/category HTTP/1.1" 401 58
+WARNING 2022-06-26 09:16:15,721 log:224 Unauthorized: /host/
+WARNING 2022-06-26 09:16:15,721 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-06-26 09:16:26,878 log:224 Unauthorized: /host/category
+WARNING 2022-06-26 09:16:26,879 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-06-26 09:16:26,890 log:224 Unauthorized: /host/
+WARNING 2022-06-26 09:16:26,890 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 09:17:02,697 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 09:17:06,409 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 09:17:06,440 basehttp:161 "GET /host/ HTTP/1.1" 200 313
+INFO 2022-06-26 09:18:27,898 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 09:18:27,973 basehttp:161 "GET /host/ HTTP/1.1" 200 313
+INFO 2022-06-26 09:19:00,913 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 09:19:00,939 basehttp:161 "GET /host/ HTTP/1.1" 200 313
+WARNING 2022-06-26 09:25:10,282 log:224 Unauthorized: /host/
+WARNING 2022-06-26 09:25:10,285 basehttp:161 "POST /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 09:25:27,570 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 09:25:31,240 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 09:25:31,282 basehttp:161 "GET /host/ HTTP/1.1" 200 313
+WARNING 2022-06-26 09:25:53,613 log:224 Unauthorized: /host/
+WARNING 2022-06-26 09:25:53,616 basehttp:161 "POST /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 09:26:09,073 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 09:26:09,136 basehttp:161 "GET /host/ HTTP/1.1" 200 313
+INFO 2022-06-26 09:26:32,161 basehttp:161 "POST /host/ HTTP/1.1" 201 139
+INFO 2022-06-26 09:26:41,755 basehttp:161 "OPTIONS /host/50 HTTP/1.1" 200 0
+INFO 2022-06-26 09:26:41,778 basehttp:161 "DELETE /host/50 HTTP/1.1" 204 0
+INFO 2022-06-26 10:04:32,315 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:04:32,722 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:06:01,191 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:06:01,547 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:06:43,700 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:06:44,124 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:06:55,425 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:06:55,789 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:07:13,144 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:07:13,410 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:07:28,814 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:07:29,155 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:07:30,274 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:07:30,553 autoreload:636 Watching for file changes with StatReloader
+ERROR 2022-06-26 10:07:51,471 log:224 Internal Server Error: /host
+Traceback (most recent call last):
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to api.uric.cn:8000/host/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2022-06-26 10:07:51,472 basehttp:161 "POST /host HTTP/1.1" 500 65148
+WARNING 2022-06-26 10:07:59,082 log:224 Unauthorized: /host/
+WARNING 2022-06-26 10:07:59,083 basehttp:161 "POST /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 10:08:04,942 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-26 10:08:16,906 log:224 Bad Request: /host/
+WARNING 2022-06-26 10:08:16,907 basehttp:161 "POST /host/ HTTP/1.1" 400 45
+INFO 2022-06-26 10:09:44,210 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:09:44,657 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:10:22,421 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:10:22,841 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:11:03,852 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:11:04,195 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:11:26,947 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:11:27,207 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:12:14,423 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:12:14,759 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:13:44,620 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:13:45,001 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 10:19:07,606 log:224 Unauthorized: /host/
+WARNING 2022-06-26 10:19:07,606 basehttp:161 "POST /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 10:19:12,187 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+ERROR 2022-06-26 10:19:25,493 log:224 Internal Server Error: /host/
+Traceback (most recent call last):
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py", line 36, in validate
+    cli = SSHParamiko(ip_addr, port, username, password=str(password))
+NameError: name 'SSHParamiko' is not defined
+ERROR 2022-06-26 10:19:25,511 basehttp:161 "POST /host/ HTTP/1.1" 500 105919
+INFO 2022-06-26 10:19:58,237 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-06-26 10:19:58,623 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 10:20:04,825 logs:21 请求路径: /host/ 耗时2.3118319511413574秒
+WARNING 2022-06-26 10:20:04,826 log:224 Bad Request: /host/
+WARNING 2022-06-26 10:20:04,828 basehttp:161 "POST /host/ HTTP/1.1" 400 70
+WARNING 2022-06-26 10:21:13,450 log:224 Unauthorized: /host/category
+WARNING 2022-06-26 10:21:13,451 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-06-26 10:21:13,469 log:224 Unauthorized: /host/
+WARNING 2022-06-26 10:21:13,469 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 10:21:49,727 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 10:21:53,390 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 10:21:53,423 basehttp:161 "GET /host/ HTTP/1.1" 200 313
+WARNING 2022-06-26 10:22:33,408 log:224 Bad Request: /host/
+WARNING 2022-06-26 10:22:33,410 basehttp:161 "POST /host/ HTTP/1.1" 400 70
+INFO 2022-06-26 10:23:28,653 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 10:23:28,731 basehttp:161 "GET /host/ HTTP/1.1" 200 313
+INFO 2022-06-26 10:24:05,008 basehttp:161 "POST /host/ HTTP/1.1" 201 158
+INFO 2022-06-26 10:24:13,765 basehttp:161 "OPTIONS /host/47 HTTP/1.1" 200 0
+INFO 2022-06-26 10:24:13,781 basehttp:161 "DELETE /host/47 HTTP/1.1" 204 0
+WARNING 2022-06-26 10:43:45,304 log:224 Unauthorized: /host/category
+WARNING 2022-06-26 10:43:45,304 basehttp:161 "GET /host/category HTTP/1.1" 401 58
+WARNING 2022-06-26 10:43:45,334 log:224 Unauthorized: /host/
+WARNING 2022-06-26 10:43:45,334 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 10:44:01,031 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+WARNING 2022-06-26 10:44:05,969 log:224 Unauthorized: /host/category
+WARNING 2022-06-26 10:44:05,970 basehttp:161 "GET /host/category HTTP/1.1" 401 58
+WARNING 2022-06-26 10:44:05,998 log:224 Unauthorized: /host/
+WARNING 2022-06-26 10:44:05,999 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+WARNING 2022-06-26 10:44:19,653 log:224 Unauthorized: /host/category
+WARNING 2022-06-26 10:44:19,654 basehttp:161 "GET /host/category HTTP/1.1" 401 58
+WARNING 2022-06-26 10:44:19,720 log:224 Unauthorized: /host/
+WARNING 2022-06-26 10:44:19,721 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+WARNING 2022-06-26 10:44:31,726 log:224 Unauthorized: /host/category
+WARNING 2022-06-26 10:44:31,726 basehttp:161 "GET /host/category HTTP/1.1" 401 58
+WARNING 2022-06-26 10:44:31,741 log:224 Unauthorized: /host/
+WARNING 2022-06-26 10:44:31,741 basehttp:161 "GET /host/ HTTP/1.1" 401 58
+INFO 2022-06-26 10:45:01,000 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 10:45:01,033 basehttp:161 "GET /host/ HTTP/1.1" 200 327
+INFO 2022-06-26 10:45:06,844 basehttp:161 "OPTIONS /host/51 HTTP/1.1" 200 0
+INFO 2022-06-26 10:45:06,869 basehttp:161 "DELETE /host/51 HTTP/1.1" 204 0
+INFO 2022-06-26 10:48:49,096 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 10:48:49,110 basehttp:161 "GET /host/ HTTP/1.1" 200 168
+WARNING 2022-06-26 10:49:35,226 log:224 Unauthorized: /host/category
+WARNING 2022-06-26 10:49:35,226 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-06-26 10:49:35,243 log:224 Unauthorized: /host/
+WARNING 2022-06-26 10:49:35,243 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-06-26 10:53:37,366 log:224 Unauthorized: /host/category
+WARNING 2022-06-26 10:53:37,367 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-06-26 10:53:37,380 log:224 Unauthorized: /host/
+WARNING 2022-06-26 10:53:37,381 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 10:54:43,421 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/urls.py changed, reloading.
+INFO 2022-06-26 10:54:43,848 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:55:33,089 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 10:55:33,361 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:55:47,808 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 10:55:48,144 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 10:56:06,578 log:224 Unauthorized: /host/category
+WARNING 2022-06-26 10:56:06,579 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-06-26 10:56:06,591 log:224 Unauthorized: /host/
+WARNING 2022-06-26 10:56:06,592 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 10:56:33,586 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 10:56:36,030 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 10:56:36,062 basehttp:161 "GET /host/ HTTP/1.1" 200 168
+INFO 2022-06-26 10:56:51,877 basehttp:161 "OPTIONS /host/excel_host HTTP/1.1" 200 0
+INFO 2022-06-26 10:56:51,892 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 4
+INFO 2022-06-26 10:57:35,918 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 10:57:36,311 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:57:52,411 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 4
+INFO 2022-06-26 10:58:14,252 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 10:58:14,627 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 10:58:20,560 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 4
+INFO 2022-06-26 10:58:42,429 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 10:58:42,874 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:01:07,704 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:01:08,084 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:01:19,442 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:01:19,733 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:01:25,240 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 4
+INFO 2022-06-26 11:02:33,463 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:02:33,744 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:03:29,006 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:03:29,289 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:03:31,468 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:03:31,813 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 11:03:37,626 log:224 Unauthorized: /host/excel_host
+WARNING 2022-06-26 11:03:37,627 basehttp:161 "POST /host/excel_host HTTP/1.1" 401 35
+INFO 2022-06-26 11:03:56,924 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 11:04:11,477 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 11:04:11,519 basehttp:161 "GET /host/ HTTP/1.1" 200 168
+ERROR 2022-06-26 11:04:18,628 log:224 Internal Server Error: /host/excel_host
+Traceback (most recent call last):
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_env/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py", line 50, in post
+    f_write.write(line)
+TypeError: write() argument must be str, not bytes
+ERROR 2022-06-26 11:04:18,629 basehttp:161 "POST /host/excel_host HTTP/1.1" 500 87537
+INFO 2022-06-26 11:04:23,621 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:04:24,011 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:04:57,894 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:04:58,188 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:05:11,240 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 4
+INFO 2022-06-26 11:05:57,994 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:05:58,343 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:06:15,853 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:06:16,306 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:06:27,796 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:06:28,096 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:07:16,071 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:07:16,372 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:07:17,526 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:07:17,798 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:07:40,479 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:07:40,840 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:08:08,355 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:08:08,607 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:08:34,358 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:08:34,768 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:08:51,389 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:08:51,694 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:09:00,179 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:09:00,518 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:09:04,638 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:09:04,922 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:09:16,158 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:09:16,556 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:10:07,841 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:10:08,120 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:10:32,676 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:10:32,948 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:11:12,866 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:11:13,178 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 11:11:16,223 log:224 Unauthorized: /host/excel_host
+WARNING 2022-06-26 11:11:16,225 basehttp:161 "POST /host/excel_host HTTP/1.1" 401 35
+INFO 2022-06-26 11:11:32,124 basehttp:161 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-06-26 11:11:32,201 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 11:11:34,649 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-06-26 11:11:34,664 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 11:11:34,678 basehttp:161 "OPTIONS /host/ HTTP/1.1" 200 0
+INFO 2022-06-26 11:11:34,685 basehttp:161 "GET /host/ HTTP/1.1" 200 168
+INFO 2022-06-26 11:11:41,246 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 4
+INFO 2022-06-26 11:12:10,683 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 4
+INFO 2022-06-26 11:12:49,146 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:12:49,570 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:12:52,661 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 4
+INFO 2022-06-26 11:13:43,216 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:13:43,533 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:13:56,086 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:13:56,505 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:14:00,867 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:14:01,168 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:14:31,144 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:14:31,461 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:14:37,268 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 4
+INFO 2022-06-26 11:15:12,824 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:15:13,193 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:15:20,586 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:15:20,923 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:15:37,510 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:15:37,819 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:15:56,421 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:15:56,759 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:16:04,190 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:16:04,546 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:16:12,948 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:16:13,247 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:16:22,713 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:16:23,001 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:16:35,470 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:16:35,778 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:16:47,186 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:16:47,463 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:16:57,910 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:16:58,210 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:17:10,684 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:17:11,002 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 11:17:34,937 log:224 Unauthorized: /host/excel_host
+WARNING 2022-06-26 11:17:34,938 basehttp:161 "POST /host/excel_host HTTP/1.1" 401 35
+INFO 2022-06-26 11:17:49,023 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 11:17:51,965 basehttp:161 "OPTIONS /host/category HTTP/1.1" 200 0
+INFO 2022-06-26 11:17:51,988 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 11:17:52,004 basehttp:161 "GET /host/ HTTP/1.1" 200 168
+INFO 2022-06-26 11:17:57,967 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 4
+INFO 2022-06-26 11:18:39,762 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:18:40,125 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:18:41,379 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:18:41,731 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:18:55,220 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:18:55,504 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:19:00,835 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:19:01,188 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:19:53,687 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:19:54,033 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:19:55,295 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:19:55,584 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:20:07,072 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:20:07,424 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:20:09,722 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:20:10,035 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:23:09,174 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:23:09,596 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:23:19,065 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:23:19,356 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:23:34,883 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:23:35,169 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 11:23:39,025 log:224 Unauthorized: /host/excel_host
+WARNING 2022-06-26 11:23:39,025 basehttp:161 "POST /host/excel_host HTTP/1.1" 401 35
+INFO 2022-06-26 11:24:02,222 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 11:24:05,449 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 11:24:05,481 basehttp:161 "GET /host/ HTTP/1.1" 200 168
+INFO 2022-06-26 11:24:12,324 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 4
+INFO 2022-06-26 11:25:05,701 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:25:06,084 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:25:21,366 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:25:21,632 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:25:47,129 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:25:47,411 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:25:53,796 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:25:54,075 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:25:55,323 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:25:55,601 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:25:56,850 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:25:57,139 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:26:28,461 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:26:28,823 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:26:32,923 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 4
+INFO 2022-06-26 11:26:56,774 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:26:57,068 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:27:46,980 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:27:47,368 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:27:49,645 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:27:49,976 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:28:45,372 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:28:45,787 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:32:21,475 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:32:21,903 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-06-26 11:35:37,209 log:224 Unauthorized: /host/category
+WARNING 2022-06-26 11:35:37,210 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-06-26 11:35:37,282 log:224 Unauthorized: /host/
+WARNING 2022-06-26 11:35:37,283 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-06-26 11:35:49,819 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-06-26 11:35:54,886 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 11:35:54,916 basehttp:161 "GET /host/ HTTP/1.1" 200 168
+WARNING 2022-06-26 11:36:06,874 logs:21 请求路径: /host/excel_host 耗时2.461822032928467秒
+INFO 2022-06-26 11:36:06,877 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 413
+INFO 2022-06-26 11:37:07,707 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-06-26 11:37:07,770 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-06-26 11:38:58,138 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 395
+INFO 2022-06-26 11:40:47,955 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:40:48,372 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-26 11:48:37,874 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-06-26 11:48:38,256 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-06-27 02:04:39,836 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-02 07:36:18,863 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 07:36:40,365 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 07:36:55,383 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 07:37:07,394 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 07:37:22,747 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 07:37:38,974 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 07:37:46,831 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 08:23:52,736 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 08:24:21,883 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 08:41:31,247 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-07-02 08:41:31,249 basehttp:161 "OPTIONS /host/category HTTP/1.1" 200 0
+WARNING 2022-07-02 08:41:31,267 log:224 Unauthorized: /host/category
+WARNING 2022-07-02 08:41:31,268 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+INFO 2022-07-02 08:41:31,276 basehttp:161 "OPTIONS /host/ HTTP/1.1" 200 0
+WARNING 2022-07-02 08:41:31,279 log:224 Unauthorized: /host/
+WARNING 2022-07-02 08:41:31,279 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-02 08:41:52,396 basehttp:161 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-07-02 08:41:52,473 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-07-02 08:41:55,468 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-02 08:41:55,507 basehttp:161 "GET /host/ HTTP/1.1" 200 1327
+INFO 2022-07-02 08:43:07,378 basehttp:161 "OPTIONS /host/63 HTTP/1.1" 200 0
+INFO 2022-07-02 08:43:07,399 basehttp:161 "DELETE /host/63 HTTP/1.1" 204 0
+INFO 2022-07-02 08:43:08,652 basehttp:161 "OPTIONS /host/64 HTTP/1.1" 200 0
+INFO 2022-07-02 08:43:08,667 basehttp:161 "DELETE /host/64 HTTP/1.1" 204 0
+INFO 2022-07-02 08:43:09,817 basehttp:161 "OPTIONS /host/65 HTTP/1.1" 200 0
+INFO 2022-07-02 08:43:09,839 basehttp:161 "DELETE /host/65 HTTP/1.1" 204 0
+INFO 2022-07-02 08:43:10,884 basehttp:161 "OPTIONS /host/66 HTTP/1.1" 200 0
+INFO 2022-07-02 08:43:10,894 basehttp:161 "DELETE /host/66 HTTP/1.1" 204 0
+INFO 2022-07-02 09:03:48,740 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:03:49,121 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:04:05,806 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:04:06,117 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:05:05,806 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:05:06,112 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:05:29,979 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:05:30,269 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:07:08,588 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/models.py changed, reloading.
+INFO 2022-07-02 09:07:08,927 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:09:39,070 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/models.py changed, reloading.
+INFO 2022-07-02 09:09:39,369 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:13:00,483 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/models.py changed, reloading.
+INFO 2022-07-02 09:13:00,795 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:13:03,040 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/models.py changed, reloading.
+INFO 2022-07-02 09:13:03,330 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:23:28,158 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:23:28,474 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:23:46,033 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:23:46,330 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:23:55,553 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:23:55,845 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:24:28,425 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:24:28,705 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:24:42,080 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:24:42,352 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:25:46,934 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-07-02 09:25:47,227 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:26:31,361 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:26:31,674 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:29:39,096 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:29:39,393 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:31:26,273 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 09:31:26,573 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:31:56,595 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 09:31:56,927 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:32:26,893 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 09:32:27,199 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:33:14,358 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 09:33:14,666 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:33:21,015 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:33:21,338 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:36:52,981 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:36:53,322 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:37:08,918 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:37:09,224 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:37:42,246 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 09:37:42,567 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:37:49,915 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 09:37:50,225 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:38:09,798 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 09:38:10,097 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:39:39,201 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:39:39,500 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:40:10,295 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:40:10,591 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:40:17,964 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:40:18,249 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:40:56,348 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:40:56,662 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:42:16,431 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:42:16,755 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:43:43,937 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:43:44,220 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 09:43:54,702 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:43:54,998 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-07-02 09:44:16,527 log:224 Unauthorized: /host/category
+WARNING 2022-07-02 09:44:16,528 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-02 09:44:16,532 log:224 Unauthorized: /host/
+WARNING 2022-07-02 09:44:16,533 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-02 09:44:29,556 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-07-02 09:44:32,111 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-02 09:44:32,140 basehttp:161 "GET /host/ HTTP/1.1" 200 749
+WARNING 2022-07-02 09:45:23,051 log:224 Unauthorized: /host/
+WARNING 2022-07-02 09:45:23,051 basehttp:161 "POST /host/ HTTP/1.1" 401 58
+INFO 2022-07-02 09:45:46,466 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-02 09:45:46,546 basehttp:161 "GET /host/ HTTP/1.1" 200 749
+WARNING 2022-07-02 09:46:05,949 log:224 Unauthorized: /host/
+WARNING 2022-07-02 09:46:05,950 basehttp:161 "POST /host/ HTTP/1.1" 401 58
+INFO 2022-07-02 09:47:43,960 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-02 09:47:44,030 basehttp:161 "GET /host/ HTTP/1.1" 200 749
+INFO 2022-07-02 09:47:49,978 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-02 09:47:50,052 basehttp:161 "GET /host/ HTTP/1.1" 200 749
+WARNING 2022-07-02 09:48:21,393 log:224 Bad Request: /host/
+WARNING 2022-07-02 09:48:21,394 basehttp:161 "POST /host/ HTTP/1.1" 400 45
+INFO 2022-07-02 09:48:40,183 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 09:48:40,471 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-07-02 09:48:45,899 logs:21 请求路径: /host/ 耗时1.2069261074066162秒
+INFO 2022-07-02 09:48:45,900 basehttp:161 "POST /host/ HTTP/1.1" 201 143
+INFO 2022-07-02 10:02:44,065 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 10:02:44,438 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:03:29,245 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 10:03:29,548 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:03:51,333 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 10:03:51,605 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:05:36,493 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 10:05:36,791 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:05:39,062 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 10:05:39,386 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:05:44,708 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 10:05:45,048 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:06:45,531 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 10:06:45,850 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:08:02,607 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 10:08:02,928 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:08:27,659 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 10:08:27,942 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:11:47,014 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 10:11:47,344 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:11:56,741 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 10:11:57,058 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:13:00,546 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 10:13:00,844 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:13:10,254 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 10:13:10,533 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:13:14,811 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/utils/ssh.py changed, reloading.
+INFO 2022-07-02 10:13:15,100 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:14:55,252 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 10:14:55,583 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:15:07,039 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 10:15:07,362 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:24:56,735 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 10:24:57,025 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-02 10:28:03,375 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/serializers.py changed, reloading.
+INFO 2022-07-02 10:28:03,658 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-07-02 10:33:02,191 log:224 Unauthorized: /host/
+WARNING 2022-07-02 10:33:02,192 basehttp:161 "POST /host/ HTTP/1.1" 401 35
+WARNING 2022-07-02 10:33:13,589 log:224 Unauthorized: /host/category
+WARNING 2022-07-02 10:33:13,590 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-02 10:33:13,662 log:224 Unauthorized: /host/
+WARNING 2022-07-02 10:33:13,663 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-02 10:33:29,409 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-07-02 10:33:33,249 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-02 10:33:33,289 basehttp:161 "GET /host/ HTTP/1.1" 200 893
+WARNING 2022-07-02 10:33:52,668 logs:21 请求路径: /host/ 耗时0.8576681613922119秒
+INFO 2022-07-02 10:33:52,669 basehttp:161 "POST /host/ HTTP/1.1" 201 141
+INFO 2022-07-02 10:34:45,178 basehttp:161 "OPTIONS /host/68 HTTP/1.1" 200 0
+INFO 2022-07-02 10:34:45,195 basehttp:161 "DELETE /host/68 HTTP/1.1" 204 0
+WARNING 2022-07-02 10:35:06,592 logs:21 请求路径: /host/ 耗时0.7978827953338623秒
+INFO 2022-07-02 10:35:06,594 basehttp:161 "POST /host/ HTTP/1.1" 201 141
+INFO 2022-07-03 04:08:33,508 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 04:08:46,730 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-07-03 04:08:46,733 basehttp:161 "OPTIONS /host/category HTTP/1.1" 200 0
+WARNING 2022-07-03 04:08:46,753 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 04:08:46,753 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+INFO 2022-07-03 04:08:46,759 basehttp:161 "OPTIONS /host/ HTTP/1.1" 200 0
+WARNING 2022-07-03 04:08:46,761 log:224 Unauthorized: /host/
+WARNING 2022-07-03 04:08:46,762 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 04:08:57,843 basehttp:161 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-07-03 04:08:57,919 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-07-03 04:09:00,368 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 04:09:00,404 basehttp:161 "GET /host/ HTTP/1.1" 200 1035
+INFO 2022-07-03 04:09:08,197 basehttp:161 "OPTIONS /host/67 HTTP/1.1" 200 0
+INFO 2022-07-03 04:09:08,215 basehttp:161 "DELETE /host/67 HTTP/1.1" 204 0
+INFO 2022-07-03 04:09:09,971 basehttp:161 "OPTIONS /host/69 HTTP/1.1" 200 0
+INFO 2022-07-03 04:09:09,985 basehttp:161 "DELETE /host/69 HTTP/1.1" 204 0
+INFO 2022-07-03 04:09:33,097 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 04:09:33,164 basehttp:161 "GET /host/ HTTP/1.1" 200 749
+INFO 2022-07-03 04:09:53,852 basehttp:161 "OPTIONS /host/excel_host HTTP/1.1" 200 0
+WARNING 2022-07-03 04:10:01,108 logs:21 请求路径: /host/excel_host 耗时7.2518470287323秒
+INFO 2022-07-03 04:10:01,109 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 1724
+INFO 2022-07-03 04:13:35,862 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-03 04:13:36,271 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 04:14:29,161 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-03 04:14:29,432 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 04:17:04,224 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-03 04:17:04,481 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 04:17:16,963 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-03 04:17:17,247 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 04:24:55,992 basehttp:161 "OPTIONS /host/74 HTTP/1.1" 200 0
+WARNING 2022-07-03 04:24:56,005 log:224 Unauthorized: /host/74
+WARNING 2022-07-03 04:24:56,008 basehttp:161 "DELETE /host/74 HTTP/1.1" 401 35
+INFO 2022-07-03 04:24:57,484 basehttp:161 "OPTIONS /host/73 HTTP/1.1" 200 0
+WARNING 2022-07-03 04:24:57,486 log:224 Unauthorized: /host/73
+WARNING 2022-07-03 04:24:57,490 basehttp:161 "DELETE /host/73 HTTP/1.1" 401 35
+INFO 2022-07-03 04:25:11,015 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-07-03 04:25:16,810 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 04:25:16,858 basehttp:161 "GET /host/ HTTP/1.1" 200 2452
+INFO 2022-07-03 04:25:20,439 basehttp:161 "OPTIONS /host/75 HTTP/1.1" 200 0
+INFO 2022-07-03 04:25:20,465 basehttp:161 "DELETE /host/75 HTTP/1.1" 204 0
+INFO 2022-07-03 04:25:21,955 basehttp:161 "OPTIONS /host/76 HTTP/1.1" 200 0
+INFO 2022-07-03 04:25:21,978 basehttp:161 "DELETE /host/76 HTTP/1.1" 204 0
+INFO 2022-07-03 04:25:23,428 basehttp:161 "DELETE /host/74 HTTP/1.1" 204 0
+INFO 2022-07-03 04:25:24,631 basehttp:161 "DELETE /host/73 HTTP/1.1" 204 0
+INFO 2022-07-03 04:25:26,399 basehttp:161 "OPTIONS /host/71 HTTP/1.1" 200 0
+INFO 2022-07-03 04:25:26,424 basehttp:161 "DELETE /host/71 HTTP/1.1" 204 0
+INFO 2022-07-03 04:25:28,164 basehttp:161 "OPTIONS /host/78 HTTP/1.1" 200 0
+INFO 2022-07-03 04:25:28,183 basehttp:161 "DELETE /host/78 HTTP/1.1" 204 0
+INFO 2022-07-03 04:25:29,464 basehttp:161 "OPTIONS /host/77 HTTP/1.1" 200 0
+INFO 2022-07-03 04:25:29,484 basehttp:161 "DELETE /host/77 HTTP/1.1" 204 0
+INFO 2022-07-03 04:25:30,830 basehttp:161 "OPTIONS /host/72 HTTP/1.1" 200 0
+INFO 2022-07-03 04:25:30,849 basehttp:161 "DELETE /host/72 HTTP/1.1" 204 0
+INFO 2022-07-03 04:25:33,173 basehttp:161 "OPTIONS /host/70 HTTP/1.1" 200 0
+INFO 2022-07-03 04:25:33,188 basehttp:161 "DELETE /host/70 HTTP/1.1" 204 0
+INFO 2022-07-03 04:25:34,514 basehttp:161 "OPTIONS /host/54 HTTP/1.1" 200 0
+INFO 2022-07-03 04:25:34,533 basehttp:161 "DELETE /host/54 HTTP/1.1" 204 0
+WARNING 2022-07-03 04:25:48,569 logs:21 请求路径: /host/excel_host 耗时1.340512990951538秒
+INFO 2022-07-03 04:25:48,576 basehttp:161 "POST /host/excel_host HTTP/1.1" 200 1724
+INFO 2022-07-03 04:27:31,576 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-03 04:27:31,977 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-07-03 05:15:07,608 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 05:15:07,609 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 05:15:07,631 log:224 Unauthorized: /host/
+WARNING 2022-07-03 05:15:07,632 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 07:30:23,612 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 07:30:42,652 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:30:42,706 basehttp:161 "GET /host/ HTTP/1.1" 200 2285
+INFO 2022-07-03 07:32:35,020 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:32:35,088 basehttp:161 "GET /host/ HTTP/1.1" 200 2285
+INFO 2022-07-03 07:32:40,782 basehttp:161 "OPTIONS /host/85 HTTP/1.1" 200 0
+INFO 2022-07-03 07:32:40,798 basehttp:161 "DELETE /host/85 HTTP/1.1" 204 0
+INFO 2022-07-03 07:32:42,449 basehttp:161 "OPTIONS /host/84 HTTP/1.1" 200 0
+INFO 2022-07-03 07:32:42,465 basehttp:161 "DELETE /host/84 HTTP/1.1" 204 0
+INFO 2022-07-03 07:32:44,389 basehttp:161 "OPTIONS /host/83 HTTP/1.1" 200 0
+INFO 2022-07-03 07:32:44,412 basehttp:161 "DELETE /host/83 HTTP/1.1" 204 0
+INFO 2022-07-03 07:32:46,389 basehttp:161 "OPTIONS /host/82 HTTP/1.1" 200 0
+INFO 2022-07-03 07:32:46,407 basehttp:161 "DELETE /host/82 HTTP/1.1" 204 0
+INFO 2022-07-03 07:32:47,973 basehttp:161 "OPTIONS /host/79 HTTP/1.1" 200 0
+INFO 2022-07-03 07:32:47,995 basehttp:161 "DELETE /host/79 HTTP/1.1" 204 0
+INFO 2022-07-03 07:32:49,622 basehttp:161 "OPTIONS /host/53 HTTP/1.1" 200 0
+INFO 2022-07-03 07:32:49,640 basehttp:161 "DELETE /host/53 HTTP/1.1" 204 0
+INFO 2022-07-03 07:32:52,491 basehttp:161 "OPTIONS /host/80 HTTP/1.1" 200 0
+INFO 2022-07-03 07:32:52,508 basehttp:161 "DELETE /host/80 HTTP/1.1" 204 0
+INFO 2022-07-03 07:32:53,830 basehttp:161 "OPTIONS /host/81 HTTP/1.1" 200 0
+INFO 2022-07-03 07:32:53,848 basehttp:161 "DELETE /host/81 HTTP/1.1" 204 0
+INFO 2022-07-03 07:32:55,031 basehttp:161 "OPTIONS /host/86 HTTP/1.1" 200 0
+INFO 2022-07-03 07:32:55,050 basehttp:161 "DELETE /host/86 HTTP/1.1" 204 0
+INFO 2022-07-03 07:33:02,249 basehttp:161 "OPTIONS /host/87 HTTP/1.1" 200 0
+INFO 2022-07-03 07:33:02,271 basehttp:161 "DELETE /host/87 HTTP/1.1" 204 0
+WARNING 2022-07-03 07:35:15,037 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 07:35:15,037 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 07:40:06,671 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:40:06,743 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:41:14,198 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:41:14,212 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:41:19,753 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:41:19,765 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:41:35,609 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:41:35,626 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:41:56,486 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:41:56,509 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:42:03,323 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:42:03,333 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:42:07,239 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:42:07,250 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:42:25,357 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:42:25,384 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:42:56,001 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:42:56,017 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:43:15,408 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:43:15,449 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:43:18,979 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:43:19,011 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:44:17,603 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:44:17,651 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:48:27,828 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:48:27,906 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:48:40,772 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:48:40,830 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:49:26,606 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:49:26,652 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:49:47,956 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:49:48,027 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:49:52,657 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:49:52,674 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:52:43,586 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:52:43,617 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:54:00,045 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:54:00,058 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:54:33,119 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:54:33,138 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:56:17,733 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:56:17,811 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:56:42,667 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:56:42,708 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:56:57,051 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:56:57,064 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:58:51,097 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:58:51,152 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:58:56,930 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:58:56,970 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 07:58:58,792 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 07:58:58,900 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:00:50,240 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:00:50,293 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:00:54,241 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:00:54,325 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:01:42,396 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:01:42,433 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:02:29,417 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:02:29,442 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:03:12,187 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:03:12,229 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:03:18,378 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:03:18,402 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:04:33,877 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:04:33,878 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+WARNING 2022-07-03 08:04:47,989 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:04:47,989 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+WARNING 2022-07-03 08:05:37,318 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:05:37,318 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+WARNING 2022-07-03 08:05:54,284 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:05:54,284 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+WARNING 2022-07-03 08:06:00,601 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:06:00,601 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:06:00,634 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:06:00,635 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:06:09,658 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-07-03 08:06:12,564 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:06:12,602 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:06:14,969 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:06:14,969 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+WARNING 2022-07-03 08:06:27,544 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:06:27,544 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:06:27,544 basehttp:75 - Broken pipe from ('127.0.0.1', 55048)
+
+WARNING 2022-07-03 08:06:36,921 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:06:36,921 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+WARNING 2022-07-03 08:06:43,858 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:06:43,858 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+WARNING 2022-07-03 08:06:56,855 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:06:56,855 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+WARNING 2022-07-03 08:09:29,898 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:09:29,898 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:09:55,107 basehttp:161 "OPTIONS /host/category HTTP/1.1" 200 0
+INFO 2022-07-03 08:09:55,119 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:09:55,138 basehttp:161 "OPTIONS /host/ HTTP/1.1" 200 0
+INFO 2022-07-03 08:09:55,157 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:09:57,035 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:09:57,035 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:09:57,036 basehttp:75 - Broken pipe from ('127.0.0.1', 55182)
+
+INFO 2022-07-03 08:10:34,570 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:10:34,617 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:11:28,926 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:11:28,926 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:11:28,993 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:11:28,993 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-07-03 08:11:33,196 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:11:33,196 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:11:33,207 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:11:33,207 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:11:48,640 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-07-03 08:11:51,443 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:11:51,473 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:11:57,408 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:11:57,489 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:12:04,152 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:12:04,230 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:12:19,735 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:12:19,812 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:12:40,932 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:12:40,944 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:12:40,951 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:12:40,959 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:12:40,983 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:12:41,004 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:12:44,601 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:12:44,602 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:13:40,476 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:13:40,484 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:13:40,487 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:13:40,497 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:13:40,498 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:13:40,505 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:13:51,681 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:13:51,681 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:13:51,683 basehttp:75 - Broken pipe from ('127.0.0.1', 55405)
+
+INFO 2022-07-03 08:13:54,904 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:13:54,939 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:14:15,786 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:14:15,791 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:14:15,798 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:14:15,808 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:15:07,578 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:15:07,584 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:15:07,589 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:15:07,595 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:15:41,025 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:15:41,069 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:15:41,081 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:15:41,130 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:16:22,012 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-07-03 08:16:22,022 basehttp:161 "OPTIONS /host HTTP/1.1" 200 0
+INFO 2022-07-03 08:16:22,043 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:16:22,051 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:16:22,100 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:16:22,112 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:21:48,238 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:21:48,239 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:21:48,241 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:21:48,242 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:21:48,254 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:21:48,254 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-07-03 08:21:48,272 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:21:48,273 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:22:03,424 basehttp:161 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-07-03 08:22:03,508 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-07-03 08:22:05,715 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:22:05,741 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:23:17,143 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:23:17,143 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:23:17,165 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:23:17,166 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:23:17,179 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:23:17,221 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:23:27,389 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:23:27,389 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+INFO 2022-07-03 08:23:27,393 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+WARNING 2022-07-03 08:23:27,400 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:23:27,400 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:23:27,409 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:23:31,485 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:23:31,485 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:23:31,503 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:23:31,503 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-07-03 08:23:56,825 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:23:56,826 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:23:56,837 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:23:56,837 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:24:19,946 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:24:20,036 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:25:00,643 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:25:00,644 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:25:00,665 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:25:00,665 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:25:00,675 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:25:00,777 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:25:24,636 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:25:24,636 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:25:24,647 log:224 Unauthorized: /host/
+INFO 2022-07-03 08:25:24,648 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+WARNING 2022-07-03 08:25:24,648 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:25:24,666 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:25:26,750 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:25:26,750 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+INFO 2022-07-03 08:25:26,756 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+WARNING 2022-07-03 08:25:26,761 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:25:26,761 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:25:26,814 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:25:35,147 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:25:35,147 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:25:35,164 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:25:35,165 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:25:35,198 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:25:35,201 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:26:19,158 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:26:19,211 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:27:26,940 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:27:26,940 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:27:27,001 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:27:27,001 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-07-03 08:27:57,956 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:27:57,957 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:27:58,021 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:27:58,022 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-07-03 08:28:01,146 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:28:01,147 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:28:01,176 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:28:01,178 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:28:11,251 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-07-03 08:28:14,983 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:28:15,024 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:29:09,874 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:29:09,874 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+WARNING 2022-07-03 08:30:36,196 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:30:36,196 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:31:00,826 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:31:00,852 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:31:06,959 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:31:06,961 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:31:06,962 basehttp:75 - Broken pipe from ('127.0.0.1', 57515)
+
+INFO 2022-07-03 08:32:24,221 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:32:24,249 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:32:34,946 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:32:34,946 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:32:36,858 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:32:36,866 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:33:04,795 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+WARNING 2022-07-03 08:33:04,797 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:33:04,797 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+INFO 2022-07-03 08:33:04,804 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:33:04,806 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:33:04,807 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-07-03 08:33:12,149 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:33:12,149 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:33:12,150 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:33:12,150 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:33:12,160 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:33:12,160 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-07-03 08:33:12,161 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:33:12,161 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-07-03 08:33:26,446 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:33:26,447 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:33:26,448 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:33:26,448 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+WARNING 2022-07-03 08:33:26,461 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:33:26,461 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+WARNING 2022-07-03 08:33:26,465 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:33:26,466 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:33:37,416 basehttp:161 "POST /users/login/ HTTP/1.1" 200 172
+INFO 2022-07-03 08:33:40,461 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:33:40,497 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:33:52,129 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:33:52,130 basehttp:161 "GET /host/category HTTP/1.1" 401 35
+INFO 2022-07-03 08:33:52,136 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+WARNING 2022-07-03 08:33:52,142 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:33:52,142 basehttp:161 "GET /host/ HTTP/1.1" 401 35
+INFO 2022-07-03 08:33:52,217 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:33:58,155 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:33:58,156 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:33:58,156 basehttp:75 - Broken pipe from ('127.0.0.1', 57885)
+
+INFO 2022-07-03 08:34:58,483 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:34:58,517 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+WARNING 2022-07-03 08:34:58,518 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:34:58,518 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:34:58,549 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:34:58,576 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:35:07,456 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:35:07,456 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:36:10,419 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:36:10,442 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+WARNING 2022-07-03 08:36:10,479 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:36:10,479 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:36:10,482 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:36:10,500 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:36:17,006 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:36:17,010 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:36:17,017 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:36:17,021 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:36:20,296 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:36:20,300 basehttp:161 "GET /host/category HTTP/1.1" 200 173
+INFO 2022-07-03 08:36:20,310 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+INFO 2022-07-03 08:36:20,314 basehttp:161 "GET /host/ HTTP/1.1" 200 375
+WARNING 2022-07-03 08:36:26,030 log:224 Not Found: /ws/ssh/46/
+WARNING 2022-07-03 08:36:26,031 basehttp:161 "GET /ws/ssh/46/ HTTP/1.1" 404 2312
+INFO 2022-07-03 08:45:41,631 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-07-03 08:59:13,810 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-07-03 08:59:20,444 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 08:59:20,445 runserver:151 HTTP GET /host/category 401 [0.02, 127.0.0.1:58389]
+WARNING 2022-07-03 08:59:20,456 log:224 Unauthorized: /host/
+WARNING 2022-07-03 08:59:20,457 runserver:151 HTTP GET /host/ 401 [0.00, 127.0.0.1:58389]
+INFO 2022-07-03 08:59:29,844 runserver:141 HTTP POST /users/login/ 200 [0.08, 127.0.0.1:58389]
+INFO 2022-07-03 08:59:32,346 runserver:141 HTTP GET /host/category 200 [0.01, 127.0.0.1:58389]
+INFO 2022-07-03 08:59:32,386 runserver:141 HTTP GET /host/ 200 [0.02, 127.0.0.1:58389]
+INFO 2022-07-03 09:01:58,597 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 09:03:19,569 runserver:162 WebSocket HANDSHAKING /ws/ssh/46/ [127.0.0.1:59350]
+INFO 2022-07-03 09:03:20,292 runserver:158 WebSocket CONNECT /ws/ssh/46/ [127.0.0.1:59350]
+INFO 2022-07-03 09:03:28,430 runserver:141 HTTP GET /host/category 200 [0.03, 127.0.0.1:59395]
+INFO 2022-07-03 09:03:28,440 runserver:141 HTTP GET /host/ 200 [0.01, 127.0.0.1:59395]
+INFO 2022-07-03 09:03:30,593 runserver:160 WebSocket DISCONNECT /ws/ssh/46/ [127.0.0.1:59350]
+INFO 2022-07-03 09:03:31,778 runserver:141 HTTP GET /host/category 200 [0.01, 127.0.0.1:59395]
+INFO 2022-07-03 09:03:31,865 runserver:141 HTTP GET /host/ 200 [0.03, 127.0.0.1:59395]
+INFO 2022-07-03 09:03:33,906 runserver:162 WebSocket HANDSHAKING /ws/ssh/46/ [127.0.0.1:59423]
+INFO 2022-07-03 09:03:33,907 runserver:158 WebSocket CONNECT /ws/ssh/46/ [127.0.0.1:59423]
+INFO 2022-07-03 09:04:23,448 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/consumer.py changed, reloading.
+INFO 2022-07-03 09:04:23,883 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 09:05:24,470 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/consumer.py changed, reloading.
+INFO 2022-07-03 09:05:24,904 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 09:27:00,483 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/consumer.py changed, reloading.
+INFO 2022-07-03 09:27:01,062 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 09:32:36,579 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/consumer.py changed, reloading.
+INFO 2022-07-03 09:32:37,034 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 09:40:45,805 runserver:162 WebSocket HANDSHAKING /ws/ssh/46/ [127.0.0.1:52570]
+INFO 2022-07-03 09:40:45,839 runserver:158 WebSocket CONNECT /ws/ssh/46/ [127.0.0.1:52570]
+INFO 2022-07-03 09:47:21,772 runserver:162 WebSocket HANDSHAKING /ws/ssh/46/ [127.0.0.1:54286]
+INFO 2022-07-03 09:47:21,773 runserver:158 WebSocket CONNECT /ws/ssh/46/ [127.0.0.1:54286]
+INFO 2022-07-03 09:48:46,905 runserver:162 WebSocket HANDSHAKING /ws/ssh/46/ [127.0.0.1:54682]
+INFO 2022-07-03 09:48:46,906 runserver:158 WebSocket CONNECT /ws/ssh/46/ [127.0.0.1:54682]
+WARNING 2022-07-03 09:56:05,669 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 09:56:05,670 runserver:151 HTTP GET /host/category 401 [0.02, 127.0.0.1:56514]
+WARNING 2022-07-03 09:56:05,684 log:224 Unauthorized: /host/
+WARNING 2022-07-03 09:56:05,685 runserver:151 HTTP GET /host/ 401 [0.00, 127.0.0.1:56514]
+INFO 2022-07-03 09:56:09,809 runserver:160 WebSocket DISCONNECT /ws/ssh/46/ [127.0.0.1:54286]
+INFO 2022-07-03 09:56:09,809 runserver:160 WebSocket DISCONNECT /ws/ssh/46/ [127.0.0.1:52570]
+INFO 2022-07-03 09:56:09,810 runserver:160 WebSocket DISCONNECT /ws/ssh/46/ [127.0.0.1:54682]
+INFO 2022-07-03 09:56:15,687 runserver:141 HTTP POST /users/login/ 200 [0.08, 127.0.0.1:56514]
+INFO 2022-07-03 09:56:18,986 runserver:141 HTTP GET /host/category 200 [0.02, 127.0.0.1:56514]
+INFO 2022-07-03 09:56:19,015 runserver:141 HTTP GET /host/ 200 [0.02, 127.0.0.1:56514]
+INFO 2022-07-03 10:17:29,827 runserver:141 HTTP OPTIONS /host 200 [0.00, 127.0.0.1:56763]
+INFO 2022-07-03 10:17:29,829 runserver:141 HTTP OPTIONS /host/category 200 [0.00, 127.0.0.1:56764]
+WARNING 2022-07-03 10:17:29,830 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 10:17:29,831 runserver:151 HTTP GET /host/category 401 [0.00, 127.0.0.1:56764]
+INFO 2022-07-03 10:17:29,879 runserver:141 HTTP OPTIONS /host/ 200 [0.00, 127.0.0.1:56764]
+WARNING 2022-07-03 10:17:29,881 log:224 Unauthorized: /host/
+WARNING 2022-07-03 10:17:29,882 runserver:151 HTTP GET /host/ 401 [0.00, 127.0.0.1:56764]
+INFO 2022-07-03 10:17:40,974 runserver:141 HTTP POST /users/login/ 200 [0.08, 127.0.0.1:56764]
+INFO 2022-07-03 10:17:46,416 runserver:141 HTTP GET /host/category 200 [0.02, 127.0.0.1:56764]
+INFO 2022-07-03 10:17:46,426 runserver:141 HTTP GET /host/ 200 [0.03, 127.0.0.1:56763]
+INFO 2022-07-03 10:19:52,493 runserver:141 HTTP GET /host/category 200 [0.01, 127.0.0.1:56821]
+INFO 2022-07-03 10:19:52,528 runserver:141 HTTP GET /host/ 200 [0.02, 127.0.0.1:56821]
+INFO 2022-07-03 10:19:53,902 runserver:162 WebSocket HANDSHAKING /ws/ssh/46/ [127.0.0.1:56825]
+INFO 2022-07-03 10:19:53,905 runserver:158 WebSocket CONNECT /ws/ssh/46/ [127.0.0.1:56825]
+INFO 2022-07-03 10:20:00,474 runserver:160 WebSocket DISCONNECT /ws/ssh/46/ [127.0.0.1:56825]
+INFO 2022-07-03 10:20:01,005 runserver:162 WebSocket HANDSHAKING /ws/ssh/46/ [127.0.0.1:56832]
+INFO 2022-07-03 10:20:01,008 runserver:158 WebSocket CONNECT /ws/ssh/46/ [127.0.0.1:56832]
+INFO 2022-07-03 10:20:09,112 runserver:141 HTTP GET /host/category 200 [0.02, 127.0.0.1:56821]
+INFO 2022-07-03 10:20:09,124 runserver:141 HTTP GET /host/ 200 [0.02, 127.0.0.1:56836]
+INFO 2022-07-03 10:20:33,879 runserver:141 HTTP OPTIONS /mtask/cmd_exec 200 [0.00, 127.0.0.1:56836]
+WARNING 2022-07-03 10:20:33,890 log:224 Not Found: /mtask/cmd_exec
+WARNING 2022-07-03 10:20:33,891 runserver:149 HTTP POST /mtask/cmd_exec 404 [0.01, 127.0.0.1:56836]
+INFO 2022-07-03 10:22:54,087 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/settings/dev.py changed, reloading.
+INFO 2022-07-03 10:22:54,539 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:23:21,411 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/urls.py changed, reloading.
+INFO 2022-07-03 10:23:21,851 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:24:18,483 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-03 10:24:18,880 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:25:17,428 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-03 10:25:17,994 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-07-03 10:25:32,183 log:224 Unauthorized: /host/
+WARNING 2022-07-03 10:25:32,184 runserver:151 HTTP GET /host/ 401 [0.03, 127.0.0.1:58240]
+WARNING 2022-07-03 10:25:56,515 log:224 Unauthorized: /host/
+WARNING 2022-07-03 10:25:56,516 runserver:151 HTTP GET /host/ 401 [0.01, 127.0.0.1:58240]
+WARNING 2022-07-03 10:26:18,492 log:224 Unauthorized: /host/
+WARNING 2022-07-03 10:26:18,494 runserver:151 HTTP GET /host/ 401 [0.01, 127.0.0.1:58240]
+INFO 2022-07-03 10:26:55,867 runserver:141 HTTP POST /users/login/ 200 [0.07, 127.0.0.1:58240]
+INFO 2022-07-03 10:27:08,646 runserver:141 HTTP GET /host/ 200 [0.01, 127.0.0.1:58240]
+INFO 2022-07-03 10:27:43,676 runserver:141 HTTP GET /host/?category=5 200 [0.01, 127.0.0.1:58240]
+WARNING 2022-07-03 10:28:06,967 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 10:28:06,969 runserver:151 HTTP GET /host/category 401 [0.00, 127.0.0.1:58921]
+WARNING 2022-07-03 10:28:07,015 log:224 Unauthorized: /host/
+WARNING 2022-07-03 10:28:07,018 runserver:151 HTTP GET /host/ 401 [0.01, 127.0.0.1:58921]
+INFO 2022-07-03 10:28:20,346 runserver:141 HTTP OPTIONS /users/login/ 200 [0.00, 127.0.0.1:58921]
+INFO 2022-07-03 10:28:20,407 runserver:141 HTTP POST /users/login/ 200 [0.06, 127.0.0.1:58921]
+INFO 2022-07-03 10:28:24,299 runserver:141 HTTP GET /host/category 200 [0.02, 127.0.0.1:58921]
+INFO 2022-07-03 10:28:24,334 runserver:141 HTTP GET /host/ 200 [0.02, 127.0.0.1:58921]
+INFO 2022-07-03 10:29:45,874 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-03 10:29:46,472 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:30:12,518 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-03 10:30:13,099 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:30:18,252 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-03 10:30:18,684 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:30:50,653 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-03 10:30:51,103 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:31:02,591 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/host/views.py changed, reloading.
+INFO 2022-07-03 10:31:03,024 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-07-03 10:31:56,401 log:224 Unauthorized: /host/
+WARNING 2022-07-03 10:31:56,403 runserver:151 HTTP GET /host/?category=5 401 [0.02, 127.0.0.1:59929]
+INFO 2022-07-03 10:32:16,279 runserver:141 HTTP POST /users/login/ 200 [0.07, 127.0.0.1:60038]
+WARNING 2022-07-03 10:32:24,127 log:224 Unauthorized: /host/
+WARNING 2022-07-03 10:32:24,129 runserver:151 HTTP GET /host/?category=5 401 [0.01, 127.0.0.1:59929]
+INFO 2022-07-03 10:32:33,265 runserver:141 HTTP POST /users/login/ 200 [0.07, 127.0.0.1:59929]
+INFO 2022-07-03 10:32:50,525 runserver:141 HTTP GET /host/?category=5 200 [0.02, 127.0.0.1:59929]
+INFO 2022-07-03 10:33:57,728 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/mtask/urls.py changed, reloading.
+INFO 2022-07-03 10:33:58,430 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:34:07,915 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/mtask/views.py changed, reloading.
+INFO 2022-07-03 10:34:08,343 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:34:09,595 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/mtask/views.py changed, reloading.
+INFO 2022-07-03 10:34:10,134 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:34:22,026 runserver:141 HTTP GET /host/category 200 [0.03, 127.0.0.1:60620]
+INFO 2022-07-03 10:34:22,038 runserver:141 HTTP GET /host/ 200 [0.03, 127.0.0.1:60621]
+WARNING 2022-07-03 10:34:42,094 logs:21 请求路径: /mtask/cmd_exec 耗时0.7128610610961914秒
+INFO 2022-07-03 10:34:42,098 runserver:141 HTTP POST /mtask/cmd_exec 200 [0.72, 127.0.0.1:60621]
+INFO 2022-07-03 10:34:48,819 runserver:141 HTTP GET /host/category 200 [0.01, 127.0.0.1:60621]
+INFO 2022-07-03 10:34:48,863 runserver:141 HTTP GET /host/ 200 [0.02, 127.0.0.1:60621]
+INFO 2022-07-03 10:34:51,376 runserver:162 WebSocket HANDSHAKING /ws/ssh/46/ [127.0.0.1:60754]
+INFO 2022-07-03 10:34:51,406 runserver:158 WebSocket CONNECT /ws/ssh/46/ [127.0.0.1:60754]
+WARNING 2022-07-03 10:38:25,226 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 10:38:25,227 runserver:151 HTTP GET /host/category 401 [0.02, 127.0.0.1:61678]
+WARNING 2022-07-03 10:38:25,230 log:224 Unauthorized: /host/
+WARNING 2022-07-03 10:38:25,231 runserver:151 HTTP GET /host/ 401 [0.02, 127.0.0.1:61679]
+INFO 2022-07-03 10:39:36,334 runserver:160 WebSocket DISCONNECT /ws/ssh/46/ [127.0.0.1:60754]
+WARNING 2022-07-03 10:39:37,593 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 10:39:37,595 runserver:151 HTTP GET /host/category 401 [0.01, 127.0.0.1:62000]
+WARNING 2022-07-03 10:39:37,597 log:224 Unauthorized: /host/
+WARNING 2022-07-03 10:39:37,599 runserver:151 HTTP GET /host/ 401 [0.01, 127.0.0.1:62001]
+INFO 2022-07-03 10:39:48,724 runserver:141 HTTP POST /users/login/ 200 [0.08, 127.0.0.1:62001]
+INFO 2022-07-03 10:39:51,295 runserver:141 HTTP GET /host/category 200 [0.01, 127.0.0.1:62001]
+INFO 2022-07-03 10:39:51,327 runserver:141 HTTP GET /host/ 200 [0.02, 127.0.0.1:62001]
+INFO 2022-07-03 10:40:11,684 runserver:141 HTTP GET /host/category 200 [0.02, 127.0.0.1:62001]
+INFO 2022-07-03 10:40:11,699 runserver:141 HTTP GET /host/ 200 [0.03, 127.0.0.1:62000]
+WARNING 2022-07-03 10:40:33,658 logs:21 请求路径: /mtask/cmd_exec 耗时0.62723708152771秒
+INFO 2022-07-03 10:40:33,660 runserver:141 HTTP POST /mtask/cmd_exec 200 [0.63, 127.0.0.1:62000]
+INFO 2022-07-03 10:40:38,663 runserver:141 HTTP GET /host/category 200 [0.01, 127.0.0.1:62000]
+INFO 2022-07-03 10:40:38,708 runserver:141 HTTP GET /host/ 200 [0.02, 127.0.0.1:62000]
+INFO 2022-07-03 10:40:40,326 runserver:162 WebSocket HANDSHAKING /ws/ssh/46/ [127.0.0.1:62271]
+INFO 2022-07-03 10:40:40,327 runserver:158 WebSocket CONNECT /ws/ssh/46/ [127.0.0.1:62271]
+INFO 2022-07-03 10:40:49,428 runserver:141 HTTP GET /host/category 200 [0.01, 127.0.0.1:62000]
+INFO 2022-07-03 10:40:49,447 runserver:141 HTTP GET /host/ 200 [0.03, 127.0.0.1:62001]
+INFO 2022-07-03 10:43:12,499 runserver:141 HTTP GET /host/category 200 [0.01, 127.0.0.1:62955]
+INFO 2022-07-03 10:43:12,512 runserver:141 HTTP GET /host/ 200 [0.02, 127.0.0.1:62956]
+INFO 2022-07-03 10:44:50,149 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/mtask/models.py changed, reloading.
+INFO 2022-07-03 10:44:50,724 autoreload:636 Watching for file changes with StatReloader
+WARNING 2022-07-03 10:52:50,849 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 10:52:50,850 runserver:151 HTTP GET /host/category 401 [0.01, 127.0.0.1:65437]
+WARNING 2022-07-03 10:52:50,851 log:224 Unauthorized: /host/
+WARNING 2022-07-03 10:52:50,852 runserver:151 HTTP GET /host/ 401 [0.01, 127.0.0.1:65438]
+INFO 2022-07-03 10:52:50,853 runserver:141 HTTP OPTIONS /mtask/templates/categorys 200 [0.01, 127.0.0.1:65439]
+INFO 2022-07-03 10:52:50,854 runserver:141 HTTP OPTIONS /mtask/templates 200 [0.01, 127.0.0.1:65440]
+WARNING 2022-07-03 10:52:50,861 log:224 Not Found: /mtask/templates/categorys
+WARNING 2022-07-03 10:52:50,861 runserver:149 HTTP GET /mtask/templates/categorys 404 [0.01, 127.0.0.1:65439]
+WARNING 2022-07-03 10:52:50,864 log:224 Not Found: /mtask/templates
+WARNING 2022-07-03 10:52:50,864 runserver:149 HTTP GET /mtask/templates 404 [0.01, 127.0.0.1:65440]
+WARNING 2022-07-03 10:53:37,779 log:224 Unauthorized: /host/category
+WARNING 2022-07-03 10:53:37,780 runserver:151 HTTP GET /host/category 401 [0.01, 127.0.0.1:65440]
+WARNING 2022-07-03 10:53:37,782 log:224 Unauthorized: /host/
+WARNING 2022-07-03 10:53:37,783 runserver:151 HTTP GET /host/ 401 [0.01, 127.0.0.1:65439]
+WARNING 2022-07-03 10:53:37,790 log:224 Not Found: /mtask/templates/categorys
+WARNING 2022-07-03 10:53:37,791 runserver:149 HTTP GET /mtask/templates/categorys 404 [0.01, 127.0.0.1:65438]
+WARNING 2022-07-03 10:53:37,796 log:224 Not Found: /mtask/templates
+WARNING 2022-07-03 10:53:37,796 runserver:149 HTTP GET /mtask/templates 404 [0.02, 127.0.0.1:65437]
+INFO 2022-07-03 10:53:50,027 runserver:141 HTTP POST /users/login/ 200 [0.07, 127.0.0.1:65437]
+INFO 2022-07-03 10:53:56,151 runserver:141 HTTP GET /host/category 200 [0.02, 127.0.0.1:65437]
+INFO 2022-07-03 10:53:56,170 runserver:141 HTTP GET /host/ 200 [0.03, 127.0.0.1:65438]
+WARNING 2022-07-03 10:53:56,175 log:224 Not Found: /mtask/templates/categorys
+WARNING 2022-07-03 10:53:56,175 runserver:149 HTTP GET /mtask/templates/categorys 404 [0.04, 127.0.0.1:65439]
+WARNING 2022-07-03 10:53:56,178 log:224 Not Found: /mtask/templates
+WARNING 2022-07-03 10:53:56,178 runserver:149 HTTP GET /mtask/templates 404 [0.04, 127.0.0.1:65440]
+INFO 2022-07-03 10:54:54,299 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/mtask/urls.py changed, reloading.
+INFO 2022-07-03 10:54:54,852 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:55:02,279 autoreload:250 /Users/yuan/Desktop/uric项目/uric_api/uric_api/apps/mtask/views.py changed, reloading.
+INFO 2022-07-03 10:55:02,746 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:57:58,023 autoreload:636 Watching for file changes with StatReloader
+INFO 2022-07-03 10:58:02,025 runserver:141 HTTP POST /users/login/ 200 [0.08, 127.0.0.1:50466]
+INFO 2022-07-03 10:58:06,011 runserver:141 HTTP GET /host/category 200 [0.02, 127.0.0.1:50466]
+INFO 2022-07-03 10:58:06,025 runserver:141 HTTP GET /host/ 200 [0.03, 127.0.0.1:50491]
+INFO 2022-07-03 10:58:06,030 runserver:141 HTTP GET /mtask/templates/categorys 200 [0.03, 127.0.0.1:50492]
+INFO 2022-07-03 10:58:06,037 runserver:141 HTTP GET /mtask/templates 200 [0.04, 127.0.0.1:50493]
+INFO 2022-07-03 10:58:41,846 runserver:141 HTTP GET /host/category 200 [0.02, 127.0.0.1:50493]
+INFO 2022-07-03 10:58:41,876 runserver:141 HTTP GET /host/ 200 [0.01, 127.0.0.1:50493]
+INFO 2022-07-03 10:58:43,194 runserver:162 WebSocket HANDSHAKING /ws/ssh/46/ [127.0.0.1:50652]
+INFO 2022-07-03 10:58:43,228 runserver:158 WebSocket CONNECT /ws/ssh/46/ [127.0.0.1:50652]
+INFO 2022-07-03 10:59:16,616 runserver:141 HTTP GET /host/category 200 [0.02, 127.0.0.1:50493]
+INFO 2022-07-03 10:59:16,631 runserver:141 HTTP GET /host/ 200 [0.03, 127.0.0.1:50810]
+INFO 2022-07-03 10:59:16,636 runserver:141 HTTP GET /mtask/templates/categorys 200 [0.03, 127.0.0.1:50811]
+INFO 2022-07-03 10:59:16,645 runserver:141 HTTP GET /mtask/templates 200 [0.04, 127.0.0.1:50812]
+WARNING 2022-07-03 10:59:37,197 logs:21 请求路径: /mtask/cmd_exec 耗时0.6480729579925537秒
+INFO 2022-07-03 10:59:37,199 runserver:141 HTTP POST /mtask/cmd_exec 200 [0.65, 127.0.0.1:50812]
+INFO 2022-07-03 10:59:39,185 runserver:141 HTTP GET /host/category 200 [0.01, 127.0.0.1:50812]
+INFO 2022-07-03 10:59:39,219 runserver:141 HTTP GET /host/ 200 [0.01, 127.0.0.1:50812]
+INFO 2022-07-03 10:59:40,802 runserver:162 WebSocket HANDSHAKING /ws/ssh/46/ [127.0.0.1:50924]
+INFO 2022-07-03 10:59:40,804 runserver:158 WebSocket CONNECT /ws/ssh/46/ [127.0.0.1:50924]
+INFO 2022-07-03 11:00:52,925 runserver:141 HTTP GET /host/category 200 [0.01, 127.0.0.1:51241]
+INFO 2022-07-03 11:00:52,931 runserver:141 HTTP GET /host/ 200 [0.01, 127.0.0.1:51242]
+INFO 2022-07-03 11:00:52,935 runserver:141 HTTP GET /mtask/templates/categorys 200 [0.01, 127.0.0.1:51243]
+INFO 2022-07-03 11:00:52,942 runserver:141 HTTP GET /mtask/templates 200 [0.02, 127.0.0.1:51244]
+INFO 2022-07-03 11:20:49,515 runserver:160 WebSocket DISCONNECT /ws/ssh/46/ [127.0.0.1:50924]
+INFO 2022-07-03 11:20:49,516 runserver:160 WebSocket DISCONNECT /ws/ssh/46/ [127.0.0.1:50652]
+INFO 2022-07-04 06:59:01,232 runserver:141 HTTP OPTIONS /host/category 200 [0.00, 127.0.0.1:60965]
+INFO 2022-07-04 06:59:01,234 runserver:141 HTTP OPTIONS /host/ 200 [0.00, 127.0.0.1:60966]
+INFO 2022-07-04 06:59:01,235 runserver:141 HTTP OPTIONS /mtask/templates/categorys 200 [0.00, 127.0.0.1:60967]
+INFO 2022-07-04 06:59:01,236 runserver:141 HTTP OPTIONS /mtask/templates 200 [0.01, 127.0.0.1:60968]
+WARNING 2022-07-04 06:59:01,241 log:224 Unauthorized: /host/category
+WARNING 2022-07-04 06:59:01,242 runserver:151 HTTP GET /host/category 401 [0.01, 127.0.0.1:60965]
+WARNING 2022-07-04 06:59:01,243 log:224 Unauthorized: /host/
+WARNING 2022-07-04 06:59:01,244 runserver:151 HTTP GET /host/ 401 [0.01, 127.0.0.1:60966]
+WARNING 2022-07-04 06:59:01,246 log:224 Unauthorized: /mtask/templates/categorys
+WARNING 2022-07-04 06:59:01,247 runserver:151 HTTP GET /mtask/templates/categorys 401 [0.01, 127.0.0.1:60967]
+WARNING 2022-07-04 06:59:01,249 log:224 Unauthorized: /mtask/templates
+WARNING 2022-07-04 06:59:01,251 runserver:151 HTTP GET /mtask/templates 401 [0.01, 127.0.0.1:60968]
+INFO 2022-07-04 10:34:52,114 runserver:141 HTTP OPTIONS /host/category 200 [0.00, 127.0.0.1:64264]
+INFO 2022-07-04 10:34:52,118 runserver:141 HTTP OPTIONS /host/ 200 [0.01, 127.0.0.1:64265]
+INFO 2022-07-04 10:34:52,121 runserver:141 HTTP OPTIONS /mtask/templates/categorys 200 [0.01, 127.0.0.1:64266]
+INFO 2022-07-04 10:34:52,123 runserver:141 HTTP OPTIONS /mtask/templates 200 [0.01, 127.0.0.1:64267]
+WARNING 2022-07-04 10:34:52,127 log:224 Unauthorized: /host/category
+WARNING 2022-07-04 10:34:52,129 runserver:151 HTTP GET /host/category 401 [0.01, 127.0.0.1:64264]
+WARNING 2022-07-04 10:34:52,130 log:224 Unauthorized: /host/
+WARNING 2022-07-04 10:34:52,132 runserver:151 HTTP GET /host/ 401 [0.01, 127.0.0.1:64265]
+WARNING 2022-07-04 10:34:52,133 log:224 Unauthorized: /mtask/templates/categorys
+WARNING 2022-07-04 10:34:52,135 runserver:151 HTTP GET /mtask/templates/categorys 401 [0.01, 127.0.0.1:64266]
+WARNING 2022-07-04 10:34:52,136 log:224 Unauthorized: /mtask/templates
+WARNING 2022-07-04 10:34:52,138 runserver:151 HTTP GET /mtask/templates 401 [0.01, 127.0.0.1:64267]

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>用户名：{{ user|upper }}</p>
+<p>年龄：{{ age }}</p>
+<p>四大遗珠： {{ books }}</p>
+<p><1>： {{ books.0 }}</p>
+<p><2>： {{ books.1 }}</p>
+<p><3>： {{ books.2 }}</p>
+<p><4>： {{ books.3 }}</p>
+
+<ul>
+    <li> {{ books.0 }}</li>
+    <li> {{ books.1 }}</li>
+    <li> {{ books.2 }}</li>
+    <li> {{ books.3 }}</li>
+</ul>
+
+<p>姓名：{{ info.name }}</p>
+<p>年龄：{{ info.age }}</p>
+<p>性别：{{ info.gender }}</p>
+
+<p>pai : {{ pai|round(3) }}</p>
+<p>pai : {{ pai|round(5) }}</p>
+
+<p>影视区</p>
+
+{% if age > 18 %}
+
+    <ul>
+        {% for movie in movies.chengnian %}
+            <li>{{ movie }}</li>
+        {% endfor %}
+    </ul>
+
+{% else %}
+
+    <ul>
+        {% for movie in movies.qingshaonian %}
+            <li>{{ movie }}</li>
+        {% endfor %}
+    </ul>
+
+{% endif %}
+<hr>
+<ul>
+    {% for book in books %}
+        {% if book.price >= 200 %}
+            <li>{{ book.title }}</li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+</body>
+</html>

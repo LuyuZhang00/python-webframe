@@ -1,0 +1,6 @@
+/* pages/chooseAddress/chooseAddress.wxss */
+input,textarea{
+  border: 1px solid #ddd;
+  padding: 10rpx;
+  margin: 10rpx;
+}

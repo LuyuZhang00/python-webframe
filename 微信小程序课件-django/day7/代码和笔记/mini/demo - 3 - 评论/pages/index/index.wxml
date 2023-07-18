@@ -1,0 +1,10 @@
+<!--pages/index/index.wxml-->
+
+<view wx:for="{{newsList}}" wx:key="index">
+  <navigator url="/pages/newsDetail/newsDetail?newsId={{item.id}}">
+    <image src="{{item.cover}}"></image>
+  </navigator>
+  <view>{{item.content}}</view>
+  <view>用户名：{{item.user.nickname}}</view>
+  <view wx:if="{{item.topic}}">话题：{{item.topic.title}}</view>
+</view>

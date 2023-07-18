@@ -1,0 +1,114 @@
+<view class="container">
+  <swiper class="swiper" indicator-dots="true" autoplay="true">
+    <swiper-item>
+      <image src="/static/images/auction/d1.JPG"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/auction/d2.JPG"></image>
+    </swiper-item>
+  </swiper>
+  <view class="title-view">
+    <view>
+      <view class="txt-group">
+        <label class="zh">起拍价</label>
+        <label class="en"> | RMB</label>
+      </view>
+      <view class="big-price">250</view>
+    </view>
+    <view class="title">开国大典藏书（清香型）</view>
+    <view class="row">
+      <view>参考价：¥480</view>
+      <view>保证金：¥480</view>
+    </view>
+    <view class="row">
+      <view>图录号：199213234</view>
+      <view>加价幅度：¥100</view>
+    </view>
+  </view>
+
+  <view class='help-view'>
+    <view class='help-item' bindtap='onClickHelp' data-alpha-beta="0">
+      <image src='/static/images/icon/bidrules_icon_show.png'></image>
+      <view>竞拍规则</view>
+    </view>
+    <view class='help-item' bindtap='onClickHelp' data-alpha-beta="3">
+      <image src='/static/images/icon/bondblack_icon_show.png'></image>
+      <view>保证金说明</view>
+    </view>
+    <view class='help-item' bindtap='onClickHelp' data-alpha-beta="4">
+      <image src='/static/images/icon/pricemarkup_icon_show.png'></image>
+      <view>加价幅度</view>
+    </view>
+    <view class='help-item'  open-type="contact">
+      <image src='/static/images/icon/contactus_icon_show.png'></image>
+      <view>联系客服</view>
+    </view>
+  </view>
+
+  <view class="bid-view">
+    <view>出价记录</view>
+    <view>
+    </view>
+  </view>
+
+  <view class="detail-view">
+    <view>拍品详细</view>
+    <view class="introduce">
+      <view class='title-zh'>拍品介绍</view>
+      <view class='title-en'>Information</view>
+      <view class="table">
+        <view class="row">
+          <view class="key">数量</view>
+          <view class="value">1册</view>
+        </view>
+        <view class="row">
+          <view class="key">作者</view>
+          <view class="value">故宫博物院</view>
+        </view>
+         <view class="row">
+          <view class="key">开本</view>
+          <view class="value">10本</view>
+        </view>
+      </view>
+    </view>
+    <view class="detail">
+      <view class='title-zh'>拍品详细</view>
+      <view class="desc">
+        <view class="txt">
+          DIGIC 6数字影像处理器带来高速处理为高速处理庞大的数据，配备新开发的前端处理模组，前端处理模组与DIGIC6数字影像处理器联动，可高效处理新CMOS图像感应器高速输出的图像信号。
+        </view>
+        <image src="/static/images/auction/d2.JPG"></image>
+        <image src="/static/images/auction/d2.JPG"></image>
+        <image src="/static/images/auction/d2.JPG"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="browse-view">
+    <text class='num-text'>已有100次查看</text>
+    <view class='avatar-list'>
+      <image src="/static/images/auction/d2.JPG"></image>
+      <image src="/static/images/auction/d2.JPG"></image>
+      <image src="/static/images/auction/d2.JPG"></image>
+      <image src="/static/images/auction/d2.JPG"></image>
+      <image src="/static/images/auction/d2.JPG"></image>
+      <image src="/static/images/auction/d2.JPG"></image>
+      <image src="/static/images/auction/d2.JPG"></image>
+      <image src="/static/images/auction/d2.JPG"></image>
+      <image src="/static/images/auction/d2.JPG"></image>
+      <image src="/static/images/auction/d2.JPG"></image>
+     
+    </view>
+  </view>
+</view>
+
+<view class="pay-now" >
+  <view class='bottom-bg-bid'>
+     <view class="txt-group">
+        <label class="zh">出价记录</label>
+        <label class="en"> | BIDS</label>
+      </view>
+      <view>1 次出价</view>
+  </view>
+  <button class='pay-btn' >立即出价</button>
+</view>

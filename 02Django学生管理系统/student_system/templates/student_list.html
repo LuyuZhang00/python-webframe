@@ -1,0 +1,493 @@
+{% extends "base.html" %}
+{% block title %}登录页面{% endblock %}
+{% block content %}
+   <body>
+      <!-- loader Start -->
+      <div id="loading">
+
+      </div>
+      <!-- loader END -->
+      <!-- Wrapper Start -->
+      <div class="wrapper">
+      <!-- Sidebar  -->
+      {% include "sidebar.html" %}
+      <!-- TOP Nav Bar -->
+      <div class="iq-top-navbar">
+         <div class="iq-navbar-custom">
+            <div class="iq-sidebar-logo">
+               <div class="top-logo">
+                  <a href="index.html" class="logo">
+                  <img src="images/logo.gif" class="img-fluid" alt="">
+                  <span>Metorik</span>
+                  </a>
+               </div>
+            </div>
+            <div class="navbar-breadcrumb">
+               <h5 class="mb-0">User List</h5>
+               <nav aria-label="breadcrumb">
+                  <ul class="breadcrumb">
+                     <li class="breadcrumb-item"><a href="#">Home</a></li>
+                     <li class="breadcrumb-item active" aria-current="page">User List</li>
+                  </ul>
+               </nav>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="ri-menu-3-line"></i>
+                  </button>
+                  <div class="iq-menu-bt align-self-center">
+                     <div class="wrapper-menu">
+                        <div class="line-menu half start"></div>
+                        <div class="line-menu"></div>
+                        <div class="line-menu half end"></div>
+                     </div>
+                  </div>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav ml-auto navbar-list">
+                        <li class="nav-item">
+                           <a class="search-toggle iq-waves-effect" href="#"><i class="ri-search-line"></i></a>
+                           <form action="#" class="search-box">
+                              <input type="text" class="text search-input" placeholder="Type here to search..." />
+                           </form>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a href="#" class="search-toggle iq-waves-effect">
+                              <i class="ri-mail-line"></i>
+                              <span class="badge badge-pill badge-dark badge-up count-mail">5</span>
+                           </a>
+                           <div class="iq-sub-dropdown">
+                              <div class="iq-card shadow-none m-0">
+                                 <div class="iq-card-body p-0 ">
+                                    <div class="bg-primary p-3">
+                                       <h5 class="mb-0 text-white">All Messages<small class="badge  badge-light float-right pt-1">5</small></h5>
+                                    </div>
+                                    <a href="#" class="iq-sub-card" >
+                                       <div class="media align-items-center">
+                                          <div class="">
+                                             <img class="avatar-40 rounded" src="images/user/01.jpg" alt="">
+                                          </div>
+                                          <div class="media-body ml-3">
+                                             <h6 class="mb-0 ">Nik Emma Watson</h6>
+                                             <small class="float-left font-size-12">13 Jun</small>
+                                          </div>
+                                       </div>
+                                    </a>
+                                    <a href="#" class="iq-sub-card" >
+                                       <div class="media align-items-center">
+                                          <div class="">
+                                             <img class="avatar-40 rounded" src="images/user/02.jpg" alt="">
+                                          </div>
+                                          <div class="media-body ml-3">
+                                             <h6 class="mb-0 ">Lorem Ipsum Watson</h6>
+                                             <small class="float-left font-size-12">20 Apr</small>
+                                          </div>
+                                       </div>
+                                    </a>
+                                    <a href="#" class="iq-sub-card" >
+                                       <div class="media align-items-center">
+                                          <div class="">
+                                             <img class="avatar-40 rounded" src="images/user/03.jpg" alt="">
+                                          </div>
+                                          <div class="media-body ml-3">
+                                             <h6 class="mb-0 ">Why do we use it?</h6>
+                                             <small class="float-left font-size-12">30 Jun</small>
+                                          </div>
+                                       </div>
+                                    </a>
+                                    <a href="#" class="iq-sub-card" >
+                                       <div class="media align-items-center">
+                                          <div class="">
+                                             <img class="avatar-40 rounded" src="images/user/04.jpg" alt="">
+                                          </div>
+                                          <div class="media-body ml-3">
+                                             <h6 class="mb-0 ">Variations Passages</h6>
+                                             <small class="float-left font-size-12">12 Sep</small>
+                                          </div>
+                                       </div>
+                                    </a>
+                                    <a href="#" class="iq-sub-card" >
+                                       <div class="media align-items-center">
+                                          <div class="">
+                                             <img class="avatar-40 rounded" src="images/user/05.jpg" alt="">
+                                          </div>
+                                          <div class="media-body ml-3">
+                                             <h6 class="mb-0 ">Lorem Ipsum generators</h6>
+                                             <small class="float-left font-size-12">5 Dec</small>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#" class="iq-waves-effect"><i class="ri-shopping-cart-2-line"></i></a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#" class="search-toggle iq-waves-effect">
+                              <i class="ri-notification-2-line"></i>
+                              <span class="bg-danger dots"></span>
+                           </a>
+                           <div class="iq-sub-dropdown">
+                              <div class="iq-card shadow-none m-0">
+                                 <div class="iq-card-body p-0 ">
+                                    <div class="bg-danger p-3">
+                                       <h5 class="mb-0 text-white">All Notifications<small class="badge  badge-light float-right pt-1">4</small></h5>
+                                    </div>
+                                    <a href="#" class="iq-sub-card" >
+                                       <div class="media align-items-center">
+                                          <div class="media-body ml-3">
+                                             <h6 class="mb-0 ">New Order Recieved</h6>
+                                             <small class="float-right font-size-12">23 hrs ago</small>
+                                             <p class="mb-0">Lorem is simply</p>
+                                          </div>
+                                       </div>
+                                    </a>
+                                    <a href="#" class="iq-sub-card" >
+                                       <div class="media align-items-center">
+                                          <div class="">
+                                             <img class="avatar-40 rounded" src="images/user/01.jpg" alt="">
+                                          </div>
+                                          <div class="media-body ml-3">
+                                             <h6 class="mb-0 ">Emma Watson Nik</h6>
+                                             <small class="float-right font-size-12">Just Now</small>
+                                             <p class="mb-0">95 MB</p>
+                                          </div>
+                                       </div>
+                                    </a>
+                                    <a href="#" class="iq-sub-card" >
+                                       <div class="media align-items-center">
+                                          <div class="">
+                                             <img class="avatar-40 rounded" src="images/user/02.jpg" alt="">
+                                          </div>
+                                          <div class="media-body ml-3">
+                                             <h6 class="mb-0 ">New customer is join</h6>
+                                             <small class="float-right font-size-12">5 days ago</small>
+                                             <p class="mb-0">Jond Nik</p>
+                                          </div>
+                                       </div>
+                                    </a>
+                                    <a href="#" class="iq-sub-card" >
+                                       <div class="media align-items-center">
+                                          <div class="">
+                                             <img class="avatar-40" src="images/small/jpg.svg" alt="">
+                                          </div>
+                                          <div class="media-body ml-3">
+                                             <h6 class="mb-0 ">Updates Available</h6>
+                                             <small class="float-right font-size-12">Just Now</small>
+                                             <p class="mb-0">120 MB</p>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="nav-item iq-full-screen"><a href="#" class="iq-waves-effect" id="btnFullscreen"><i class="ri-fullscreen-line"></i></a></li>
+                     </ul>
+                  </div>
+                  <ul class="navbar-list">
+                     <li>
+                        <a href="#" class="search-toggle iq-waves-effect bg-primary text-white">
+                           <img src="/static/images/user/1.jpg" class="img-fluid rounded" alt="user"></a>
+                        <div class="iq-sub-dropdown iq-user-dropdown">
+                           <div class="iq-card shadow-none m-0">
+                              <div class="iq-card-body p-0 ">
+                                 <div class="bg-primary p-3">
+                                    <h5 class="mb-0 text-white line-height">Hello Nik jone</h5>
+                                    <span class="text-white font-size-12">Available</span>
+                                 </div>
+                                 <a href="profile.html" class="iq-sub-card iq-bg-primary-hover">
+                                    <div class="media align-items-center">
+                                       <div class="rounded iq-card-icon iq-bg-primary">
+                                          <i class="ri-file-user-line"></i>
+                                       </div>
+                                       <div class="media-body ml-3">
+                                          <h6 class="mb-0 ">My Profile</h6>
+                                          <p class="mb-0 font-size-12">View personal profile details.</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <a href="profile-edit.html" class="iq-sub-card iq-bg-primary-success-hover">
+                                    <div class="media align-items-center">
+                                       <div class="rounded iq-card-icon iq-bg-success">
+                                          <i class="ri-profile-line"></i>
+                                       </div>
+                                       <div class="media-body ml-3">
+                                          <h6 class="mb-0 ">Edit Profile</h6>
+                                          <p class="mb-0 font-size-12">Modify your personal details.</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <a href="account-setting.html" class="iq-sub-card iq-bg-primary-danger-hover">
+                                    <div class="media align-items-center">
+                                       <div class="rounded iq-card-icon iq-bg-danger">
+                                          <i class="ri-account-box-line"></i>
+                                       </div>
+                                       <div class="media-body ml-3">
+                                          <h6 class="mb-0 ">Account settings</h6>
+                                          <p class="mb-0 font-size-12">Manage your account parameters.</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <a href="privacy-setting.html" class="iq-sub-card iq-bg-primary-secondary-hover">
+                                    <div class="media align-items-center">
+                                       <div class="rounded iq-card-icon iq-bg-secondary">
+                                          <i class="ri-lock-line"></i>
+                                       </div>
+                                       <div class="media-body ml-3">
+                                          <h6 class="mb-0 ">Privacy Settings</h6>
+                                          <p class="mb-0 font-size-12">Control your privacy parameters.</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <div class="d-inline-block w-100 text-center p-3">
+                                    <a class="iq-bg-danger iq-sign-btn" href="sign-in.html" role="button">Sign out<i class="ri-login-box-line ml-2"></i></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </nav>
+         </div>
+      </div>
+      <!-- TOP Nav Bar END -->
+      <!-- Page Content  -->
+   <div id="content-page" class="content-page">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-12">
+                  <div class="iq-card">
+                     <div class="iq-card-header d-flex justify-content-between">
+                        <div class="iq-header-title">
+                           <h4 class="card-title">User List</h4>
+                        </div>
+                     </div>
+                     <div class="iq-card-body">
+                        <div class="table-responsive">
+                           <div class="row justify-content-between">
+                              <div class="col-sm-12 col-md-6">
+                                 <div id="user_list_datatable_info" class="dataTables_filter">
+                                    <form class="mr-3 position-relative">
+                                       <div class="form-group mb-0">
+                                          <input type="search" class="form-control" id="exampleInputSearch" placeholder="Search" aria-controls="user-list-table">
+                                       </div>
+                                    </form>
+                                 </div>
+                              </div>
+                              <div class="col-sm-12 col-md-6">
+                                 <div class="user-list-files d-flex float-right">
+                                    <a href="javascript:void();" class="chat-icon-phone">
+                                       Print
+                                     </a>
+                                    <a href="javascript:void();" class="chat-icon-video">
+                                       Excel
+                                     </a>
+                                     <a href="javascript:void();" class="chat-icon-delete">
+                                       Pdf
+                                     </a>
+                                   </div>
+                              </div>
+                           </div>
+                           <table id="user-list-table" class="table table-striped table-bordered mt-4" role="grid" aria-describedby="user-list-page-info">
+                             <thead>
+                                 <tr>
+                                    <th>Profile</th>
+                                    <th>Name</th>
+                                    <th>Contact</th>
+                                    <th>Email</th>
+                                    <th>Country</th>
+                                    <th>Status</th>
+                                    <th>Company</th>
+                                    <th>Join Date</th>
+                                    <th>Action</th>
+                                 </tr>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                    <td class="text-center"><img class="rounded-circle img-fluid avatar-40" src="images/user/01.jpg" alt="profile"></td>
+                                    <td>Anna Sthesia</td>
+                                    <td>(760) 756 7568</td>
+                                    <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e3828d8d8290978b86908a82a3848e828a8fcd808c8e">[email&#160;protected]</a></td>
+                                    <td>USA</td>
+                                    <td><span class="badge iq-bg-primary">Active</span></td>
+                                    <td>Acme Corporation</td>
+                                    <td>2019/12/01</td>
+                                    <td>
+                                       <div class="flex align-items-center list-user-action">
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add" href="#"><i class="ri-user-add-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit" href="#"><i class="ri-pencil-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" href="#"><i class="ri-delete-bin-line"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="text-center"><img class="rounded-circle img-fluid avatar-40" src="images/user/02.jpg" alt="profile"></td>
+                                    <td>Brock Lee</td>
+                                    <td>+62 5689 458 658</td>
+                                    <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7e1c0c111d15121b1b3e19131f1712501d1113">[email&#160;protected]</a></td>
+                                    <td>Indonesia</td>
+                                    <td><span class="badge iq-bg-primary">Active</span></td>
+                                    <td>Soylent Corp</td>
+                                    <td>2019/12/01</td>
+                                    <td>
+                                       <div class="flex align-items-center list-user-action">
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add" href="#"><i class="ri-user-add-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit" href="#"><i class="ri-pencil-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" href="#"><i class="ri-delete-bin-line"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="text-center"><img class="rounded-circle img-fluid avatar-40" src="images/user/03.jpg" alt="profile"></td>
+                                    <td>Dan Druff</td>
+                                    <td>+55 6523 456 856</td>
+                                    <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="abcfcac5cfd9decdcdebccc6cac2c785c8c4c6">[email&#160;protected]</a></td>
+                                    <td>Brazil</td>
+                                    <td><span class="badge iq-bg-warning">Pending</span></td>
+                                    <td>Umbrella Corporation</td>
+                                    <td>2019/12/01</td>
+                                    <td>
+                                       <div class="flex align-items-center list-user-action">
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add" href="#"><i class="ri-user-add-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit" href="#"><i class="ri-pencil-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" href="#"><i class="ri-delete-bin-line"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="text-center"><img class="rounded-circle img-fluid avatar-40" src="images/user/04.jpg" alt="profile"></td>
+                                    <td>Hans Olo</td>
+                                    <td>+91 2586 253 125</td>
+                                    <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="99f1f8f7eaf6f5f6d9fef4f8f0f5b7faf6f4">[email&#160;protected]</a></td>
+                                    <td>India</td>
+                                    <td><span class="badge iq-bg-danger">Inactive</span></td>
+                                    <td>Vehement Capital</td>
+                                    <td>2019/12/01</td>
+                                    <td>
+                                       <div class="flex align-items-center list-user-action">
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add" href="#"><i class="ri-user-add-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit" href="#"><i class="ri-pencil-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" href="#"><i class="ri-delete-bin-line"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="text-center"><img class="rounded-circle img-fluid avatar-40" src="images/user/05.jpg" alt="profile"></td>
+                                    <td>Lynn Guini</td>
+                                    <td>+27 2563 456 589</td>
+                                    <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5c302532323b293532351c3b313d3530723f3331">[email&#160;protected]</a></td>
+                                    <td>Africa</td>
+                                    <td><span class="badge iq-bg-primary">Active</span></td>
+                                    <td>Massive Dynamic</td>
+                                    <td>2019/12/01</td>
+                                    <td>
+                                       <div class="flex align-items-center list-user-action">
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add" href="#"><i class="ri-user-add-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit" href="#"><i class="ri-pencil-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" href="#"><i class="ri-delete-bin-line"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="text-center"><img class="rounded-circle img-fluid avatar-40" src="images/user/06.jpg" alt="profile"></td>
+                                    <td>Eric Shun</td>
+                                    <td>+55 25685 256 589</td>
+                                    <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7712051e14041f021937101a161e1b5914181a">[email&#160;protected]</a></td>
+                                    <td>Brazil</td>
+                                    <td><span class="badge iq-bg-warning">Pending</span></td>
+                                    <td>Globex Corporation</td>
+                                    <td>2019/12/01</td>
+                                    <td>
+                                       <div class="flex align-items-center list-user-action">
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add" href="#"><i class="ri-user-add-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit" href="#"><i class="ri-pencil-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" href="#"><i class="ri-delete-bin-line"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="text-center"><img class="rounded-circle img-fluid avatar-40" src="images/user/07.jpg" alt="profile"></td>
+                                    <td>aaronottix</td>
+                                    <td>(760) 765 2658</td>
+                                    <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="92f0e7f6e5fbe1f7e0d2ebfff3fbfebcf1fdff">[email&#160;protected]</a></td>
+                                    <td>USA</td>
+                                    <td><span class="badge iq-bg-info">Hold</span></td>
+                                    <td>Acme Corporation</td>
+                                    <td>2019/12/01</td>
+                                    <td>
+                                       <div class="flex align-items-center list-user-action">
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add" href="#"><i class="ri-user-add-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit" href="#"><i class="ri-pencil-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" href="#"><i class="ri-delete-bin-line"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="text-center"><img class="rounded-circle img-fluid avatar-40" src="images/user/08.jpg" alt="profile"></td>
+                                    <td>Marge Arita</td>
+                                    <td>+27 5625 456 589</td>
+                                    <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9af7fbe8fdfffbe8f3eefbdafdf7fbf3f6b4f9f5f7">[email&#160;protected]</a></td>
+                                    <td>Africa</td>
+                                    <td><span class="badge iq-bg-success">Complite</span></td>
+                                    <td>Vehement Capital</td>
+                                    <td>2019/12/01</td>
+                                    <td>
+                                       <div class="flex align-items-center list-user-action">
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add" href="#"><i class="ri-user-add-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit" href="#"><i class="ri-pencil-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" href="#"><i class="ri-delete-bin-line"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td class="text-center"><img class="rounded-circle img-fluid avatar-40" src="images/user/09.jpg" alt="profile"></td>
+                                    <td>Bill Dabear</td>
+                                    <td>+55 2563 456 589</td>
+                                    <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d7b5bebbbbb3b6b5b2b6a597b0bab6bebbf9b4b8ba">[email&#160;protected]</a></td>
+                                    <td>Brazil</td>
+                                    <td><span class="badge iq-bg-primary">active</span></td>
+                                    <td>Massive Dynamic</td>
+                                    <td>2019/12/01</td>
+                                    <td>
+                                       <div class="flex align-items-center list-user-action">
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add" href="#"><i class="ri-user-add-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit" href="#"><i class="ri-pencil-line"></i></a>
+                                          <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" href="#"><i class="ri-delete-bin-line"></i></a>
+                                       </div>
+                                    </td>
+                                 </tr>
+                             </tbody>
+                           </table>
+                        </div>
+                           <div class="row justify-content-between mt-3">
+                              <div id="user-list-page-info" class="col-md-6">
+                                 <span>Showing 1 to 5 of 5 entries</span>
+                              </div>
+                              <div class="col-md-6">
+                                 <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-end mb-0">
+                                       <li class="page-item disabled">
+                                          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                       </li>
+                                       <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                       <li class="page-item">
+                                          <a class="page-link" href="#">Next</a>
+                                       </li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                           </div>
+                     </div>
+                  </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   <!-- Wrapper END -->
+    {% include "footer.html" %}
+{% endblock %}

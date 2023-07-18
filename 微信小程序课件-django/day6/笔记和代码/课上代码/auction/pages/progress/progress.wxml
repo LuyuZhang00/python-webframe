@@ -1,0 +1,13 @@
+<!--pages/progress/progress.wxml-->
+<progress percent="{{percent1}}"  ></progress>
+
+<progress percent="{{percent2}}" activeColor="#DC143C" ></progress>
+
+<view>-----案例------</view>
+<view>点击按钮完成，将图片1的进度条更新为80%</view>
+<view wx:for="{{imageList}}">
+  <view>{{item.title}}</view>
+  <progress percent="{{item.percent}}"  ></progress>
+</view>
+
+<button bindtap="changePercent" >点击</button>

@@ -1,0 +1,13 @@
+<!--pages/coupon/coupon.wxml-->
+<view class="container">
+  <view class="item" wx:for="{{couponList}}" wx:key="index"  bindtap="applyCoupon" data-item="{{item}}" data-index="{{index}}">
+    <view class="cover">
+      <image src="{{item.cover}}"></image>
+    </view>
+    <view class="info">
+      <text>¥{{item.money}}</text>
+      <text>剩余{{item.remain}}张</text>
+      <text>{{item.status_text}}</text>
+    </view>
+  </view>
+</view>

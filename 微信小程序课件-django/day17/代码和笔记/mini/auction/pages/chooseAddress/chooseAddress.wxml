@@ -1,0 +1,13 @@
+<!--pages/chooseAddress/chooseAddress.wxml-->
+<input placeholder="收货人姓名" bindinput="inputUser" value="{{address.name}}" />
+<input placeholder="收货人电话" bindinput="inputPhone" value="{{address.phone}}" />
+<textarea placeholder="详细地址" bindinput="inputDetail" value="{{address.detail}}" ></textarea>
+<button bindtap="addAddress">添加</button>
+
+<radio-group class="radio-group" bindchange="radioChange">
+    <view class="item" wx:for="{{addressList}}" wx:key="index">
+      <radio class="radio" value="{{index}}">
+        <text>{{item.name}} -{{item.phone}}-{{item.detail}}</text>
+      </radio>
+    </view>
+  </radio-group>

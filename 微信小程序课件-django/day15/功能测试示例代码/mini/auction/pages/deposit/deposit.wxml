@@ -1,0 +1,68 @@
+<!--pages/deposit/deposit.wxml-->
+<view class="container">
+  <view class="goods">
+    <view class="img">
+      <image src="{{info.cover}}"></image>
+    </view>
+    <view class="detail">
+      <view class="title">{{info.title}}</view>
+      <view>起拍价 ¥{{info.start_price}}</view>
+      <view>市场参考价 ¥{{info.reserve_price}} - ¥{{info.highest_price}}</view>
+    </view>
+  </view>
+  <view class="deposit">
+    <view>
+      <radio-group bindchange="depositChange" >
+        <view class="row" wx:for="{{info.deposit.list}}" wx:key="index">
+          <view>
+            <text>{{item.text}}</text>
+            <text class="money">¥{{item.money}}</text>
+          </view>
+          <radio value="{{index}}" checked="{{item.checked}}"></radio>
+        </view>
+      </radio-group>
+    </view>
+    <view>该拍品需要交纳保证金</view>
+    <view>竞拍成功时，保证可以用于抵扣货款。</view>
+    <view>竞拍结束且没拍到竞品时，保证金讲由系统操作原路推到您交纳保金的账户，实际到账时间以各大银行为准。</view>
+  </view>
+  <view class="way">
+    <radio-group  bindchange="payMehthodChange">
+
+      <view class="row">
+        <view class="caption">
+          <image class='logo-image' src='/static/images/icon/wechatlogo_icon_show.png'></image>
+          <view>
+            微信支付
+            <label class="recommend">（推荐）</label>
+            <view class="tips">未拍到原路返还</view>
+          </view>
+        </view>
+        <view>
+          <radio value="{{1}}" checked="{{seletedPayMethod == 1}}" ></radio>
+        </view>
+      </view>
+
+      <view class="row">
+        <view class="caption">
+          <image class='logo-image' src='/static/images/icon/balancepay_icon_show.png'></image>
+          <view>
+            余额支付
+            <view class="tips">可用余额 ¥{{info.balance}}</view>
+          </view>
+        </view>
+        <view>
+          <radio value="{{2}}" checked="{{seletedPayMethod == 2}}"></radio>
+        </view>
+      </view>
+    </radio-group>
+  </view>
+</view>
+
+<view class="pay-now">
+  <view class='bottom-bg-money'>¥{{info.deposit.money}}</view>
+  <button class='pay-btn' bindtap='onClickPayNow'>立即支付</button>
+</view>
+
+
+<!-- <cover-view class='toast-view' >支付确认中...</cover-view> -->

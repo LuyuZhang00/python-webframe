@@ -1,0 +1,64 @@
+{% extends 'web/layout.html' %}
+{% load staticfiles %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'web/datetimepicker/bootstrap-datetimepicker.min.css' %}">
+    <style>
+        input[type='file'] {
+            min-height: 34px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <form method="post" novalidate autocomplete="off">
+            {% csrf_token %}
+            <div class="panel panel-default">
+                <div class="panel-heading clearfix">优惠券
+                    <input type="submit" class="btn btn-success btn-xs" value="保 存" style="float: right;">
+                </div>
+                <div class="panel-body">
+                    <div class="form-horizontal clearfix">
+                        {% for field in form %}
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="{{ field.id_for_label }}"
+                                           class="col-sm-3 control-label">{{ field.label }}</label>
+                                    <div class="col-sm-9">
+                                        {{ field }}
+                                        <span style="color: red;">{{ field.errors.0 }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'web/datetimepicker/bootstrap-datetimepicker.min.js' %}"></script>
+    <script src="{% static 'web/datetimepicker/bootstrap-datetimepicker.zh-CN.js' %}"></script>
+    <script>
+
+        $(function () {
+            initDatepicker();
+        });
+
+        function initDatepicker() {
+            $('#id_apply_start_date,#id_apply_stop_date').datetimepicker({
+                language: "zh-CN",
+                minView: "hour", // month
+                sideBySide: true,
+                format: 'yyyy-mm-dd hh:ii',
+                bootcssVer: 3,
+                startDate: new Date(),
+                autoclose: true
+            })
+        }
+    </script>
+
+{% endblock %}
